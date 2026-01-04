@@ -1,0 +1,61 @@
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editor configs
+# =========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# SQL Server / Database junk
+# =========================
+*.mdf
+*.ldf
+*.bak
+*.trn
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Office documents (DO NOT TRACK)
+# =========================
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.rar
+*.7z
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Build / output folders
+# =========================
+bin/
+obj/
+out/
