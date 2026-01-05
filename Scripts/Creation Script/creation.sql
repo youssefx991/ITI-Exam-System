@@ -115,8 +115,8 @@ CREATE TABLE Topic (
 CREATE TABLE Question (
     QId INT IDENTITY PRIMARY KEY,
     QText VARCHAR(MAX) NOT NULL,
-    QType VARCHAR(10) CHECK (QType IN ('TF', 'MCQ')),
-    QDegree INT NOT NULL,
+    QType VARCHAR(10) NOT NULL CHECK (QType IN ('TF', 'MCQ')),
+    QDegree INT NOT NULL CHECK (QDegree > 0),
     QAnswer VARCHAR(10) NOT NULL,
     CrsId INT NOT NULL,
     CONSTRAINT FK_Question_Course
@@ -181,7 +181,7 @@ CREATE TABLE Exam_Question (
 CREATE TABLE Student_Exam (
     StId INT,
     ExId INT,
-    FinalGrade DECIMAL(5,2),
+    FinalGrade DECIMAL(5,2) CHECK (FinalGrade BETWEEN 0 AND 100),
     CONSTRAINT PK_Student_Exam PRIMARY KEY (StId, ExId),
     CONSTRAINT FK_SE_Student
         FOREIGN KEY (StId)
