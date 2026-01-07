@@ -12,8 +12,6 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    BEGIN TRANSACTION;
-
     BEGIN TRY
         -- Check if course exists
         IF NOT EXISTS (SELECT 1 FROM Course WHERE CrsId = @CrsId)
@@ -23,17 +21,10 @@ BEGIN
         INSERT INTO Question (QText, QType, QDegree, QAnswer, CrsId)
         VALUES (@QText, @QType, @QDegree, @QAnswer, @CrsId);
 
-        -- Return the new Question ID
        -- SET @NewQId = SCOPE_IDENTITY();
-
-        -- Commit transaction if everything is OK
-        COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH
-        -- Rollback transaction safely
-        ROLLBACK TRANSACTION;
-
-        -- Re-throw the original error to the caller
+    
         THROW;
     END CATCH
 END;
@@ -50,17 +41,12 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    BEGIN TRANSACTION;
-
     BEGIN TRY
         -- Check if the question exists
         IF NOT EXISTS (SELECT 1 FROM Question WHERE QId = @QId)
             THROW 50001, 'Question not found.', 1;
 
-
-        -- Optional validation for course
-        IF @CrsId is not Null
-            IF NOT EXISTS (SELECT 1 FROM Course WHERE CrsId = @CrsId)
+        IF @CrsId IS NOT NULL AND NOT EXISTS (SELECT 1 FROM Course WHERE CrsId = @CrsId)
                 THROW 50005, 'Course ID does not exist.', 1;
 
         -- Update only provided values
@@ -72,11 +58,8 @@ BEGIN
             QAnswer = COALESCE(@QAnswer, QAnswer),
             CrsId   = COALESCE(@CrsId, CrsId)
         WHERE QId = @QId;
-
-        COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH
-        ROLLBACK TRANSACTION;
         THROW; -- re-throw the original error
     END CATCH
 END;
@@ -88,14 +71,12 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    BEGIN TRANSACTION;
-
     BEGIN TRY
         -- Check if question exists
         IF NOT EXISTS (SELECT 1 FROM Question WHERE QId = @QId)
             THROW 50001, 'Question not found.', 1;
 
-        -- Delete related choices first (if any)
+        -- Delete related choices first 
         DELETE FROM Choice
         WHERE QId = @QId;
 
@@ -103,12 +84,9 @@ BEGIN
         DELETE FROM Question
         WHERE QId = @QId;
 
-        COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH
-        ROLLBACK TRANSACTION;
-
-        -- Re-throw the original error
+ 
         THROW;
     END CATCH
 END;
@@ -140,7 +118,7 @@ END;
 
 GO
 ---------------------------------------------------------------SELECT QUESTIONS BY CRID SP------------------------------------------------
-CREATE OR ALTER PROCEDURE sp_Question_SelectByCourse
+CREATE OR ALTER PROCEDURE sp_Questions_SelectByCourse
     @CrsId INT
 AS
 BEGIN
@@ -152,7 +130,7 @@ BEGIN
 
     -- Select questions for the course
     SELECT 
-        QId, 
+        QId,
         QText, 
         QType, 
         QDegree, 

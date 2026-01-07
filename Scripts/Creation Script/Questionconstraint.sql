@@ -33,10 +33,8 @@ BEGIN
         WHERE QType = 'MCQ'
           AND QAnswer NOT IN ('A','B','C')
     )
-    BEGIN
-        ROLLBACK TRANSACTION;
-        THROW 50001, 'For MCQ questions, QAnswer must be A, B, or C.', 1;
-    END
+    THROW 50001, 'For MCQ questions, QAnswer must be A, B, or C.', 1;
+ 
 
     -- Validate True/False answers
     IF EXISTS (
@@ -45,10 +43,7 @@ BEGIN
         WHERE QType = 'TF'
           AND QAnswer NOT IN ('T','F')
     )
-    BEGIN
-        ROLLBACK TRANSACTION;
-        THROW 50002, 'For True/False questions, QAnswer must be T or F.', 1;
-    END
+    THROW 50002, 'For True/False questions, QAnswer must be T or F.', 1;
 END;
 
 GO

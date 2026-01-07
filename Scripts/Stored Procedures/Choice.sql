@@ -11,16 +11,11 @@ BEGIN
     SET NOCOUNT ON; -- No mesaage of "# rows affected"
 
     BEGIN TRY
-        BEGIN TRANSACTION;
 
         INSERT INTO dbo.Choice (QId, ChoiceLabel, ChoiceText)
         VALUES (@QId, @ChoiceLabel, @ChoiceText);
-
-        COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH
-        IF @@TRANCOUNT > 0 -- contain # active transaction --. is there any active transaction
-            ROLLBACK TRANSACTION;
 
         THROW; -- return original error
     END CATCH
@@ -36,9 +31,7 @@ BEGIN
     SET NOCOUNT ON;
 
     BEGIN TRY
-        BEGIN TRANSACTION;
 
-        --  Check if record exists
         IF NOT EXISTS (
             SELECT 1
             FROM Choice
@@ -51,12 +44,8 @@ BEGIN
         WHERE QId = @QId
           AND ChoiceLabel = @ChoiceLabel;
 
-        COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH
-        IF @@TRANCOUNT > 0
-            ROLLBACK TRANSACTION;
-
         THROW;
     END CATCH
 END;
@@ -70,8 +59,6 @@ BEGIN
     SET NOCOUNT ON;
 
     BEGIN TRY
-        BEGIN TRANSACTION;
-
         --  Check existence
         IF NOT EXISTS (
             SELECT 1
@@ -83,12 +70,8 @@ BEGIN
         DELETE FROM Choice
         WHERE QId = @QId
           AND ChoiceLabel = @ChoiceLabel;
-
-        COMMIT TRANSACTION;-- if everything is ok then commit
     END TRY
     BEGIN CATCH
-        IF @@TRANCOUNT > 0
-            ROLLBACK TRANSACTION;
 
         THROW;
     END CATCH
@@ -102,7 +85,6 @@ BEGIN
     SET NOCOUNT ON;
 
     BEGIN TRY
-        BEGIN TRANSACTION;
 
         -- Check existence
         IF NOT EXISTS (
@@ -114,13 +96,8 @@ BEGIN
 
         DELETE FROM Choice
         WHERE QId = @QId;
-
-        COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH
-        IF @@TRANCOUNT > 0
-            ROLLBACK TRANSACTION;
-
         THROW;
     END CATCH
 END;
@@ -132,7 +109,7 @@ CREATE OR ALTER PROCEDURE sp_Choices_SlectByQId
 AS
 BEGIN
     SET NOCOUNT ON;
-    -- Check if the course exists
+ 
     IF NOT EXISTS (SELECT 1 FROM Choice WHERE QId = @QId)
         THROW 50003, 'Question choices do not exist.', 1;
     SELECT
@@ -151,7 +128,7 @@ AS
 BEGIN
     SET NOCOUNT ON;
      IF NOT EXISTS (SELECT 1 FROM Choice WHERE QId = @QId AND ChoiceLabel = @ChoiceLabel )
-        THROW 50003, 'Choice do not exist for this question.', 1;
+        THROW 50003, 'Choice does not exist for this question.', 1;
     SELECT
         QId,
         ChoiceLabel,
@@ -161,6 +138,3 @@ BEGIN
       AND ChoiceLabel = @ChoiceLabel;
 END;
 GO
-
-
-
