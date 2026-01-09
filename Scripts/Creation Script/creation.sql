@@ -125,7 +125,47 @@ CREATE TABLE Question (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
+ALTER TABLE Question
+ADD CONSTRAINT CK_QText_NoEmpty
+CHECK (LEN(LTRIM(RTRIM(QText))) > 0);
 
+ALTER TABLE Question
+ADD CONSTRAINT CK_QDegree
+CHECK (QDegree BETWEEN 1 AND 3);
+
+ALTER TABLE Question
+ADD CONSTRAINT chk_QAnswer
+CHECK (
+    (QType = 'MCQ' AND QAnswer IN ('A','B','C'))
+ OR (QType = 'TF'  AND QAnswer IN ('T','F'))
+);
+-- CREATE OR ALTER TRIGGER trg_Validate_QAnswer
+-- ON Question
+-- AFTER INSERT, UPDATE
+-- AS
+-- BEGIN
+--     SET NOCOUNT ON;
+
+--     -- Validate MCQ answers
+--     IF EXISTS (
+--         SELECT 1
+--         FROM inserted
+--         WHERE QType = 'MCQ'
+--           AND QAnswer NOT IN ('A','B','C')
+--     )
+--     THROW 50001, 'For MCQ questions, QAnswer must be A, B, or C.', 1;
+ 
+
+--     -- Validate True/False answers
+--     IF EXISTS (
+--         SELECT 1
+--         FROM inserted
+--         WHERE QType = 'TF'
+--           AND QAnswer NOT IN ('T','F')
+--     )
+--     THROW 50002, 'For True/False questions, QAnswer must be T or F.', 1;
+
+-- END;
 /* =======================
    Choice
    ======================= */
@@ -140,7 +180,17 @@ CREATE TABLE Choice (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
-
+ALTER TABLE Choice
+ADD CONSTRAINT CK_Choice_Label
+CHECK (ChoiceLabel IN ('A','B','C'));
+---------------------------------------------------
+ALTER TABLE Choice
+ADD CONSTRAINT CK_Choice_Text_NotEmpty
+CHECK (LEN(LTRIM(RTRIM(ChoiceText))) > 0);
+------------------------------------------------------
+ALTER TABLE Choice
+ADD CONSTRAINT UQ_Choice_QId_ChoiceText
+UNIQUE (QId, ChoiceText);
 /* =======================
    Exam
    ======================= */
