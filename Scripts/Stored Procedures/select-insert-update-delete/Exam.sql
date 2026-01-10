@@ -5,17 +5,34 @@ GO
    Exam INSERT
    ========================= */
 CREATE OR ALTER PROC sp_Exam_Insert
+    @ExId INT,
     @CrsId INT,
-    @ExDate DATETIME = NULL,
-    @NewExamID INT OUTPUT
+    @ExDate DATETIME = NULL
 AS
 BEGIN
-    INSERT INTO Exam (ExDate, CrsId)
-    VALUES (ISNULL(@ExDate, GETDATE()), @CrsId);
+    -- Validate Course
+    IF NOT EXISTS (
+        SELECT 1 FROM Course WHERE CrsId = @CrsId
+    )
+    BEGIN
+        RAISERROR('Invalid Course ID.', 16, 1);
+        RETURN;
+    END
 
-    SET @NewExamID = SCOPE_IDENTITY();
+    -- Validate unique Exam ID
+    IF EXISTS (
+        SELECT 1 FROM Exam WHERE ExId = @ExId
+    )
+    BEGIN
+        RAISERROR('Exam ID already exists.', 16, 1);
+        RETURN;
+    END
+
+    INSERT INTO Exam (ExId, ExDate, CrsId)
+    VALUES (@ExId, ISNULL(@ExDate, GETDATE()), @CrsId);
 END
 GO
+
 
 /* =========================
    Exam UPDATE
@@ -25,11 +42,20 @@ CREATE OR ALTER PROC sp_Exam_Update
     @ExDate DATETIME
 AS
 BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM Exam WHERE ExId = @ExId
+    )
+    BEGIN
+        RAISERROR('Exam not found.', 16, 1);
+        RETURN;
+    END
+
     UPDATE Exam
     SET ExDate = @ExDate
     WHERE ExId = @ExId;
 END
 GO
+
 
 /* =========================
    Exam DELETE
