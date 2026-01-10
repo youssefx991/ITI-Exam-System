@@ -1,28 +1,65 @@
-CREATE PROCEDURE sp_Instructor_Insert
+CREATE OR ALTER PROCEDURE sp_Instructor_Insert
+    @InsId INT,
     @InsName VARCHAR(100),
     @InsEmail VARCHAR(100),
     @TrackID INT
 AS
 BEGIN
-    INSERT INTO Instructor (InsName, InsEmail, TrackID)
-    VALUES (@InsName, @InsEmail, @TrackID)
+    -- Validate Track
+    IF NOT EXISTS (
+        SELECT 1 FROM Track WHERE TrackID = @TrackID
+    )
+    BEGIN
+        RAISERROR('Invalid Track ID.', 16, 1);
+        RETURN;
+    END
+
+    -- Validate unique ID and Email
+    IF EXISTS (
+        SELECT 1 FROM Instructor
+        WHERE InsId = @InsId OR InsEmail = @InsEmail
+    )
+    BEGIN
+        RAISERROR('Instructor ID or Email already exists.', 16, 1);
+        RETURN;
+    END
+
+    INSERT INTO Instructor (InsId, InsName, InsEmail, TrackID)
+    VALUES (@InsId, @InsName, @InsEmail, @TrackID);
 END
 GO
 
-CREATE PROCEDURE sp_Instructor_Update
+
+CREATE OR ALTER PROCEDURE sp_Instructor_Update
     @InsId INT,
-    @InsName VARCHAR(100) = NULL, -- if there is no value --> then it gets the old one, tb law fe value ? --> it will be updated <3
+    @InsName VARCHAR(100) = NULL,
     @InsEmail VARCHAR(100) = NULL,
     @TrackID INT = NULL
 AS
 BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM Instructor WHERE InsId = @InsId
+    )
+    BEGIN
+        RAISERROR('Instructor not found.', 16, 1);
+        RETURN;
+    END
+
+    IF @TrackID IS NOT NULL
+       AND NOT EXISTS (SELECT 1 FROM Track WHERE TrackID = @TrackID)
+    BEGIN
+        RAISERROR('Invalid Track ID.', 16, 1);
+        RETURN;
+    END
+
     UPDATE Instructor
-    SET InsName = ISNULL(@InsName, InsName),
+    SET InsName  = ISNULL(@InsName, InsName),
         InsEmail = ISNULL(@InsEmail, InsEmail),
-        TrackID = ISNULL(@TrackID, TrackID)
-    WHERE InsId = @InsId
+        TrackID  = ISNULL(@TrackID, TrackID)
+    WHERE InsId = @InsId;
 END
 GO
+
 
 CREATE PROCEDURE sp_Instructor_Delete
     @InsId INT
