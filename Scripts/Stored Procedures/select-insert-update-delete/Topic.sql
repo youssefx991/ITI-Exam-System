@@ -41,3 +41,13 @@ BEGIN
     WHERE TopicID = @TopicID
 END
 GO
+
+CREATE  PROCEDURE sp_Topic_SelectAll
+AS
+BEGIN
+    SELECT 
+        TopicID,
+        TopicName,
+        CrsID AS CourseID
+    FROM Topic;
+END;

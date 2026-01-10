@@ -31,3 +31,21 @@ BEGIN
     WHERE InsId = @InsId AND CrsId = @CrsId
 END
 GO
+
+
+
+-- Show all instructor courses
+CREATE  PROCEDURE sp_Instructor_Course_SelectAll
+AS
+BEGIN
+    SELECT 
+        IC.InsID,
+        I.InsName,
+        IC.CrsID,
+        C.CrsName
+    FROM Instructor_Course IC
+    INNER JOIN Instructor I ON IC.InsID = I.InsID
+    INNER JOIN Course C ON IC.CrsID = C.CrsID;
+END;
+GO
+

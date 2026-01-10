@@ -36,3 +36,5 @@ CLOSE course_cursor;
 DEALLOCATE course_cursor;
 GO
 
+
+
