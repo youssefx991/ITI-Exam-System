@@ -1,28 +1,64 @@
-CREATE PROCEDURE sp_Student_Insert
+CREATE OR ALTER PROCEDURE sp_Student_Insert
+    @StId INT,
     @StName VARCHAR(100),
     @StEmail VARCHAR(100),
     @TrackID INT
 AS
 BEGIN
-    INSERT INTO Student (StName, StEmail, TrackID)
-    VALUES (@StName, @StEmail, @TrackID)
-END
+    -- Validate Track
+    IF NOT EXISTS (
+        SELECT 1 FROM Track WHERE TrackID = @TrackID
+    )
+    BEGIN
+        RAISERROR('Invalid Track ID.', 16, 1);
+        RETURN;
+    END
 
+    -- Validate unique ID and Email
+    IF EXISTS (
+        SELECT 1 FROM Student
+        WHERE StId = @StId OR StEmail = @StEmail
+    )
+    BEGIN
+        RAISERROR('Student ID or Email already exists.', 16, 1);
+        RETURN;
+    END
+
+    INSERT INTO Student (StId, StName, StEmail, TrackID)
+    VALUES (@StId, @StName, @StEmail, @TrackID);
+END
 GO
-CREATE PROCEDURE sp_Student_Update
+
+CREATE OR ALTER PROCEDURE sp_Student_Update
     @StId INT,
     @StName VARCHAR(100) = NULL,
     @StEmail VARCHAR(100) = NULL,
-    @TrackID INT = NULL --bardo law NULL hyakhod el value elly mawgoda, law fe value etb3tt hy3mlha update
+    @TrackID INT = NULL
 AS
 BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM Student WHERE StId = @StId
+    )
+    BEGIN
+        RAISERROR('Student not found.', 16, 1);
+        RETURN;
+    END
+
+    IF @TrackID IS NOT NULL
+       AND NOT EXISTS (SELECT 1 FROM Track WHERE TrackID = @TrackID)
+    BEGIN
+        RAISERROR('Invalid Track ID.', 16, 1);
+        RETURN;
+    END
+
     UPDATE Student
-    SET StName = ISNULL(@StName, StName),
+    SET StName  = ISNULL(@StName, StName),
         StEmail = ISNULL(@StEmail, StEmail),
         TrackID = ISNULL(@TrackID, TrackID)
-    WHERE StId = @StId
+    WHERE StId = @StId;
 END
 GO
+
 
 CREATE PROCEDURE sp_Student_Delete
     @StId INT
