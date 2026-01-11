@@ -4,11 +4,12 @@ GO
 DECLARE 
     @CrsId INT,
     @i INT,
-    @NewExamID INT,
-    @ExamDate DATETIME;
+    @ExamDate DATETIME,
+    @ExamId INT = 1;   -- manual PK generator
 
 DECLARE course_cursor CURSOR FOR
-SELECT CrsId FROM Course;
+SELECT CrsId FROM Course
+ORDER BY CrsId;
 
 OPEN course_cursor;
 FETCH NEXT FROM course_cursor INTO @CrsId;
@@ -22,11 +23,12 @@ BEGIN
         SET @ExamDate = DATEADD(DAY, @i * 7, GETDATE());
 
         EXEC sp_Exam_Insert
-            @CrsId = @CrsId,
-            @ExDate = @ExamDate,
-            @NewExamID = @NewExamID OUTPUT;
+            @ExId   = @ExamId,
+            @CrsId  = @CrsId,
+            @ExDate = @ExamDate;
 
-        SET @i = @i + 1;
+        SET @ExamId += 1;
+        SET @i += 1;
     END
 
     FETCH NEXT FROM course_cursor INTO @CrsId;
@@ -36,5 +38,4 @@ CLOSE course_cursor;
 DEALLOCATE course_cursor;
 GO
 
-
-
+EXEC [dbo].[sp_Exam_SelectAll]

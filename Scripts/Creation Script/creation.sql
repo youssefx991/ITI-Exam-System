@@ -12,7 +12,7 @@ GO
    Department
    ======================= */
 CREATE TABLE Department (
-    DeptID INT IDENTITY PRIMARY KEY,
+    DeptID INT   PRIMARY KEY,
     DeptName VARCHAR(100) NOT NULL UNIQUE
 );
 
@@ -20,7 +20,7 @@ CREATE TABLE Department (
    Track
    ======================= */
 CREATE TABLE Track (
-    TrackID INT IDENTITY PRIMARY KEY,
+    TrackID INT   PRIMARY KEY,
     TrackName VARCHAR(50) NOT NULL UNIQUE,
     DeptID INT NOT NULL,
     CONSTRAINT FK_Track_Department
@@ -34,7 +34,7 @@ CREATE TABLE Track (
    Student
    ======================= */
 CREATE TABLE Student (
-    StId INT IDENTITY PRIMARY KEY,
+    StId INT   PRIMARY KEY,
     StName VARCHAR(100) NOT NULL,
     StEmail VARCHAR(100) NOT NULL UNIQUE,
     TrackID INT NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE Student (
    Instructor
    ======================= */
 CREATE TABLE Instructor (
-    InsId INT IDENTITY PRIMARY KEY,
+    InsId INT   PRIMARY KEY,
     InsName VARCHAR(100) NOT NULL,
     InsEmail VARCHAR(100) NOT NULL UNIQUE,
     TrackID INT NOT NULL,
@@ -64,7 +64,7 @@ CREATE TABLE Instructor (
    Course
    ======================= */
 CREATE TABLE Course (
-    CrsId INT IDENTITY PRIMARY KEY,
+    CrsId INT   PRIMARY KEY,
     CrsName VARCHAR(100) NOT NULL,
     MaxDegree INT NOT NULL,
     TrackID INT NOT NULL,
@@ -98,7 +98,7 @@ CREATE TABLE Instructor_Course (
    Topic
    ======================= */
 CREATE TABLE Topic (
-    TopicID INT IDENTITY PRIMARY KEY,
+    TopicID INT   PRIMARY KEY,
     TopicName VARCHAR(100) NOT NULL,
     CrsId INT NOT NULL,
     CONSTRAINT FK_Topic_Course
@@ -113,7 +113,7 @@ CREATE TABLE Topic (
    (ModelAnswer merged – 1:1 total)
    ======================= */
 CREATE TABLE Question (
-    QId INT IDENTITY PRIMARY KEY,
+    QId INT   PRIMARY KEY,
     QText VARCHAR(MAX) NOT NULL,
     QType VARCHAR(10) NOT NULL CHECK (QType IN ('TF', 'MCQ')),
     QDegree INT NOT NULL CHECK (QDegree > 0),
@@ -195,7 +195,7 @@ UNIQUE (QId, ChoiceText);
    Exam
    ======================= */
 CREATE TABLE Exam (
-    ExId INT IDENTITY PRIMARY KEY,
+    ExId INT   PRIMARY KEY,
     ExDate DATETIME NOT NULL DEFAULT GETDATE(),
     CrsId INT NOT NULL,
     CONSTRAINT FK_Exam_Course

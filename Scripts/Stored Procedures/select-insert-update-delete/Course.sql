@@ -1,28 +1,80 @@
-CREATE PROCEDURE sp_Course_Insert
+CREATE OR ALTER PROCEDURE sp_Course_Insert
+    @CrsId INT,
     @CrsName VARCHAR(100),
     @MaxDegree INT,
     @TrackID INT
 AS
 BEGIN
-    INSERT INTO Course (CrsName, MaxDegree, TrackID)
-    VALUES (@CrsName, @MaxDegree, @TrackID)
+    -- Validate Track
+    IF NOT EXISTS (
+        SELECT 1 FROM Track WHERE TrackID = @TrackID
+    )
+    BEGIN
+        RAISERROR('Invalid Track ID.', 16, 1);
+        RETURN;
+    END
+
+    -- Validate degree
+    IF @MaxDegree <= 0
+    BEGIN
+        RAISERROR('MaxDegree must be greater than zero.', 16, 1);
+        RETURN;
+    END
+
+    -- Validate unique ID (and optionally name)
+    IF EXISTS (
+        SELECT 1
+        FROM Course
+        WHERE CrsId = @CrsId
+           OR LOWER(CrsName) = LOWER(@CrsName)
+    )
+    BEGIN
+        RAISERROR('Course ID or name already exists.', 16, 1);
+        RETURN;
+    END
+
+    INSERT INTO Course (CrsId, CrsName, MaxDegree, TrackID)
+    VALUES (@CrsId, @CrsName, @MaxDegree, @TrackID);
 END
 GO
 
-CREATE PROCEDURE sp_Course_Update
+
+CREATE OR ALTER PROCEDURE sp_Course_Update
     @CrsId INT,
     @CrsName VARCHAR(100) = NULL,
     @MaxDegree INT = NULL,
     @TrackID INT = NULL
 AS
 BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM Course WHERE CrsId = @CrsId
+    )
+    BEGIN
+        RAISERROR('Course not found.', 16, 1);
+        RETURN;
+    END
+
+    IF @TrackID IS NOT NULL
+       AND NOT EXISTS (SELECT 1 FROM Track WHERE TrackID = @TrackID)
+    BEGIN
+        RAISERROR('Invalid Track ID.', 16, 1);
+        RETURN;
+    END
+
+    IF @MaxDegree IS NOT NULL AND @MaxDegree <= 0
+    BEGIN
+        RAISERROR('MaxDegree must be greater than zero.', 16, 1);
+        RETURN;
+    END
+
     UPDATE Course
-    SET CrsName = ISNULL(@CrsName, CrsName),
+    SET CrsName   = ISNULL(@CrsName, CrsName),
         MaxDegree = ISNULL(@MaxDegree, MaxDegree),
-        TrackID = ISNULL(@TrackID, TrackID)
-    WHERE CrsId = @CrsId
+        TrackID   = ISNULL(@TrackID, TrackID)
+    WHERE CrsId = @CrsId;
 END
 GO
+
 
 CREATE PROCEDURE sp_Course_Delete
     @CrsId INT
