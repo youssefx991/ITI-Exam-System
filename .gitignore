@@ -15,6 +15,7 @@ desktop.ini
 *.userosscache
 *.sln.docstates
 
+
 # =========================
 # SQL Server / Database junk
 # =========================
@@ -39,6 +40,7 @@ desktop.ini
 *.xls
 *.xlsx
 
+
 # =========================
 # Archives
 # =========================
@@ -58,3 +60,12 @@ desktop.ini
 bin/
 obj/
 out/
+
+#Visual Studio / editor folders,
+.vs/
+*.user
+*.suo
+
+#If you have a .slnx file you want to ignore,
+*.slnx
+ITI-Exam-System.slnx
