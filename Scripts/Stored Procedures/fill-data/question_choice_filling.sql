@@ -18,6 +18,28 @@ BEGIN
     DECLARE @QId INT;
     DECLARE @QDegree INT;
 
+    -- Validate course
+    IF NOT EXISTS (SELECT 1 FROM Course WHERE CrsId = @CrsId)
+        THROW 50001, 'Course ID does not exist.', 1;
+
+    -- Validate question type
+    IF @QType NOT IN ('MCQ', 'TF')
+        THROW 50011, 'Invalid question type.', 1;
+
+    -- Validate answer
+    IF @QType = 'TF' AND @QAnswer NOT IN ('T','F')
+        THROW 50009, 'TF questions must have answer T or F.', 1;
+
+    IF @QType = 'MCQ' AND @QAnswer NOT IN ('A','B','C')
+        THROW 50010, 'MCQ answer must be A, B, or C.', 1;
+
+    -- Validate MCQ choices
+    IF @QType = 'MCQ'
+    BEGIN
+        IF @ChoiceA IS NULL OR @ChoiceB IS NULL OR @ChoiceC IS NULL
+            THROW 50008, 'MCQ questions require 3 choices.', 1;
+    END
+
     -- Generate QId (non-identity)
     SELECT @QId = ISNULL(MAX(QId), 0) + 1 FROM Question;
 
