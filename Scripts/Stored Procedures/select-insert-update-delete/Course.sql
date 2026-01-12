@@ -76,16 +76,16 @@ END
 GO
 
 
-CREATE PROCEDURE sp_Course_Delete
+CREATE OR ALTER PROCEDURE sp_Course_Delete
     @CrsId INT
 AS
 BEGIN
     DELETE FROM Course
     WHERE CrsId = @CrsId
 END
-GO
+GO 
 
-CREATE PROCEDURE sp_Course_Select
+CREATE OR ALTER PROCEDURE sp_Course_Select
     @CrsId INT = NULL  -- If NULL, return all courses; if provided, return specific one
 AS
 BEGIN
@@ -101,6 +101,18 @@ BEGIN
     JOIN Department D ON T.DeptID = D.DeptID
     WHERE (@CrsId IS NULL OR C.CrsId = @CrsId)
     ORDER BY C.CrsId
+END
+GO
+
+CREATE OR ALTER PROCEDURE sp_AllCourses_Select
+    @CrsId INT = NULL  -- If NULL, return all courses; if provided, return specific one
+AS
+BEGIN
+    SELECT 
+        CrsId,
+        CrsName,
+    FROM Course 
+    ORDER BY CrsId
 END
 GO
 
