@@ -11,10 +11,46 @@ CREATE OR ALTER PROC sp_StudentAnswer_Insert
     @Answer VARCHAR(10)
 AS
 BEGIN
-    INSERT INTO StudentAnswer (StId, ExId, QId, Answer)
-    VALUES (@StId, @ExId, @QId, @Answer);
-END
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        -- Validate student exam registration
+        IF NOT EXISTS (
+            SELECT 1
+            FROM Student_Exam
+            WHERE StId = @StId AND ExId = @ExId
+        )
+            THROW 50001, 'Student is not registered in this exam.', 1;
+
+        -- Validate question exists
+        IF NOT EXISTS (SELECT 1 FROM Question WHERE QId = @QId)
+            THROW 50002, 'Question does not exist.', 1;
+
+        -- Validate question belongs to exam
+        IF NOT EXISTS (
+            SELECT 1
+            FROM Exam_Question
+            WHERE ExId = @ExId AND QId = @QId
+        )
+            THROW 50003, 'Question does not belong to this exam.', 1;
+
+        -- Prevent duplicate answer
+        IF EXISTS (
+            SELECT 1
+            FROM StudentAnswer
+            WHERE StId = @StId AND ExId = @ExId AND QId = @QId
+        )
+            THROW 50004, 'Answer already submitted for this question.', 1;
+
+        INSERT INTO StudentAnswer (StId, ExId, QId, Answer)
+        VALUES (@StId, @ExId, @QId, @Answer);
+    END TRY
+    BEGIN CATCH
+        THROW;
+    END CATCH
+END;
 GO
+
 
 /* =========================
    StudentAnswer UPDATE
@@ -26,13 +62,23 @@ CREATE OR ALTER PROC sp_StudentAnswer_Update
     @Answer VARCHAR(10)
 AS
 BEGIN
+    SET NOCOUNT ON;
+
+    IF NOT EXISTS (
+        SELECT 1
+        FROM StudentAnswer
+        WHERE StId = @StId AND ExId = @ExId AND QId = @QId
+    )
+        THROW 50005, 'Student answer not found.', 1;
+
     UPDATE StudentAnswer
     SET Answer = @Answer
     WHERE StId = @StId
       AND ExId = @ExId
       AND QId = @QId;
-END
+END;
 GO
+
 
 /* =========================
    StudentAnswer DELETE
@@ -43,12 +89,22 @@ CREATE OR ALTER PROC sp_StudentAnswer_Delete
     @QId INT
 AS
 BEGIN
+    SET NOCOUNT ON;
+
+    IF NOT EXISTS (
+        SELECT 1
+        FROM StudentAnswer
+        WHERE StId = @StId AND ExId = @ExId AND QId = @QId
+    )
+        THROW 50006, 'Student answer not found.', 1;
+
     DELETE FROM StudentAnswer
     WHERE StId = @StId
       AND ExId = @ExId
       AND QId = @QId;
-END
+END;
 GO
+
 
 /* =========================
    StudentAnswer SELECT (by Student & Exam)
