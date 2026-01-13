@@ -1,0 +1,488 @@
+{
+  "React.js & Modern Frontend": {
+    "mcq": [
+      {
+        "question": "Which method is used to render a React component into the DOM?",
+        "choices": {
+          "A": "React.render()",
+          "B": "ReactDOM.create()",
+          "C": "ReactDOM.render()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the correct syntax for creating a functional component in React?",
+        "choices": {
+          "A": "class MyComponent {}",
+          "B": "function MyComponent() {}",
+          "C": "component MyComponent() {}"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which hook is used to manage state in functional components?",
+        "choices": {
+          "A": "useReducer",
+          "B": "useEffect",
+          "C": "useState"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which hook is used to perform side effects in functional components?",
+        "choices": {
+          "A": "useEffect",
+          "B": "useContext",
+          "C": "useState"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "In React, what is the purpose of keys in lists?",
+        "choices": {
+          "A": "To uniquely identify elements for efficient updates",
+          "B": "To assign a CSS class",
+          "C": "To bind events"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows React to update only parts of the DOM that changed?",
+        "choices": {
+          "A": "Real DOM",
+          "B": "Shadow DOM",
+          "C": "Virtual DOM"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method is used to update the state in class components?",
+        "choices": {
+          "A": "this.updateState()",
+          "B": "this.setState()",
+          "C": "this.state()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the correct way to pass props to a child component?",
+        "choices": {
+          "A": "<ChildComponent propName={value} />",
+          "B": "<ChildComponent props={value} />",
+          "C": "<ChildComponent value={propName} />"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which React hook is used to access context values?",
+        "choices": {
+          "A": "useRef",
+          "B": "useReducer",
+          "C": "useContext"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which React hook is used to persist a value across renders without causing re-renders?",
+        "choices": {
+          "A": "useRef",
+          "B": "useState",
+          "C": "useEffect"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which lifecycle method is called after a component is mounted in class components?",
+        "choices": {
+          "A": "componentDidMount",
+          "B": "componentWillMount",
+          "C": "componentDidUpdate"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature of React allows splitting the code into smaller bundles for faster loading?",
+        "choices": {
+          "A": "Virtual DOM",
+          "B": "JSX",
+          "C": "Code Splitting"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is JSX in React?",
+        "choices": {
+          "A": "A React method",
+          "B": "A JavaScript library",
+          "C": "A syntax extension that allows writing HTML in JavaScript"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which hook is used to handle complex state logic in functional components?",
+        "choices": {
+          "A": "useState",
+          "B": "useReducer",
+          "C": "useEffect"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which prop is used to pass children elements to a component?",
+        "choices": {
+          "A": "child",
+          "B": "content",
+          "C": "children"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method is used to prevent unnecessary re-rendering of a class component?",
+        "choices": {
+          "A": "getDerivedStateFromProps",
+          "B": "componentDidUpdate",
+          "C": "shouldComponentUpdate"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which React hook memoizes a function to prevent unnecessary re-creation?",
+        "choices": {
+          "A": "useEffect",
+          "B": "useMemo",
+          "C": "useCallback"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which React hook memoizes a computed value to optimize performance?",
+        "choices": {
+          "A": "useState",
+          "B": "useMemo",
+          "C": "useCallback"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the default behavior of forms in React?",
+        "choices": {
+          "A": "Submit without refreshing",
+          "B": "Submit and refresh the page",
+          "C": "Do nothing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which React feature helps manage global application state?",
+        "choices": {
+          "A": "Refs",
+          "B": "Hooks",
+          "C": "Context API"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method prevents a default event in React?",
+        "choices": {
+          "A": "event.block()",
+          "B": "event.preventDefault()",
+          "C": "event.stop()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which package is commonly used for routing in React applications?",
+        "choices": {
+          "A": "react-router-dom",
+          "B": "react-router-native",
+          "C": "react-router"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method updates the state synchronously in React class components?",
+        "choices": {
+          "A": "state = {}",
+          "B": "setState()",
+          "C": "updateState()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which hook is used to run code only once after the first render?",
+        "choices": {
+          "A": "useState",
+          "B": "useRef",
+          "C": "useEffect with empty dependency array"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature of React helps in preventing unnecessary rendering of child components?",
+        "choices": {
+          "A": "React.memo",
+          "B": "useState",
+          "C": "useEffect"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "What is the primary purpose of keys in React lists?",
+        "choices": {
+          "A": "To style elements",
+          "B": "To add events",
+          "C": "To identify elements uniquely"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which React feature allows creating portals to render components outside the parent DOM hierarchy?",
+        "choices": {
+          "A": "ReactDOM.createPortal()",
+          "B": "ReactDOM.render()",
+          "C": "React.createPortal()"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which hook is used to reference DOM elements in functional components?",
+        "choices": {
+          "A": "useRef",
+          "B": "useEffect",
+          "C": "useState"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which of the following prevents re-rendering of a child component if its props haven’t changed?",
+        "choices": {
+          "A": "PureComponent",
+          "B": "shouldComponentUpdate",
+          "C": "React.memo"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which JSX syntax is used to write comments inside JSX code?",
+        "choices": {
+          "A": "<!-- comment -->",
+          "B": "// comment",
+          "C": "{/* comment */}"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which React hook allows combining state logic into a single function?",
+        "choices": {
+          "A": "useEffect",
+          "B": "useState",
+          "C": "useReducer"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which React hook allows storing mutable values that do not trigger re-renders?",
+        "choices": {
+          "A": "useRef",
+          "B": "useEffect",
+          "C": "useState"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which React feature allows defining default props for functional components?",
+        "choices": {
+          "A": "initialProps",
+          "B": "defaultProps",
+          "C": "propTypes"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in class components is called before a component is removed from the DOM?",
+        "choices": {
+          "A": "componentWillMount",
+          "B": "componentWillUnmount",
+          "C": "componentDidUnmount"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which hook allows subscribing to a context in functional components?",
+        "choices": {
+          "A": "useReducer",
+          "B": "useContext",
+          "C": "useState"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which React hook can optimize performance by memoizing expensive calculations?",
+        "choices": {
+          "A": "useCallback",
+          "B": "useRef",
+          "C": "useMemo"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which hook is used to handle asynchronous operations in functional components?",
+        "choices": {
+          "A": "useEffect",
+          "B": "useState",
+          "C": "useRef"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which syntax is used to conditionally render JSX in React?",
+        "choices": {
+          "A": "Ternary operator",
+          "B": "Switch statement",
+          "C": "For loop"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "React components can be either class-based or functional.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "State in React can be directly mutated without using setState or useState.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "JSX allows mixing HTML and JavaScript in the same file.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "React uses a Virtual DOM to improve performance by minimizing direct DOM manipulation.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Functional components cannot use hooks.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The useEffect hook can replace all lifecycle methods in functional components.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Keys in React lists are optional.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "React.memo can prevent unnecessary re-renders of functional components.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The useRef hook triggers re-render when the referenced value changes.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Props in React are read-only.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The context API is used to manage global state without prop drilling.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The useReducer hook is an alternative to useState for complex state logic.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The useMemo hook caches the result of an expensive computation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Functional components cannot use lifecycle methods.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "componentWillUnmount is called before a component is removed from the DOM.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "React does not support event handling in JSX.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Props can be modified inside a component.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Conditional rendering in React can be achieved using ternary operators.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The useCallback hook memoizes values instead of functions.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Portals allow rendering a component outside of its parent DOM hierarchy.",
+        "answer": "T",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

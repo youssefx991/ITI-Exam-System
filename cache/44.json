@@ -1,0 +1,158 @@
+{
+  "Generative AI & LLMs": {
+    "mcq": [
+      {
+        "question": "What does LLM stand for in AI?",
+        "choices": {
+          "A": "Large Language Model",
+          "B": "Limited Learning Machine",
+          "C": "Linear Learning Model"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which task is an example of generative AI?",
+        "choices": {
+          "A": "Text generation",
+          "B": "Sorting data",
+          "C": "Binary classification"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique allows LLMs to understand context across long text?",
+        "choices": {
+          "A": "Transformers",
+          "B": "RNNs only",
+          "C": "CNNs"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which company developed GPT models?",
+        "choices": {
+          "A": "Google",
+          "B": "OpenAI",
+          "C": "IBM"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method is used to fine-tune LLMs on specific tasks?",
+        "choices": {
+          "A": "Clustering",
+          "B": "Supervised Classification",
+          "C": "Transfer Learning"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tokenization approach is often used in LLMs?",
+        "choices": {
+          "A": "One-Hot Encoding",
+          "B": "Byte Pair Encoding (BPE)",
+          "C": "Label Encoding"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which LLM capability enables answering questions based on input text?",
+        "choices": {
+          "A": "Clustering",
+          "B": "Regression",
+          "C": "Question Answering"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI type generates new content like images, text, or audio?",
+        "choices": {
+          "A": "Supervised AI",
+          "B": "Generative AI",
+          "C": "Discriminative AI"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which challenge is common with LLMs?",
+        "choices": {
+          "A": "Always overfitting small datasets",
+          "B": "Cannot process text longer than 10 words",
+          "C": "Hallucination of incorrect information"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique improves LLM alignment with human preferences?",
+        "choices": {
+          "A": "Reinforcement Learning from Human Feedback (RLHF)",
+          "B": "Gradient Boosting",
+          "C": "PCA"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Generative AI can create new content such as text or images.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "LLMs are designed to process and generate natural language.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Transformers are the backbone of most modern LLMs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Byte Pair Encoding is a common tokenization technique for LLMs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "LLMs never produce incorrect information.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reinforcement Learning from Human Feedback helps align LLMs with human values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Generative AI cannot generate audio content.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Fine-tuning allows LLMs to specialize in specific tasks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GPT models were developed by IBM.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Question answering is a capability of LLMs.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

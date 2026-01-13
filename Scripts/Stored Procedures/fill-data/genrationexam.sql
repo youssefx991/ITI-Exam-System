@@ -1,7 +1,7 @@
 USE ITI_ExamSystem
 GO
 
-CREATE OR ALTER PROCEDURE GenerateExam
+CREATE OR ALTER PROCEDURE sp_Exam_Generation
     @CourseName VARCHAR(50),
     @NumTF INT,
     @NumMC INT,
@@ -74,7 +74,7 @@ BEGIN
 END;
 GO
 ---------------------------------TESTINNG PART---------------------------------------------
-select count(*) from Question where CrsId =1 and QType = 'MCQ'; --- courses id 1---4 qid 1-43
+/*select count(*) from Question where CrsId =1 and QType = 'MCQ'; --- courses id 1---4 qid 1-43
 select * from choice 
 select * from Course -- HTML5 & CSS3 Fundamentals
 
@@ -84,8 +84,8 @@ select * from exam
 select * from Exam_Question
 select QType from Question join Exam_Question on Question.QId = Exam_Question.QId
 DECLARE @NewExamID INT;
-EXEC GenerateExam
+EXEC sp_GenerateExam
     @CourseName = 'HTML5 & CSS3 Fundamentals',
     @NumTF = 5,
     @NumMC = 5,
-    @ExamID = @NewExamID OUTPUT;
+    @ExamID = @NewExamID OUTPUT;*/

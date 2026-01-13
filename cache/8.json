@@ -1,0 +1,488 @@
+{
+  "Database Design & MongoDB": {
+    "mcq": [
+      {
+        "question": "Which type of database is MongoDB?",
+        "choices": {
+          "A": "Relational",
+          "B": "NoSQL",
+          "C": "Graph"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command inserts a document into a MongoDB collection?",
+        "choices": {
+          "A": "db.collection.create()",
+          "B": "db.collection.add()",
+          "C": "db.collection.insertOne()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which data format does MongoDB use to store documents?",
+        "choices": {
+          "A": "BSON",
+          "B": "JSON",
+          "C": "XML"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method retrieves documents from a MongoDB collection?",
+        "choices": {
+          "A": "select()",
+          "B": "find()",
+          "C": "get()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which MongoDB command updates a single document?",
+        "choices": {
+          "A": "modify()",
+          "B": "updateOne()",
+          "C": "update()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB command deletes a single document?",
+        "choices": {
+          "A": "drop()",
+          "B": "remove()",
+          "C": "deleteOne()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which term describes a MongoDB schema-less design?",
+        "choices": {
+          "A": "Normalized schema",
+          "B": "Flexible schema",
+          "C": "Relational schema"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of relationship is best represented using embedded documents in MongoDB?",
+        "choices": {
+          "A": "One-to-many",
+          "B": "Many-to-many",
+          "C": "One-to-one"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB feature allows aggregation of documents?",
+        "choices": {
+          "A": "Joins",
+          "B": "Stored procedures",
+          "C": "Aggregation pipeline"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method counts documents in a collection?",
+        "choices": {
+          "A": "countDocuments()",
+          "B": "size()",
+          "C": "length()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which index type improves search performance in MongoDB?",
+        "choices": {
+          "A": "Primary key",
+          "B": "Foreign key",
+          "C": "Single-field index"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operator is used for logical AND queries in MongoDB?",
+        "choices": {
+          "A": "$or",
+          "B": "$and",
+          "C": "$not"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB method removes all documents in a collection?",
+        "choices": {
+          "A": "drop()",
+          "B": "removeAll()",
+          "C": "deleteMany()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB feature ensures high availability through replica sets?",
+        "choices": {
+          "A": "Indexing",
+          "B": "Sharding",
+          "C": "Replication"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature distributes data across multiple MongoDB servers?",
+        "choices": {
+          "A": "Sharding",
+          "B": "Replication",
+          "C": "Indexing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of index enforces uniqueness of a field in MongoDB?",
+        "choices": {
+          "A": "Text index",
+          "B": "Unique index",
+          "C": "Compound index"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which aggregation stage groups documents by a specified field?",
+        "choices": {
+          "A": "$match",
+          "B": "$project",
+          "C": "$group"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which aggregation stage filters documents in MongoDB?",
+        "choices": {
+          "A": "$group",
+          "B": "$sort",
+          "C": "$match"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which aggregation stage reshapes each document in the pipeline?",
+        "choices": {
+          "A": "$project",
+          "B": "$lookup",
+          "C": "$group"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB operator is used for greater than comparisons?",
+        "choices": {
+          "A": "$gt",
+          "B": "$lt",
+          "C": "$eq"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB command creates a new collection?",
+        "choices": {
+          "A": "db.createCollection()",
+          "B": "db.addCollection()",
+          "C": "db.newCollection()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB operator matches multiple conditions with OR logic?",
+        "choices": {
+          "A": "$and",
+          "B": "$or",
+          "C": "$nor"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of index supports text search in MongoDB?",
+        "choices": {
+          "A": "Hashed index",
+          "B": "Compound index",
+          "C": "Text index"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB feature provides horizontal scalability?",
+        "choices": {
+          "A": "Indexing",
+          "B": "Sharding",
+          "C": "Replication"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method returns a single document that matches the query?",
+        "choices": {
+          "A": "findOne()",
+          "B": "find()",
+          "C": "findMany()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which MongoDB feature allows referencing documents in another collection?",
+        "choices": {
+          "A": "Embedded document",
+          "B": "DBRef",
+          "C": "Index"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which data type represents a unique identifier in MongoDB?",
+        "choices": {
+          "A": "ObjectId",
+          "B": "Int",
+          "C": "UUID"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB method removes a collection entirely?",
+        "choices": {
+          "A": "deleteAll()",
+          "B": "drop()",
+          "C": "removeCollection()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MongoDB operator matches documents that do not satisfy a condition?",
+        "choices": {
+          "A": "$nor",
+          "B": "$ne",
+          "C": "$not"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operator checks if a field value exists in MongoDB documents?",
+        "choices": {
+          "A": "$exists",
+          "B": "$in",
+          "C": "$type"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows MongoDB to store data in multiple nodes for fault tolerance?",
+        "choices": {
+          "A": "Indexing",
+          "B": "Sharding",
+          "C": "Replica set"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operator checks if a field's value matches any value in a list?",
+        "choices": {
+          "A": "$in",
+          "B": "$all",
+          "C": "$eq"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operator checks if a field's value does not match any value in a list?",
+        "choices": {
+          "A": "$neq",
+          "B": "$not",
+          "C": "$nin"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which aggregation stage sorts documents by a specified field?",
+        "choices": {
+          "A": "$match",
+          "B": "$sort",
+          "C": "$group"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of index improves read performance on multiple fields?",
+        "choices": {
+          "A": "Compound index",
+          "B": "Single-field index",
+          "C": "Text index"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method updates multiple documents matching a condition?",
+        "choices": {
+          "A": "modifyMany()",
+          "B": "updateOne()",
+          "C": "updateMany()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operator combines multiple queries using AND logic?",
+        "choices": {
+          "A": "$nor",
+          "B": "$or",
+          "C": "$and"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature of MongoDB allows storing arrays and nested documents?",
+        "choices": {
+          "A": "Document model",
+          "B": "Key-value model",
+          "C": "Table model"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "MongoDB is a schema-less NoSQL database.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "BSON is the format MongoDB uses internally to store data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MongoDB does not support indexing of fields.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The updateOne() method modifies a single document.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sharding in MongoDB provides high availability.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Replication in MongoDB provides fault tolerance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Embedded documents are useful for one-to-many relationships.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MongoDB requires predefined schemas like relational databases.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The findOne() method returns multiple documents.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The drop() method deletes the entire collection.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The $gt operator matches values greater than a specified value.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The $in operator matches a value not present in a list.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Compound indexes improve query performance on multiple fields.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The $exists operator checks for the presence of a field in documents.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Text indexes allow full-text search in MongoDB.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Aggregation pipelines allow filtering, grouping, and transforming data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "updateMany() modifies only a single document.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Replica sets provide horizontal scaling in MongoDB.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Embedded documents can store arrays and nested objects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The $and operator combines multiple conditions using logical AND.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

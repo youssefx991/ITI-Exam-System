@@ -1,0 +1,498 @@
+{
+  "Mobile App Testing (Android/iOS)": {
+    "mcq": [
+      {
+        "question": "What is the main purpose of mobile app testing?",
+        "choices": {
+          "A": "Ensure app quality and usability",
+          "B": "Design UI layouts",
+          "C": "Develop backend APIs"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of testing checks app behavior on different devices?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Unit testing",
+          "C": "Compatibility testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which OS is primarily used for iPhone devices?",
+        "choices": {
+          "A": "iOS",
+          "B": "Android",
+          "C": "Windows Mobile"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which OS is developed by Google for mobile devices?",
+        "choices": {
+          "A": "Symbian",
+          "B": "Android",
+          "C": "iOS"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing focuses on app performance under load?",
+        "choices": {
+          "A": "Usability testing",
+          "B": "Smoke testing",
+          "C": "Performance testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures the app is easy to use?",
+        "choices": {
+          "A": "Usability testing",
+          "B": "Integration testing",
+          "C": "Security testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing validates app behavior after code changes?",
+        "choices": {
+          "A": "Exploratory testing",
+          "B": "Regression testing",
+          "C": "Alpha testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is commonly used for Android automation testing?",
+        "choices": {
+          "A": "Postman",
+          "B": "Appium",
+          "C": "JMeter"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool supports automation for both Android and iOS?",
+        "choices": {
+          "A": "XCUITest",
+          "B": "Espresso",
+          "C": "Appium"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks app behavior with poor network conditions?",
+        "choices": {
+          "A": "Network testing",
+          "B": "Installation testing",
+          "C": "UI testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing verifies app installation and uninstallation?",
+        "choices": {
+          "A": "Load testing",
+          "B": "Functional testing",
+          "C": "Installation testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing checks data protection and vulnerabilities?",
+        "choices": {
+          "A": "Security testing",
+          "B": "Compatibility testing",
+          "C": "Smoke testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates app behavior on different screen sizes?",
+        "choices": {
+          "A": "Compatibility testing",
+          "B": "Unit testing",
+          "C": "Performance testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing is done without knowing internal code?",
+        "choices": {
+          "A": "Black-box testing",
+          "B": "Unit testing",
+          "C": "White-box testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing focuses on internal code structure?",
+        "choices": {
+          "A": "Black-box testing",
+          "B": "White-box testing",
+          "C": "Exploratory testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks app behavior during interruptions like calls?",
+        "choices": {
+          "A": "Interrupt testing",
+          "B": "Regression testing",
+          "C": "Load testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures the app meets business requirements?",
+        "choices": {
+          "A": "Stress testing",
+          "B": "Security testing",
+          "C": "Functional testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing checks app stability over long usage?",
+        "choices": {
+          "A": "Stability testing",
+          "B": "Alpha testing",
+          "C": "Smoke testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Android testing framework is developed by Google?",
+        "choices": {
+          "A": "Appium",
+          "B": "Espresso",
+          "C": "Selenium"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which iOS testing framework is provided by Apple?",
+        "choices": {
+          "A": "XCUITest",
+          "B": "Appium",
+          "C": "Espresso"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing is done by end users before release?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Beta testing",
+          "C": "Smoke testing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing is done early by internal teams?",
+        "choices": {
+          "A": "Acceptance testing",
+          "B": "Alpha testing",
+          "C": "Beta testing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing checks app behavior with low battery?",
+        "choices": {
+          "A": "Performance testing",
+          "B": "Usability testing",
+          "C": "Battery testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures app works across OS versions?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Smoke testing",
+          "C": "Compatibility testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks app response time?",
+        "choices": {
+          "A": "Security testing",
+          "B": "Exploratory testing",
+          "C": "Performance testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates touch gestures like swipe and pinch?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Load testing",
+          "C": "UI testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing is unscripted and exploratory in nature?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Smoke testing",
+          "C": "Exploratory testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing ensures compliance with app store guidelines?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Compliance testing",
+          "C": "Stress testing"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing checks memory leaks and crashes?",
+        "choices": {
+          "A": "Usability testing",
+          "B": "Acceptance testing",
+          "C": "Performance testing"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which tool is commonly used for mobile performance testing?",
+        "choices": {
+          "A": "Postman",
+          "B": "JMeter",
+          "C": "Git"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing validates app behavior with background/foreground switching?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Lifecycle testing",
+          "C": "Load testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures data sync works correctly?",
+        "choices": {
+          "A": "Data synchronization testing",
+          "B": "UI testing",
+          "C": "Smoke testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates push notifications?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Notification testing",
+          "C": "Unit testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures app works offline?",
+        "choices": {
+          "A": "Offline testing",
+          "B": "Security testing",
+          "C": "Load testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates app updates do not break features?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Exploratory testing",
+          "C": "Smoke testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks GPS and location features?",
+        "choices": {
+          "A": "UI testing",
+          "B": "Location testing",
+          "C": "Unit testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures app stability under heavy usage?",
+        "choices": {
+          "A": "Smoke testing",
+          "B": "Usability testing",
+          "C": "Stress testing"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing checks app startup time?",
+        "choices": {
+          "A": "Security testing",
+          "B": "Performance testing",
+          "C": "Exploratory testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates accessibility features?",
+        "choices": {
+          "A": "Accessibility testing",
+          "B": "Load testing",
+          "C": "Unit testing"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Mobile app testing ensures app quality and usability.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Android apps run on iOS devices.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Compatibility testing checks different devices and OS versions.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Appium supports both Android and iOS automation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Usability testing focuses on user experience.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Regression testing is done only once.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Performance testing checks response time and stability.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Security testing is not required for mobile apps.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Alpha testing is done by internal teams.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Beta testing is done by real users.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Espresso is used for Android UI testing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "XCUITest is an Apple framework for iOS testing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Offline testing checks app behavior without internet.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Exploratory testing is fully scripted.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Stress testing checks behavior under extreme load.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Installation testing verifies app install and uninstall.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Battery testing checks power consumption.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Accessibility testing improves usability for all users.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Push notifications do not need testing.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Lifecycle testing checks background and foreground behavior.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

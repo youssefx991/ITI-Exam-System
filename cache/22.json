@@ -1,0 +1,498 @@
+{
+  "Oracle ERP Cloud Fundamentals": {
+    "mcq": [
+      {
+        "question": "What is Oracle ERP Cloud primarily used for?",
+        "choices": {
+          "A": "Network security",
+          "B": "Managing enterprise business processes",
+          "C": "Web development"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Oracle ERP Cloud is delivered using which model?",
+        "choices": {
+          "A": "Desktop Application",
+          "B": "On-Premise Only",
+          "C": "Software as a Service (SaaS)"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module handles financial management in Oracle ERP Cloud?",
+        "choices": {
+          "A": "Supply Chain",
+          "B": "Manufacturing",
+          "C": "Financials"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Oracle ERP Cloud module manages procurement activities?",
+        "choices": {
+          "A": "Projects",
+          "B": "HCM",
+          "C": "Procurement"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module is responsible for managing employee data?",
+        "choices": {
+          "A": "Human Capital Management",
+          "B": "Financials",
+          "C": "Procurement"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the main purpose of Oracle General Ledger?",
+        "choices": {
+          "A": "Managing inventory",
+          "B": "Recording financial transactions",
+          "C": "Tracking employees"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature ensures real-time reporting?",
+        "choices": {
+          "A": "Embedded analytics",
+          "B": "Offline processing",
+          "C": "Manual reports"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Oracle ERP Cloud component manages suppliers?",
+        "choices": {
+          "A": "Payroll",
+          "B": "Asset Management",
+          "C": "Supplier Management"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is Oracle Fusion?",
+        "choices": {
+          "A": "A programming language",
+          "B": "Oracleâ€™s unified application platform",
+          "C": "A database engine"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is used for configuring Oracle ERP Cloud?",
+        "choices": {
+          "A": "Setup and Maintenance",
+          "B": "Forms Builder",
+          "C": "SQL Developer"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module handles accounts payable?",
+        "choices": {
+          "A": "Manufacturing",
+          "B": "Projects",
+          "C": "Financials"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module handles accounts receivable?",
+        "choices": {
+          "A": "Supply Chain",
+          "B": "HCM",
+          "C": "Financials"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Oracle ERP Cloud feature controls user access?",
+        "choices": {
+          "A": "Dashboards",
+          "B": "Roles and privileges",
+          "C": "Reports"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does Chart of Accounts define?",
+        "choices": {
+          "A": "Financial structure",
+          "B": "Employee hierarchy",
+          "C": "Supplier categories"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module manages fixed assets?",
+        "choices": {
+          "A": "Projects",
+          "B": "Assets",
+          "C": "Procurement"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature supports period closing?",
+        "choices": {
+          "A": "Payroll Cycles",
+          "B": "Accounting Periods",
+          "C": "Inventory Counts"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module supports budgeting and forecasting?",
+        "choices": {
+          "A": "Financials",
+          "B": "Manufacturing",
+          "C": "HCM"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the purpose of Oracle Subledger Accounting?",
+        "choices": {
+          "A": "Standardizing accounting entries",
+          "B": "Tracking inventory",
+          "C": "Managing employees"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which feature enables mobile access?",
+        "choices": {
+          "A": "Oracle Mobile Applications",
+          "B": "Desktop Client",
+          "C": "Local Server"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module supports project costing?",
+        "choices": {
+          "A": "Assets",
+          "B": "Projects",
+          "C": "HCM"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Oracle ERP Cloud capability improves decision making?",
+        "choices": {
+          "A": "Manual spreadsheets",
+          "B": "Real-time analytics",
+          "C": "Paper reports"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature automates approvals?",
+        "choices": {
+          "A": "Reports",
+          "B": "Workflow",
+          "C": "Dashboards"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module manages expense reporting?",
+        "choices": {
+          "A": "Expenses",
+          "B": "Inventory",
+          "C": "Assets"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the primary benefit of cloud deployment?",
+        "choices": {
+          "A": "Scalability and flexibility",
+          "B": "Higher hardware costs",
+          "C": "Manual updates"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Oracle ERP Cloud feature ensures data security?",
+        "choices": {
+          "A": "Role-based access control",
+          "B": "Public access",
+          "C": "No authentication"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module integrates procurement and payables?",
+        "choices": {
+          "A": "Order-to-Cash",
+          "B": "Hire-to-Retire",
+          "C": "Procure-to-Pay"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which process manages customer invoicing?",
+        "choices": {
+          "A": "Procure-to-Pay",
+          "B": "Record-to-Report",
+          "C": "Order-to-Cash"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process handles financial reporting?",
+        "choices": {
+          "A": "Record-to-Report",
+          "B": "Hire-to-Retire",
+          "C": "Source-to-Settle"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Oracle tool is used for reporting?",
+        "choices": {
+          "A": "Forms",
+          "B": "OTBI",
+          "C": "SQL Loader"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does OTBI stand for?",
+        "choices": {
+          "A": "Oracle Transactional Business Intelligence",
+          "B": "Oracle Table-Based Interface",
+          "C": "Operational Technical BI"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature supports audit compliance?",
+        "choices": {
+          "A": "Favorites",
+          "B": "Themes",
+          "C": "Audit trails"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which module supports revenue management?",
+        "choices": {
+          "A": "HCM",
+          "B": "Inventory",
+          "C": "Financials"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Oracle ERP Cloud release strategy is used?",
+        "choices": {
+          "A": "Annual updates only",
+          "B": "Quarterly updates",
+          "C": "Manual upgrades"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature enables integration with other systems?",
+        "choices": {
+          "A": "Manual entry",
+          "B": "Paper forms",
+          "C": "REST APIs"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which Oracle ERP Cloud benefit reduces IT maintenance?",
+        "choices": {
+          "A": "Automatic updates",
+          "B": "On-site servers",
+          "C": "Custom hardware"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module manages cash flow?",
+        "choices": {
+          "A": "Assets",
+          "B": "Expenses",
+          "C": "Cash Management"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Oracle ERP Cloud feature supports global operations?",
+        "choices": {
+          "A": "Local deployment",
+          "B": "Multi-currency and multi-language",
+          "C": "Single currency only"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Oracle ERP Cloud component stores transactional data?",
+        "choices": {
+          "A": "Local Excel files",
+          "B": "Oracle Cloud Database",
+          "C": "Flat files"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Oracle ERP Cloud advantage improves compliance?",
+        "choices": {
+          "A": "Manual checks",
+          "B": "Built-in controls",
+          "C": "No validations"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Oracle ERP Cloud is a SaaS solution.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Oracle ERP Cloud supports financial management.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Human Capital Management handles employee data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Embedded analytics provide real-time insights.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Oracle ERP Cloud requires on-premise servers.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Roles and privileges control system access.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Procurement module manages suppliers.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Chart of Accounts defines financial structure.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Oracle ERP Cloud supports mobile access.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Audit trails help with compliance.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "OTBI is used for reporting and analytics.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Oracle ERP Cloud updates are manual.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Workflow automates approvals.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Oracle ERP Cloud supports multi-currency operations.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "REST APIs enable system integration.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Cash Management tracks cash flow.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Oracle ERP Cloud improves scalability.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Financials module includes Accounts Payable.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Oracle ERP Cloud reduces IT maintenance.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Oracle ERP Cloud is suitable for global enterprises.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

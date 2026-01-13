@@ -1,0 +1,498 @@
+{
+  "Power BI - Data Visualization": {
+    "mcq": [
+      {
+        "question": "What is Power BI primarily used for?",
+        "choices": {
+          "A": "Data visualization and business intelligence",
+          "B": "Web development",
+          "C": "Database administration"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which component is used to create reports in Power BI Desktop?",
+        "choices": {
+          "A": "Model View",
+          "B": "Report View",
+          "C": "Data View"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Power BI element represents data visually?",
+        "choices": {
+          "A": "Gateway",
+          "B": "Dataset",
+          "C": "Visual"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which chart is best for showing trends over time?",
+        "choices": {
+          "A": "Line chart",
+          "B": "Table",
+          "C": "Pie chart"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual is best for comparing parts of a whole?",
+        "choices": {
+          "A": "Line chart",
+          "B": "Scatter plot",
+          "C": "Pie chart"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Power BI feature allows filtering visuals interactively?",
+        "choices": {
+          "A": "Matrix",
+          "B": "Slicer",
+          "C": "Card"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which view is used to manage relationships between tables?",
+        "choices": {
+          "A": "Report View",
+          "B": "Data View",
+          "C": "Model View"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which language is used to create calculations in Power BI?",
+        "choices": {
+          "A": "DAX",
+          "B": "Python",
+          "C": "SQL"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX function is used to calculate totals?",
+        "choices": {
+          "A": "SUM()",
+          "B": "AVERAGEIF()",
+          "C": "COUNTROWS()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual displays a single aggregated value?",
+        "choices": {
+          "A": "Table",
+          "B": "Bar chart",
+          "C": "Card"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual is used to display hierarchical data?",
+        "choices": {
+          "A": "Scatter plot",
+          "B": "Line chart",
+          "C": "Tree map"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Power BI feature allows drilling down into data?",
+        "choices": {
+          "A": "Drill-down",
+          "B": "Bookmark",
+          "C": "Tooltip"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature is used to save report views?",
+        "choices": {
+          "A": "Slicers",
+          "B": "Bookmarks",
+          "C": "Filters"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which visual is best for showing correlations?",
+        "choices": {
+          "A": "Pie chart",
+          "B": "Gauge",
+          "C": "Scatter chart"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which filter affects only one visual?",
+        "choices": {
+          "A": "Report-level filter",
+          "B": "Page-level filter",
+          "C": "Visual-level filter"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which filter affects all pages in a report?",
+        "choices": {
+          "A": "Page-level filter",
+          "B": "Report-level filter",
+          "C": "Visual-level filter"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which visual shows progress toward a target?",
+        "choices": {
+          "A": "Matrix",
+          "B": "Table",
+          "C": "Gauge"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Power BI feature highlights values based on rules?",
+        "choices": {
+          "A": "Grouping",
+          "B": "Conditional formatting",
+          "C": "Sorting"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which chart is best for ranking categories?",
+        "choices": {
+          "A": "Pie chart",
+          "B": "Bar chart",
+          "C": "Line chart"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual displays data in rows and columns?",
+        "choices": {
+          "A": "Card",
+          "B": "Table",
+          "C": "Gauge"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual supports row and column grouping?",
+        "choices": {
+          "A": "Card",
+          "B": "Table",
+          "C": "Matrix"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows showing details when hovering?",
+        "choices": {
+          "A": "Drill-through",
+          "B": "Tooltip",
+          "C": "Bookmark"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Power BI option allows navigation between report pages?",
+        "choices": {
+          "A": "Tables",
+          "B": "Cards",
+          "C": "Buttons"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which visual is best for geographic data?",
+        "choices": {
+          "A": "Pie chart",
+          "B": "Gauge",
+          "C": "Map"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which map visual uses latitude and longitude?",
+        "choices": {
+          "A": "Treemap",
+          "B": "Map",
+          "C": "Filled map"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which map visual fills regions with color?",
+        "choices": {
+          "A": "Filled map",
+          "B": "Scatter chart",
+          "C": "Map"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature syncs slicers across pages?",
+        "choices": {
+          "A": "Drill-through",
+          "B": "Bookmarks",
+          "C": "Sync slicers"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which visual is best for KPIs?",
+        "choices": {
+          "A": "Table",
+          "B": "KPI visual",
+          "C": "Pie chart"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Power BI feature supports storytelling?",
+        "choices": {
+          "A": "Filters",
+          "B": "Measures",
+          "C": "Bookmarks"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX concept is used to change calculation behavior?",
+        "choices": {
+          "A": "Filter context",
+          "B": "Row height",
+          "C": "Column width"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which visual helps analyze distribution?",
+        "choices": {
+          "A": "Gauge",
+          "B": "Histogram",
+          "C": "Card"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows exporting report visuals?",
+        "choices": {
+          "A": "Refresh",
+          "B": "Publish",
+          "C": "Export data"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual supports drill-through actions?",
+        "choices": {
+          "A": "Only cards",
+          "B": "Only tables",
+          "C": "Any visual"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which visual compares actual vs target values?",
+        "choices": {
+          "A": "Map",
+          "B": "Pie chart",
+          "C": "Gauge"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Power BI feature improves report performance?",
+        "choices": {
+          "A": "Reducing visual count",
+          "B": "Adding more slicers",
+          "C": "Using more colors"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which visual supports conditional icons?",
+        "choices": {
+          "A": "Map",
+          "B": "Table",
+          "C": "Gauge"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which option aligns visuals evenly?",
+        "choices": {
+          "A": "Filters",
+          "B": "Bookmarks",
+          "C": "Align tools"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visual shows contribution to total with rectangles?",
+        "choices": {
+          "A": "Treemap",
+          "B": "Scatter chart",
+          "C": "Line chart"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows highlighting related data across visuals?",
+        "choices": {
+          "A": "Cross-highlighting",
+          "B": "Export",
+          "C": "Refresh"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Power BI is used for data visualization.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "DAX is used for creating measures.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Pie charts are best for trends over time.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Slicers provide interactive filtering.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Model View manages table relationships.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Cards can display a single value.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Bar charts are useful for ranking.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Maps are used for geographic data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Conditional formatting highlights data visually.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Bookmarks can be used for navigation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Report-level filters affect only one visual.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Drill-down allows exploring detailed data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Gauge visuals show progress toward a goal.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Scatter charts show relationships between variables.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Tables do not support conditional formatting.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Sync slicers work across multiple pages.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Filter context affects DAX calculations.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Tooltips appear on hover.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Treemaps show hierarchical data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reducing visuals can improve performance.",
+        "answer": "T",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

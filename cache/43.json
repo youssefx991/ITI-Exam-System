@@ -1,0 +1,308 @@
+{
+  "Reinforcement Learning": {
+    "mcq": [
+      {
+        "question": "What is the main goal of reinforcement learning?",
+        "choices": {
+          "A": "Learn optimal actions to maximize cumulative reward",
+          "B": "Cluster data points",
+          "C": "Classify images"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "In RL, what is the agent?",
+        "choices": {
+          "A": "The environment",
+          "B": "The learner or decision maker",
+          "C": "A reward function"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "In RL, what is the environment?",
+        "choices": {
+          "A": "The world the agent interacts with",
+          "B": "The loss function",
+          "C": "The learning algorithm"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does the reward signal indicate in RL?",
+        "choices": {
+          "A": "Feedback on action quality",
+          "B": "Discount factor",
+          "C": "Next state only"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which RL method learns a value function to estimate expected future rewards?",
+        "choices": {
+          "A": "Unsupervised",
+          "B": "Policy-based",
+          "C": "Value-based"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RL method directly learns a policy without a value function?",
+        "choices": {
+          "A": "Policy-based",
+          "B": "Value-based",
+          "C": "Supervised Learning"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RL method combines value-based and policy-based approaches?",
+        "choices": {
+          "A": "Q-Learning",
+          "B": "Actor-Critic",
+          "C": "Monte Carlo"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is commonly used for discrete action spaces in RL?",
+        "choices": {
+          "A": "Q-Learning",
+          "B": "K-Means",
+          "C": "Policy Gradient"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is used for continuous action spaces?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "Policy Gradient",
+          "C": "Q-Learning"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which term represents the probability of taking an action in a given state?",
+        "choices": {
+          "A": "Policy",
+          "B": "Reward",
+          "C": "Value Function"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RL concept discounts future rewards?",
+        "choices": {
+          "A": "Epsilon",
+          "B": "Learning Rate (alpha)",
+          "C": "Discount Factor (gamma)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which exploration method selects random actions occasionally?",
+        "choices": {
+          "A": "Gradient Descent",
+          "B": "Softmax Regression",
+          "C": "Epsilon-Greedy"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RL algorithm updates Q-values using experience samples?",
+        "choices": {
+          "A": "SVM",
+          "B": "Decision Tree",
+          "C": "Q-Learning"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method samples episodes to estimate returns in RL?",
+        "choices": {
+          "A": "Batch Normalization",
+          "B": "Monte Carlo",
+          "C": "Gradient Descent"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm estimates value functions using bootstrapping?",
+        "choices": {
+          "A": "Temporal Difference (TD) Learning",
+          "B": "Policy Gradient",
+          "C": "Naive Bayes"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of RL problem is Markovian, depending only on current state?",
+        "choices": {
+          "A": "Markov Decision Process (MDP)",
+          "B": "Partially Observable MDP",
+          "C": "Supervised Learning"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach uses neural networks to approximate value functions?",
+        "choices": {
+          "A": "Random Forest",
+          "B": "Deep Q-Networks (DQN)",
+          "C": "SVM"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RL term refers to the expected reward from a state following a policy?",
+        "choices": {
+          "A": "Policy",
+          "B": "Reward Signal",
+          "C": "Value Function"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which policy type always chooses the action with the highest value?",
+        "choices": {
+          "A": "Epsilon Policy",
+          "B": "Random Policy",
+          "C": "Greedy Policy"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method balances exploration and exploitation in RL?",
+        "choices": {
+          "A": "Epsilon-Greedy",
+          "B": "Stochastic Gradient",
+          "C": "Gradient Descent"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Reinforcement Learning uses rewards to guide learning.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The agent interacts with the environment to learn.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Policy-based RL learns a policy directly without value functions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Value-based RL estimates expected future rewards for states or actions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Actor-Critic combines value-based and policy-based methods.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Q-Learning works for continuous action spaces.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Policy Gradient methods are suitable for continuous actions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Epsilon-Greedy selects the best action every time.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Temporal Difference learning uses bootstrapping for updates.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Monte Carlo methods estimate returns using sampled episodes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Markov Decision Processes depend only on the current state.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Deep Q-Networks use neural networks to approximate Q-values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Greedy policies always choose the action with the highest estimated value.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Exploration in RL is not necessary for learning optimal policies.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The value function gives the expected cumulative reward from a state.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reinforcement Learning is a type of supervised learning.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Rewards in RL can be positive or negative.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Epsilon-Greedy balances exploration and exploitation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Q-Learning is an on-policy method.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The policy defines the agent's behavior in each state.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

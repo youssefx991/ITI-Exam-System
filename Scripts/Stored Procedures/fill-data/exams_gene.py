@@ -1,3 +1,5 @@
+# this file fill exam and exam question tabels using its procdure 
+
 import pyodbc
 
 MCQ_COUNT = 7
@@ -6,12 +8,14 @@ TF_COUNT = 3
 # =====================
 # SQL Server CONNECTION
 # =====================
+
 try:
+    # to connect your local server
     conn = pyodbc.connect(
         "DRIVER={SQL Server};"
-        "SERVER=localhost\\SQLEXPRESS;"
-        "DATABASE=ITI_ExamSystem;"
-        "Trusted_Connection=yes;"
+        "SERVER=localhost\\SQLEXPRESS;" #  servername
+        "DATABASE=ITI_ExamSystem;" # your database
+        "Trusted_Connection=yes;" # required to establish a connection 
     )
     cursor = conn.cursor()
     print("SQL Server connection successful!")
@@ -21,7 +25,7 @@ except Exception as e:
 
 #get all courses
 try:
-    cursor.execute("EXEC sp_AllCourses_Select")
+    cursor.execute("EXEC sp_Courses_SelectAll")
     rows = cursor.fetchall()
     courses = [{"course_id": row[0], "course_name": row[1]} for row in rows]
 except Exception as e:
@@ -29,7 +33,7 @@ except Exception as e:
     cursor.close()
     conn.close()
     exit(1)
-
+print (f"Fetched {len(courses)} courses.")
 # =====================
 # LOOP THROUGH COURSES AND GENERATE EXAMS
 # =====================
@@ -41,7 +45,7 @@ for course in courses:
         sql = f"""
             DECLARE @ExamID INT;
 
-            EXEC GenerateExam 
+            EXEC sp_Exam_Generation 
                 @CourseName = ?,
                 @NumTF = ?,
                 @NumMC = ?,

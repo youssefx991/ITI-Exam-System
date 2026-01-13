@@ -1,0 +1,158 @@
+{
+  "Network Security & VPNs": {
+    "mcq": [
+      {
+        "question": "What is the primary purpose of a VPN?",
+        "choices": {
+          "A": "Increase internet speed",
+          "B": "Encrypt traffic and create a secure connection over the internet",
+          "C": "Replace firewalls"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which VPN type allows remote users to connect securely to a private network?",
+        "choices": {
+          "A": "Cloud VPN",
+          "B": "Remote Access VPN",
+          "C": "Site-to-Site VPN"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which VPN type connects entire networks over the internet?",
+        "choices": {
+          "A": "Remote Access VPN",
+          "B": "Site-to-Site VPN",
+          "C": "Dynamic VPN"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol provides encrypted tunneling for VPNs?",
+        "choices": {
+          "A": "IPSec",
+          "B": "HTTP",
+          "C": "SMTP"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol is commonly used for SSL VPN connections?",
+        "choices": {
+          "A": "SSL/TLS",
+          "B": "FTP",
+          "C": "Telnet"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which VPN type allows dynamic IP assignment to clients?",
+        "choices": {
+          "A": "Site-to-Site VPN",
+          "B": "Remote Access VPN",
+          "C": "Static VPN"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which security feature ensures data integrity over a VPN?",
+        "choices": {
+          "A": "Packet Flooding",
+          "B": "Hashing",
+          "C": "Ping Testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which device often terminates VPN connections in a corporate network?",
+        "choices": {
+          "A": "VPN Gateway",
+          "B": "Hub",
+          "C": "Switch"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which VPN topology allows multiple sites to connect through a central hub?",
+        "choices": {
+          "A": "Ring",
+          "B": "Hub-and-Spoke",
+          "C": "Mesh"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of attack can VPNs help protect against?",
+        "choices": {
+          "A": "Eavesdropping",
+          "B": "Hardware failure",
+          "C": "Power failure"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "VPNs encrypt traffic between remote users and private networks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Remote Access VPN allows individual users to securely connect to a network.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Site-to-Site VPN connects entire networks over the internet.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "IPSec provides secure encrypted tunneling for VPN connections.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SSL/TLS is used in SSL VPNs for secure connections.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Remote Access VPN cannot assign dynamic IPs to clients.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Hashing ensures data integrity over VPN tunnels.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "VPN gateways terminate VPN connections in corporate networks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Hub-and-Spoke topology connects multiple sites via a central hub.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "VPNs cannot protect against eavesdropping on unsecured networks.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

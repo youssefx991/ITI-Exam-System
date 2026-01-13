@@ -1,0 +1,158 @@
+{
+  "Embedded C Programming": {
+    "mcq": [
+      {
+        "question": "What is Embedded C primarily used for?",
+        "choices": {
+          "A": "Programming microcontrollers and embedded systems",
+          "B": "Creating desktop GUIs",
+          "C": "Developing web applications"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which of the following is a common data type in Embedded C?",
+        "choices": {
+          "A": "boolean",
+          "B": "string",
+          "C": "uint8_t"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which operator is used to access a structure member via a pointer?",
+        "choices": {
+          "A": ".",
+          "B": "::",
+          "C": "->"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which keyword defines a variable that retains value between function calls?",
+        "choices": {
+          "A": "static",
+          "B": "extern",
+          "C": "volatile"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which keyword tells the compiler a variable may change unexpectedly?",
+        "choices": {
+          "A": "register",
+          "B": "static",
+          "C": "volatile"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of memory is used for storing program instructions in microcontrollers?",
+        "choices": {
+          "A": "Flash",
+          "B": "RAM",
+          "C": "Cache"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does the #define directive do in Embedded C?",
+        "choices": {
+          "A": "Defines a constant or macro",
+          "B": "Allocates memory dynamically",
+          "C": "Declares a function pointer"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function is used to introduce a delay in Embedded C programs?",
+        "choices": {
+          "A": "sleep()",
+          "B": "_delay_ms()",
+          "C": "pause()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which microcontroller register is used to configure pin direction?",
+        "choices": {
+          "A": "DDR (Data Direction Register)",
+          "B": "PORT",
+          "C": "TIMER"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique is used to reduce code size in Embedded C?",
+        "choices": {
+          "A": "Using inline functions",
+          "B": "Using global variables excessively",
+          "C": "Using nested loops unnecessarily"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Embedded C is used for programming microcontrollers.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The 'volatile' keyword indicates a variable may change unexpectedly.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'static' keyword allows a variable to retain its value between function calls.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "uint8_t is a common data type in Embedded C.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The '->' operator is used to access structure members via a pointer.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Flash memory is used to store program instructions in microcontrollers.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "#define is used to define constants or macros.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "_delay_ms() is a function used to introduce delays in Embedded C.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The Data Direction Register (DDR) configures pin direction.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Using excessive global variables reduces code size.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

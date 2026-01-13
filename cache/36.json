@@ -1,0 +1,308 @@
+{
+  "Supervised Learning Algorithms": {
+    "mcq": [
+      {
+        "question": "Which supervised learning algorithm is used for predicting continuous values?",
+        "choices": {
+          "A": "K-Means",
+          "B": "Linear Regression",
+          "C": "Decision Tree Classification"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is commonly used for classification tasks?",
+        "choices": {
+          "A": "K-Means",
+          "B": "Linear Regression",
+          "C": "Logistic Regression"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm divides data into decision nodes based on feature values?",
+        "choices": {
+          "A": "Random Forest",
+          "B": "Decision Tree",
+          "C": "KNN"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm predicts output by averaging neighborsâ€™ values?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "Logistic Regression",
+          "C": "K-Nearest Neighbors"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is used to reduce variance by combining multiple decision trees?",
+        "choices": {
+          "A": "Random Forest",
+          "B": "Linear Regression",
+          "C": "Gradient Boosting"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method is used to measure model performance for classification?",
+        "choices": {
+          "A": "Mean Squared Error",
+          "B": "Accuracy",
+          "C": "R-squared"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which supervised algorithm uses sigmoid function to predict probabilities?",
+        "choices": {
+          "A": "Logistic Regression",
+          "B": "Linear Regression",
+          "C": "Decision Tree"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm partitions data into clusters?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "K-Means",
+          "C": "Random Forest"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique prevents overfitting by penalizing large coefficients?",
+        "choices": {
+          "A": "Regularization",
+          "B": "Cross-validation",
+          "C": "Normalization"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric evaluates error magnitude for regression models?",
+        "choices": {
+          "A": "F1-Score",
+          "B": "Accuracy",
+          "C": "Mean Squared Error"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is sensitive to feature scaling?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "K-Nearest Neighbors",
+          "C": "Random Forest"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ensemble method builds models sequentially to reduce bias?",
+        "choices": {
+          "A": "Random Forest",
+          "B": "KNN",
+          "C": "Gradient Boosting"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which supervised algorithm can handle both regression and classification?",
+        "choices": {
+          "A": "K-Means",
+          "B": "PCA",
+          "C": "Decision Tree"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric considers both precision and recall?",
+        "choices": {
+          "A": "Mean Squared Error",
+          "B": "Accuracy",
+          "C": "F1-Score"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm assigns a class based on majority vote of neighbors?",
+        "choices": {
+          "A": "Logistic Regression",
+          "B": "Linear Regression",
+          "C": "K-Nearest Neighbors"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is prone to overfitting on noisy data?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "Linear Regression",
+          "C": "K-Means"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique evaluates model performance on unseen data?",
+        "choices": {
+          "A": "Regularization",
+          "B": "Cross-validation",
+          "C": "Normalization"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which regression algorithm assumes linear relationship between features and target?",
+        "choices": {
+          "A": "Linear Regression",
+          "B": "Decision Tree Regression",
+          "C": "KNN Regression"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is non-parametric?",
+        "choices": {
+          "A": "Linear Regression",
+          "B": "Logistic Regression",
+          "C": "K-Nearest Neighbors"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm reduces variance by averaging predictions from multiple trees?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "Random Forest",
+          "C": "Gradient Boosting"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Supervised learning uses labeled data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Linear Regression predicts continuous values.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Logistic Regression predicts probabilities of categories.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Decision Trees can be used for both classification and regression.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "K-Nearest Neighbors requires feature scaling for optimal performance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Random Forest reduces variance compared to a single decision tree.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Gradient Boosting reduces bias by sequentially building trees.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "F1-Score balances precision and recall.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Cross-validation helps evaluate model performance on unseen data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Overfitting occurs when the model performs well on training but poorly on test data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "K-Means is a supervised learning algorithm.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Regularization penalizes large coefficients to prevent overfitting.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Accuracy alone is always sufficient to evaluate a model.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Decision Trees are insensitive to feature scaling.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Linear Regression is parametric.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "K-Nearest Neighbors is parametric.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Random Forest can overfit if trees are too deep.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Gradient Boosting can handle both regression and classification tasks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Mean Squared Error is used for regression evaluation.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Decision Trees cannot handle categorical features.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

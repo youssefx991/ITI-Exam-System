@@ -1,0 +1,158 @@
+{
+  "Routing & Switching": {
+    "mcq": [
+      {
+        "question": "What is the primary function of a router?",
+        "choices": {
+          "A": "Forward packets between networks",
+          "B": "Connect devices within the same LAN",
+          "C": "Store files"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol determines the best path for data across networks?",
+        "choices": {
+          "A": "Routing Protocol",
+          "B": "HTTP",
+          "C": "FTP"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which routing protocol is distance-vector based?",
+        "choices": {
+          "A": "RIP",
+          "B": "EIGRP",
+          "C": "OSPF"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which routing protocol is link-state based?",
+        "choices": {
+          "A": "OSPF",
+          "B": "BGP",
+          "C": "RIP"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which switching method uses MAC addresses to forward frames?",
+        "choices": {
+          "A": "Layer 2 Switching",
+          "B": "Layer 3 Routing",
+          "C": "Packet Filtering"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which device operates at the data link layer to forward frames?",
+        "choices": {
+          "A": "Switch",
+          "B": "Hub",
+          "C": "Router"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which routing protocol uses metrics like hop count to choose a path?",
+        "choices": {
+          "A": "OSPF",
+          "B": "EIGRP",
+          "C": "RIP"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol is used for exchanging routing information between autonomous systems?",
+        "choices": {
+          "A": "RIP",
+          "B": "BGP",
+          "C": "OSPF"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which switching technique examines the destination MAC in each frame?",
+        "choices": {
+          "A": "Store-and-Forward",
+          "B": "Cut-Through",
+          "C": "Flooding"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of switch port separates traffic into different VLANs?",
+        "choices": {
+          "A": "Hybrid Port",
+          "B": "Trunk Port",
+          "C": "Access Port"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Routers are used to forward packets between different networks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Switches operate primarily at Layer 2 to forward frames.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "RIP is a distance-vector routing protocol.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "OSPF is a link-state routing protocol.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "BGP is used for routing between autonomous systems.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Layer 2 switching uses IP addresses to forward frames.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Trunk ports allow multiple VLANs to pass through a switch port.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Distance-vector routing protocols rely on hop count as a metric.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Store-and-Forward examines the entire frame before forwarding.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Access ports carry traffic for multiple VLANs.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

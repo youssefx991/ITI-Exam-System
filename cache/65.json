@@ -1,0 +1,158 @@
+{
+  "IoT Cloud Platforms (AWS IoT)": {
+    "mcq": [
+      {
+        "question": "Which AWS service is used to connect IoT devices to the cloud?",
+        "choices": {
+          "A": "AWS Lambda",
+          "B": "Amazon S3",
+          "C": "AWS IoT Core"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AWS IoT component routes messages between devices and applications?",
+        "choices": {
+          "A": "CloudFront",
+          "B": "EC2 Instance",
+          "C": "Message Broker"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AWS IoT feature helps manage device authentication and security?",
+        "choices": {
+          "A": "AWS IoT Device Management",
+          "B": "AWS CloudTrail",
+          "C": "AWS S3 Bucket"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol is commonly supported by AWS IoT Core for messaging?",
+        "choices": {
+          "A": "MQTT",
+          "B": "FTP",
+          "C": "SMTP"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AWS IoT service allows running serverless functions in response to device events?",
+        "choices": {
+          "A": "AWS S3",
+          "B": "AWS Lambda",
+          "C": "AWS CloudWatch"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AWS IoT feature stores, organizes, and analyzes device data?",
+        "choices": {
+          "A": "AWS IoT Analytics",
+          "B": "AWS Route 53",
+          "C": "AWS DynamoDB"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AWS IoT component defines rules to process incoming messages?",
+        "choices": {
+          "A": "IoT Rules Engine",
+          "B": "AWS CloudTrail",
+          "C": "AWS IAM"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which security mechanism is used for device identity in AWS IoT?",
+        "choices": {
+          "A": "X.509 Certificates",
+          "B": "IP Address filtering",
+          "C": "Passwords only"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AWS IoT feature monitors device activity and logs events?",
+        "choices": {
+          "A": "AWS EC2",
+          "B": "AWS S3",
+          "C": "AWS IoT Device Defender"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol does AWS IoT support for secure, lightweight device communication?",
+        "choices": {
+          "A": "MQTT over TLS",
+          "B": "FTP only",
+          "C": "HTTP only"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "AWS IoT Core allows devices to connect to the cloud.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "MQTT is commonly used for messaging in AWS IoT Core.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "AWS IoT Device Management helps manage device security and authentication.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "IoT Rules Engine allows processing of incoming messages.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "AWS Lambda can run functions in response to IoT events.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "AWS IoT Analytics stores and analyzes IoT device data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "AWS IoT Device Defender monitors device activity and security.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "X.509 certificates are used for device authentication in AWS IoT.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "AWS IoT only supports unsecured HTTP connections for devices.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Message Broker in AWS IoT routes messages between devices and applications.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

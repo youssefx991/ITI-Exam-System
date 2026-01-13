@@ -1,0 +1,478 @@
+{
+  "Next.js & TypeScript": {
+    "mcq": [
+      {
+        "question": "What is Next.js primarily used for?",
+        "choices": {
+          "A": "Backend APIs only",
+          "B": "Server-side rendering and React apps",
+          "C": "Database management"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command creates a new Next.js project?",
+        "choices": {
+          "A": "npx create-react-app",
+          "B": "npx create-next-app",
+          "C": "npm init react-app"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file in Next.js is used to create API routes?",
+        "choices": {
+          "A": "pages/api/*",
+          "B": "components/api/*",
+          "C": "pages/routes/*"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature of Next.js enables pre-rendering at build time?",
+        "choices": {
+          "A": "Client-side Rendering",
+          "B": "Static Generation",
+          "C": "Server-side Rendering"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js function fetches data at request time for SSR?",
+        "choices": {
+          "A": "getInitialProps",
+          "B": "getServerSideProps",
+          "C": "getStaticProps"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js function fetches data at build time for SSG?",
+        "choices": {
+          "A": "getStaticProps",
+          "B": "useEffect",
+          "C": "getServerSideProps"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript feature enforces type safety in variables?",
+        "choices": {
+          "A": "Interfaces",
+          "B": "Enums",
+          "C": "Type annotations"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which TypeScript keyword defines a contract for object structure?",
+        "choices": {
+          "A": "interface",
+          "B": "class",
+          "C": "type"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js file handles custom app-level configuration?",
+        "choices": {
+          "A": "_app.tsx",
+          "B": "_document.tsx",
+          "C": "index.tsx"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js file allows customizing the HTML document structure?",
+        "choices": {
+          "A": "_document.tsx",
+          "B": "_app.tsx",
+          "C": "index.tsx"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript feature creates a reusable set of constant values?",
+        "choices": {
+          "A": "enum",
+          "B": "interface",
+          "C": "type alias"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js hook enables client-side data fetching?",
+        "choices": {
+          "A": "useSWR",
+          "B": "useState",
+          "C": "useEffect"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript type allows multiple possible types for a variable?",
+        "choices": {
+          "A": "Any type",
+          "B": "Literal type",
+          "C": "Union type"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js feature enables incremental static regeneration?",
+        "choices": {
+          "A": "getStaticPaths",
+          "B": "getServerSideProps",
+          "C": "revalidate option in getStaticProps"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which Next.js function generates dynamic routes at build time?",
+        "choices": {
+          "A": "getServerSideProps",
+          "B": "getStaticProps",
+          "C": "getStaticPaths"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript utility type makes all properties optional?",
+        "choices": {
+          "A": "Readonly<T>",
+          "B": "Required<T>",
+          "C": "Partial<T>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js folder contains page components for routing?",
+        "choices": {
+          "A": "components",
+          "B": "public",
+          "C": "pages"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Next.js component is used to handle links between pages?",
+        "choices": {
+          "A": "a",
+          "B": "RouterLink",
+          "C": "Link"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which TypeScript type enforces that a variable cannot be null or undefined?",
+        "choices": {
+          "A": "Non-null assertion operator (!)",
+          "B": "Any type",
+          "C": "Optional chaining (?.)"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js feature optimizes image loading?",
+        "choices": {
+          "A": "ImageLoader component",
+          "B": "next/image",
+          "C": "img tag"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript feature allows aliasing types for readability?",
+        "choices": {
+          "A": "type alias",
+          "B": "enum",
+          "C": "interface"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js command runs the development server?",
+        "choices": {
+          "A": "npm run dev",
+          "B": "npm build",
+          "C": "npm start"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Next.js folder is used for static assets?",
+        "choices": {
+          "A": "public",
+          "B": "static",
+          "C": "assets"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Next.js routing supports both static and dynamic paths?",
+        "choices": {
+          "A": "Manual routing",
+          "B": "Dynamic routing only",
+          "C": "File-based routing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript type enforces immutability on object properties?",
+        "choices": {
+          "A": "Readonly<T>",
+          "B": "Partial<T>",
+          "C": "Required<T>"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js function fetches data client-side without pre-rendering?",
+        "choices": {
+          "A": "getStaticProps",
+          "B": "getServerSideProps",
+          "C": "useEffect"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Next.js option enables server-side redirects?",
+        "choices": {
+          "A": "redirect in getServerSideProps",
+          "B": "Link component",
+          "C": "next/router push"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript feature restricts a value to a fixed set of options?",
+        "choices": {
+          "A": "Union type",
+          "B": "Literal type",
+          "C": "Enum"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js feature automatically splits JavaScript bundles per page?",
+        "choices": {
+          "A": "Server-side rendering",
+          "B": "Static generation",
+          "C": "Automatic code splitting"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript type allows defining objects with unknown keys but fixed value types?",
+        "choices": {
+          "A": "Record<K, V>",
+          "B": "Partial<T>",
+          "C": "Any"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js method fetches paths for dynamic routes at build time?",
+        "choices": {
+          "A": "getStaticPaths",
+          "B": "getStaticProps",
+          "C": "getServerSideProps"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js hook allows access to router information in functional components?",
+        "choices": {
+          "A": "useRouter",
+          "B": "usePath",
+          "C": "useRoute"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript keyword is used to define a class blueprint?",
+        "choices": {
+          "A": "type",
+          "B": "interface",
+          "C": "class"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Next.js feature allows incremental static regeneration without rebuilding the site?",
+        "choices": {
+          "A": "revalidate option in getStaticProps",
+          "B": "useEffect",
+          "C": "getServerSideProps"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which TypeScript feature allows optional properties in objects?",
+        "choices": {
+          "A": "readonly",
+          "B": "?",
+          "C": "enum"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Next.js component preloads pages for faster navigation?",
+        "choices": {
+          "A": "router.push",
+          "B": "a tag",
+          "C": "Link"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TypeScript type allows extracting types from another type?",
+        "choices": {
+          "A": "Pick<T, K>",
+          "B": "Readonly<T>",
+          "C": "Partial<T>"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Next.js supports server-side rendering for React apps.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "getStaticProps fetches data at request time.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "TypeScript enforces type safety in JavaScript code.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "_app.tsx is used for page-level rendering only.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "getStaticPaths is used to generate dynamic routes at build time.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "useSWR is a Next.js hook for client-side data fetching.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Next.js does not support TypeScript out of the box.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Docker is required to run Next.js applications.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "TypeScript interfaces define contracts for object structures.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Next.js automatically splits code per page to improve performance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "getServerSideProps runs at build time.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Link component preloads pages for faster navigation in Next.js.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Enums in TypeScript create a set of named constant values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Readonly<T> allows modifying object properties.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "getServerSideProps can fetch data at request time for server-side rendering.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Next.js uses pages folder for file-based routing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "_document.tsx customizes the HTML structure of Next.js pages.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "revalidate option allows incremental static regeneration.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "TypeScript type aliases cannot be reused.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Next.js only supports client-side rendering.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "ERP Implementation Methodologies": {
+    "mcq": [
+      {
+        "question": "What is the primary goal of ERP implementation methodologies?",
+        "choices": {
+          "A": "To design new programming languages",
+          "B": "To manage network security",
+          "C": "To provide a structured approach for deploying ERP systems"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ERP implementation methodology emphasizes step-by-step planning?",
+        "choices": {
+          "A": "Waterfall",
+          "B": "Agile",
+          "C": "DevOps"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which methodology focuses on iterative development and flexibility?",
+        "choices": {
+          "A": "Agile",
+          "B": "Waterfall",
+          "C": "Big Bang"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ERP implementation method deploys the entire system at once?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Parallel",
+          "C": "Phased"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology gradually implements ERP modules?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Agile",
+          "C": "Phased"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach runs old and new systems simultaneously?",
+        "choices": {
+          "A": "Waterfall",
+          "B": "Big Bang",
+          "C": "Parallel"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology is considered high-risk but fast?",
+        "choices": {
+          "A": "Agile",
+          "B": "Phased",
+          "C": "Big Bang"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology allows testing and feedback in iterations?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Agile",
+          "C": "Waterfall"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ERP implementation step involves requirement analysis?",
+        "choices": {
+          "A": "Support",
+          "B": "Go-live",
+          "C": "Planning"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which phase includes system configuration and customization?",
+        "choices": {
+          "A": "Design and Development",
+          "B": "Planning",
+          "C": "Post-Go-live"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ERP methodology emphasizes stakeholder collaboration throughout?",
+        "choices": {
+          "A": "Waterfall",
+          "B": "Big Bang",
+          "C": "Agile"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ERP implementation strategy reduces user resistance by gradual deployment?",
+        "choices": {
+          "A": "Phased",
+          "B": "Big Bang",
+          "C": "Parallel"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase ensures data accuracy before going live?",
+        "choices": {
+          "A": "Testing",
+          "B": "Training",
+          "C": "Planning"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology is most suitable for large, complex ERP systems?",
+        "choices": {
+          "A": "Agile",
+          "B": "Phased",
+          "C": "Big Bang"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology may require more resources due to dual system operation?",
+        "choices": {
+          "A": "Waterfall",
+          "B": "Parallel",
+          "C": "Agile"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ERP methodology can minimize downtime risk?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Waterfall",
+          "C": "Parallel"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which step involves training end users?",
+        "choices": {
+          "A": "Planning",
+          "B": "Change Management",
+          "C": "Testing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which methodology is flexible and can adapt to changing requirements?",
+        "choices": {
+          "A": "Agile",
+          "B": "Big Bang",
+          "C": "Waterfall"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology is linear and sequential in nature?",
+        "choices": {
+          "A": "Agile",
+          "B": "Waterfall",
+          "C": "Parallel"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which implementation approach is commonly used in small organizations?",
+        "choices": {
+          "A": "Phased",
+          "B": "Big Bang",
+          "C": "Parallel"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase involves post-implementation support?",
+        "choices": {
+          "A": "Design",
+          "B": "Maintenance",
+          "C": "Planning"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ERP methodology minimizes risk of failure through controlled deployment?",
+        "choices": {
+          "A": "Phased",
+          "B": "Big Bang",
+          "C": "Agile"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology involves extensive documentation before development?",
+        "choices": {
+          "A": "Parallel",
+          "B": "Agile",
+          "C": "Waterfall"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology requires simultaneous support of old and new processes?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Phased",
+          "C": "Parallel"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach may cause higher initial costs but reduces long-term risk?",
+        "choices": {
+          "A": "Phased",
+          "B": "Big Bang",
+          "C": "Waterfall"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology is iterative and encourages continuous improvement?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Waterfall",
+          "C": "Agile"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology is easier to plan due to its linear approach?",
+        "choices": {
+          "A": "Agile",
+          "B": "Waterfall",
+          "C": "Phased"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach may require additional training for running parallel systems?",
+        "choices": {
+          "A": "Parallel",
+          "B": "Big Bang",
+          "C": "Agile"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ERP methodology focuses on early user involvement?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Agile",
+          "C": "Waterfall"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology is best for organizations with low tolerance for risk?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Phased",
+          "C": "Waterfall"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase evaluates ERP system performance and user adoption?",
+        "choices": {
+          "A": "Post-Go-Live Review",
+          "B": "Planning",
+          "C": "Design"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ERP methodology requires thorough testing before full deployment?",
+        "choices": {
+          "A": "Agile",
+          "B": "Phased",
+          "C": "Big Bang"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which implementation method allows rollback to old system if issues arise?",
+        "choices": {
+          "A": "Parallel",
+          "B": "Waterfall",
+          "C": "Big Bang"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach may extend implementation time due to phased deployment?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Parallel",
+          "C": "Phased"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology supports continuous feedback and adaptation?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Waterfall",
+          "C": "Agile"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase addresses user training and documentation?",
+        "choices": {
+          "A": "Change Management",
+          "B": "Testing",
+          "C": "Design"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which implementation method requires extensive upfront planning and documentation?",
+        "choices": {
+          "A": "Waterfall",
+          "B": "Agile",
+          "C": "Parallel"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach allows organization to go live gradually with less disruption?",
+        "choices": {
+          "A": "Big Bang",
+          "B": "Phased",
+          "C": "Parallel"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Big Bang implementation deploys all modules at once.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Phased implementation reduces risk by gradual deployment.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Parallel implementation runs old and new systems simultaneously.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Waterfall methodology is linear and sequential.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Agile methodology is flexible and iterative.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Change management includes user training.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Big Bang implementation is low-risk.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Parallel implementation requires more resources.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Phased methodology may extend implementation time.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Agile methodology discourages stakeholder collaboration.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Waterfall requires detailed documentation before development.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Testing is not necessary before Go-Live in Big Bang.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Post-Go-Live review evaluates system performance and adoption.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Agile methodology supports continuous feedback.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Phased implementation allows rollback to old system if issues arise.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Big Bang implementation requires thorough testing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Parallel deployment can reduce downtime risk.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Change management is not part of ERP implementation.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Waterfall is suitable for projects with well-defined requirements.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Agile methodology adapts to changing requirements during implementation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

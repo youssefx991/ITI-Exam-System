@@ -1,0 +1,308 @@
+{
+  "Python for Data Science": {
+    "mcq": [
+      {
+        "question": "Which Python library is commonly used for data manipulation?",
+        "choices": {
+          "A": "scikit-learn",
+          "B": "pandas",
+          "C": "matplotlib"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which library is mainly used for numerical computations?",
+        "choices": {
+          "A": "NumPy",
+          "B": "pandas",
+          "C": "Seaborn"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which library is used for data visualization in Python?",
+        "choices": {
+          "A": "matplotlib",
+          "B": "NumPy",
+          "C": "scikit-learn"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function reads a CSV file into a pandas DataFrame?",
+        "choices": {
+          "A": "pandas.read_csv()",
+          "B": "numpy.loadtxt()",
+          "C": "pandas.read_excel()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Python library is used for machine learning?",
+        "choices": {
+          "A": "scikit-learn",
+          "B": "matplotlib",
+          "C": "NumPy"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which pandas function shows basic information about a DataFrame?",
+        "choices": {
+          "A": "df.head()",
+          "B": "df.describe()",
+          "C": "df.info()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which pandas function gives summary statistics of numeric columns?",
+        "choices": {
+          "A": "df.info()",
+          "B": "df.describe()",
+          "C": "df.head()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which NumPy function creates arrays of zeros?",
+        "choices": {
+          "A": "numpy.ones()",
+          "B": "numpy.zeros()",
+          "C": "numpy.empty()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python library is commonly used for statistical analysis?",
+        "choices": {
+          "A": "matplotlib",
+          "B": "pandas",
+          "C": "SciPy"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function in pandas displays the first few rows of a DataFrame?",
+        "choices": {
+          "A": "df.head()",
+          "B": "df.info()",
+          "C": "df.tail()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function in pandas displays the last few rows of a DataFrame?",
+        "choices": {
+          "A": "df.head()",
+          "B": "df.tail()",
+          "C": "df.describe()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which library is used for creating advanced visualizations like heatmaps?",
+        "choices": {
+          "A": "pandas",
+          "B": "NumPy",
+          "C": "Seaborn"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function in NumPy generates evenly spaced numbers over an interval?",
+        "choices": {
+          "A": "numpy.arange()",
+          "B": "numpy.linspace()",
+          "C": "numpy.random()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function in NumPy generates numbers with a fixed step?",
+        "choices": {
+          "A": "numpy.linspace()",
+          "B": "numpy.random()",
+          "C": "numpy.arange()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function splits data into training and testing sets in scikit-learn?",
+        "choices": {
+          "A": "train_test_split()",
+          "B": "split_data()",
+          "C": "data_partition()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which scikit-learn class is used for linear regression?",
+        "choices": {
+          "A": "LogisticRegression",
+          "B": "LinearRegression",
+          "C": "RandomForestClassifier"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python library is used for creating interactive plots?",
+        "choices": {
+          "A": "NumPy",
+          "B": "Plotly",
+          "C": "pandas"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in pandas removes missing values?",
+        "choices": {
+          "A": "df.remove()",
+          "B": "df.fillna()",
+          "C": "df.dropna()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in pandas fills missing values with a specified value?",
+        "choices": {
+          "A": "df.dropna()",
+          "B": "df.fillna()",
+          "C": "df.replace()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which NumPy module is used to generate random numbers?",
+        "choices": {
+          "A": "numpy.random",
+          "B": "numpy.math",
+          "C": "numpy.stats"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "pandas is used for data manipulation and analysis.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "NumPy provides high-performance arrays and numerical operations.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "matplotlib is used for data visualization in Python.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.head() shows the first few rows of a DataFrame.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.tail() shows the last few rows of a DataFrame.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.describe() gives summary statistics of numeric columns.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "numpy.zeros() creates an array of zeros.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Seaborn is used for advanced data visualization.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "train_test_split() is used to split data for training and testing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "LinearRegression class in scikit-learn is used for linear regression models.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Plotly can create interactive visualizations.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.dropna() removes rows with missing values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.fillna() fills missing values with a specified value.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "numpy.random is used to generate random numbers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "pandas is mainly used for machine learning algorithms.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "matplotlib cannot create scatter plots.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "numpy.linspace() generates evenly spaced numbers over an interval.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "numpy.arange() generates numbers with a fixed step.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "scikit-learn provides tools for data preprocessing and modeling.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Python is not suitable for data science applications.",
+        "answer": "F",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

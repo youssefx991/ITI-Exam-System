@@ -1,0 +1,158 @@
+{
+  "Wireless Networking": {
+    "mcq": [
+      {
+        "question": "Which standard is widely used for Wi-Fi networks?",
+        "choices": {
+          "A": "IEEE 802.3",
+          "B": "IEEE 802.5",
+          "C": "IEEE 802.11"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which frequency band does Wi-Fi commonly use?",
+        "choices": {
+          "A": "60 GHz only",
+          "B": "900 MHz and 1.8 GHz",
+          "C": "2.4 GHz and 5 GHz"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which security protocol is considered most secure for Wi-Fi?",
+        "choices": {
+          "A": "WPA3",
+          "B": "WEP",
+          "C": "WPA2-TKIP"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of wireless network covers a small area like a home or office?",
+        "choices": {
+          "A": "WAN",
+          "B": "MAN",
+          "C": "WLAN"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method reduces interference in Wi-Fi channels?",
+        "choices": {
+          "A": "Cable shielding",
+          "B": "Channel selection",
+          "C": "MAC filtering"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which device extends Wi-Fi coverage in larger areas?",
+        "choices": {
+          "A": "Switch",
+          "B": "Router only",
+          "C": "Wireless Access Point"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which attack occurs when attackers create fake Wi-Fi access points?",
+        "choices": {
+          "A": "Evil Twin",
+          "B": "Man-in-the-Middle",
+          "C": "SQL Injection"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which standard supports the fastest Wi-Fi speeds?",
+        "choices": {
+          "A": "802.11ax (Wi-Fi 6)",
+          "B": "802.11g",
+          "C": "802.11b"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique improves wireless network security?",
+        "choices": {
+          "A": "Strong encryption and passwords",
+          "B": "Using default SSID",
+          "C": "Disabling firewall"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which term refers to multiple Wi-Fi access points working together?",
+        "choices": {
+          "A": "Star Topology",
+          "B": "Bus Topology",
+          "C": "Mesh Network"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Wi-Fi networks commonly use IEEE 802.11 standards.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "WEP is the most secure Wi-Fi encryption protocol.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Wireless LAN (WLAN) covers small areas like offices or homes.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "WPA3 provides stronger security than WPA2.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Wireless access points can extend network coverage.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Evil Twin attacks use fake Wi-Fi access points to trick users.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "802.11ax (Wi-Fi 6) supports higher speeds than 802.11g.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Mesh networks allow multiple access points to provide seamless coverage.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Using default SSIDs improves wireless network security.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Channel selection can help reduce Wi-Fi interference.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

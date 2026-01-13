@@ -1,55 +1,12 @@
-import openai
 import pyodbc
 import json
-import os 
-from dotenv import load_dotenv
-
-
+import os
 
 # =====================
 # CONFIG
 # =====================
+CACHE_FOLDER = r"E:\\ITI\\itiprojects\sql\sql\\ITI-Exam-System\\cache"  # Change to your cache folder
 
-
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-PROMPT = """
-Generate questions for the course "{course}".
-
-Rules:
-- {mcq} MCQ questions (A, B, C only)
-- {tf} True/False questions
-- Each question must include difficulty: Easy, Medium, or Hard
-- Return VALID JSON ONLY
-- Ensure all JSON keys and values are properly quoted
-
-JSON format:
-{{
-  "mcq": [
-    {{
-      "question": "",
-      "choices": {{
-        "A": "",
-        "B": "",
-        "C": ""
-      }},
-      "answer": "A",
-      "difficulty": "Medium"
-    }}
-  ],
-  "tf": [
-    {{
-      "question": "",
-      "answer": "T",
-      "difficulty": "Easy"
-    }}
-  ]
-}}
-"""
-
-MCQ_COUNT = 30
-TF_COUNT = 15
 # =====================
 # SQL Server CONNECTION
 # =====================
@@ -61,98 +18,85 @@ try:
         "Trusted_Connection=yes;"
     )
     cursor = conn.cursor()
-    print(" SQL Server connection successful!")
+    print("SQL Server connection successful!")
 except Exception as e:
-    print(" SQL Server connection failed:", e)
+    print("SQL Server connection failed:", e)
     exit(1)
 
-
-
-cursor.execute("EXEC sp_AllCourses_Select")
-rows = cursor.fetchall()
-courses = [{"course_id": row[0], "course_name": row[1]} for row in rows]
-
 # =====================
-# AI GENERATION
+# LOOP THROUGH CACHE FILES
 # =====================
-for course in courses:
-    CRS_ID = course["course_id"]
-    COURSE_NAME = course["course_name"]
-
-    print(f"\n Generating questions for: {COURSE_NAME}")
-
-    prompt = PROMPT.format(
-        course=COURSE_NAME,
-        mcq=MCQ_COUNT,
-        tf=TF_COUNT
-    )
-
-    # =====================
-    # AI GENERATION
-    # =====================
-    try:
-        response = openai.ChatCompletion.create(
-            model="gpt-5-nano",
-            messages=[{"role": "user", "content": prompt}]
-        )
-
-        content = response["choices"][0]["message"]["content"].strip()
-        data = json.loads(content)
-
-    except Exception as e:
-        print(f" AI failed for {COURSE_NAME}:", e)
+for filename in os.listdir(CACHE_FOLDER):
+    if not filename.endswith(".json"):
         continue
 
-    # =====================
-    # LOOP THROUGH QUESTIONS
-    # =====================
+    file_path = os.path.join(CACHE_FOLDER, filename)
+    course_id = int(os.path.splitext(filename)[0])  # filename without .json
+
     try:
-        # ---- MCQ QUESTIONS ----
-        for q in data.get("mcq", []):
-            cursor.execute("""
-                EXEC sp_Insert_AI_Question
-                    @QText = ?,
-                    @QType = 'MCQ',
-                    @QAnswer = ?,
-                    @Difficulty = ?,
-                    @CrsId = ?,
-                    @ChoiceA = ?,
-                    @ChoiceB = ?,
-                    @ChoiceC = ?
-            """,
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError:
+        print(f"Skipping {filename}: invalid JSON")
+        continue
+
+    # First key is the course name
+    course_name = list(data.keys())[0]
+    content = data[course_name]
+
+    # =====================
+    # INSERT QUESTIONS
+    # =====================
+    if course_id == 3:
+        try:
+            # ---- MCQ QUESTIONS ----
+            for q in content.get("mcq", []):
+                cursor.execute("""
+                    EXEC sp_Question_InsertAI
+                        @QText = ?,
+                        @QType = 'MCQ',
+                        @QAnswer = ?,
+                        @Difficulty = ?,
+                        @CrsId = ?,
+                        @ChoiceA = ?,
+                        @ChoiceB = ?,
+                        @ChoiceC = ?
+                """,
                 q["question"],
                 q["answer"],
-                q["difficulty"],
-                CRS_ID,
+                q.get("difficulty", "Easy"),
+                course_id,
                 q["choices"]["A"],
                 q["choices"]["B"],
                 q["choices"]["C"]
-            )
+                )
 
-        # ---- TRUE / FALSE QUESTIONS ----
-        for q in data.get("tf", []):
-            cursor.execute("""
-                EXEC sp_Insert_AI_Question
-                    @QText = ?,
-                    @QType = 'TF',
-                    @QAnswer = ?,
-                    @Difficulty = ?,
-                    @CrsId = ?
-            """,
+            # ---- TRUE / FALSE QUESTIONS ----
+            for q in content.get("tf", []):
+                cursor.execute("""
+                    EXEC sp_Question_InsertAI
+                        @QText = ?,
+                        @QType = 'TF',
+                        @QAnswer = ?,
+                        @Difficulty = ?,
+                        @CrsId = ?
+                """,
                 q["question"],
                 q["answer"],
-                q["difficulty"],
-                CRS_ID
-            )
+                q.get("difficulty", "Easy"),
+                course_id
+                )
 
-        conn.commit()
-        print(f" Inserted questions for {COURSE_NAME}")
+            conn.commit()
+            print(f"Inserted questions for {course_name} (Course ID: {course_id})")
 
-    except Exception as e:
-        conn.rollback()
-        print(f" Insert failed for {COURSE_NAME}:", e)
+        except Exception as e:
+            conn.rollback()
+            print(f"Insert failed for {course_name} (Course ID: {course_id}): {e}")
 
-
+# =====================
+# CLOSE CONNECTION
+# =====================
 cursor.close()
 conn.close()
-print("\n All courses processed successfully!")
+print("\nAll courses processed successfully!")

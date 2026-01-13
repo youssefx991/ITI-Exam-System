@@ -1,0 +1,468 @@
+{
+  "Business Process Management": {
+    "mcq": [
+      {
+        "question": "What is the main goal of Business Process Management (BPM)?",
+        "choices": {
+          "A": "Develop mobile apps",
+          "B": "Optimize and manage business processes",
+          "C": "Manage network security"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which phase of BPM involves identifying existing processes?",
+        "choices": {
+          "A": "Process Execution",
+          "B": "Process Modeling",
+          "C": "Process Monitoring"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BPM phase focuses on improving and optimizing processes?",
+        "choices": {
+          "A": "Process Execution",
+          "B": "Process Optimization",
+          "C": "Process Modeling"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM phase involves automating tasks?",
+        "choices": {
+          "A": "Process Discovery",
+          "B": "Process Analysis",
+          "C": "Process Execution"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM tool is commonly used for visualizing processes?",
+        "choices": {
+          "A": "BPMN diagrams",
+          "B": "Excel sheets",
+          "C": "PowerPoint slides"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does BPMN stand for?",
+        "choices": {
+          "A": "Basic Process Modeling Notation",
+          "B": "Business Process Model and Notation",
+          "C": "Business Performance Monitoring Network"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BPM phase monitors process performance?",
+        "choices": {
+          "A": "Process Modeling",
+          "B": "Process Monitoring",
+          "C": "Process Execution"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique helps identify inefficiencies in processes?",
+        "choices": {
+          "A": "Data Warehousing",
+          "B": "Process Analysis",
+          "C": "Process Automation"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM component defines process rules and workflow?",
+        "choices": {
+          "A": "Process Logic",
+          "B": "Process Storage",
+          "C": "Process Network"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM approach is iterative and focuses on continuous improvement?",
+        "choices": {
+          "A": "One-time implementation",
+          "B": "Ad-hoc process management",
+          "C": "Continuous BPM"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase involves mapping responsibilities to roles?",
+        "choices": {
+          "A": "Process Execution",
+          "B": "Process Design",
+          "C": "Process Analysis"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM tool allows simulation of processes?",
+        "choices": {
+          "A": "Email client",
+          "B": "ERP Database",
+          "C": "Process Simulation Software"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which methodology emphasizes aligning processes with organizational goals?",
+        "choices": {
+          "A": "Agile Development",
+          "B": "BPM",
+          "C": "Waterfall"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase of BPM identifies process bottlenecks?",
+        "choices": {
+          "A": "Process Execution",
+          "B": "Process Monitoring",
+          "C": "Process Analysis"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM phase implements changes to processes?",
+        "choices": {
+          "A": "Process Discovery",
+          "B": "Process Monitoring",
+          "C": "Process Optimization"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM practice emphasizes measuring key performance indicators (KPIs)?",
+        "choices": {
+          "A": "Process Automation",
+          "B": "Process Modeling",
+          "C": "Process Monitoring"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM concept focuses on end-to-end processes rather than tasks?",
+        "choices": {
+          "A": "Task-Based View",
+          "B": "Holistic Process View",
+          "C": "Departmental Silos"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM component ensures compliance and governance?",
+        "choices": {
+          "A": "Process Storage",
+          "B": "Process Governance",
+          "C": "Process Simulation"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM technique captures workflows from current operations?",
+        "choices": {
+          "A": "Process Discovery",
+          "B": "Process Optimization",
+          "C": "Process Simulation"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM approach emphasizes documentation, automation, and monitoring?",
+        "choices": {
+          "A": "Digital BPM",
+          "B": "Paper-Based BPM",
+          "C": "Manual Workflow"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM benefit improves customer satisfaction by streamlining operations?",
+        "choices": {
+          "A": "Manual Workload",
+          "B": "Process Efficiency",
+          "C": "Task Delay"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM phase ensures process consistency and quality?",
+        "choices": {
+          "A": "Process Discovery",
+          "B": "Process Simulation",
+          "C": "Process Execution"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool provides dashboards for process performance tracking?",
+        "choices": {
+          "A": "BPM Analytics Tools",
+          "B": "Email Client",
+          "C": "Word Processor"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM phase is critical before automating processes?",
+        "choices": {
+          "A": "Process Monitoring",
+          "B": "Process Modeling",
+          "C": "Process Optimization"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM strategy supports continuous process improvement?",
+        "choices": {
+          "A": "Static BPM",
+          "B": "Kaizen-based BPM",
+          "C": "Ad-hoc BPM"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM practice reduces operational costs through workflow efficiency?",
+        "choices": {
+          "A": "Manual Intervention",
+          "B": "Unstructured Processes",
+          "C": "Process Optimization"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM approach integrates digital technologies for smarter processes?",
+        "choices": {
+          "A": "Paper-Based BPM",
+          "B": "Digital Transformation BPM",
+          "C": "Manual BPM"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase ensures processes are repeatable and scalable?",
+        "choices": {
+          "A": "Process Simulation",
+          "B": "Process Discovery",
+          "C": "Process Execution"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM technique predicts outcomes before actual deployment?",
+        "choices": {
+          "A": "Paper Documentation",
+          "B": "Process Simulation",
+          "C": "Manual Observation"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM phase involves documenting current workflows?",
+        "choices": {
+          "A": "Process Execution",
+          "B": "Process Discovery",
+          "C": "Process Optimization"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BPM approach emphasizes cross-functional collaboration?",
+        "choices": {
+          "A": "Departmental BPM",
+          "B": "Holistic BPM",
+          "C": "Isolated BPM"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM component ensures alignment with business strategy?",
+        "choices": {
+          "A": "Process Governance",
+          "B": "Task Documentation",
+          "C": "Process Storage"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM phase uses data to identify improvement opportunities?",
+        "choices": {
+          "A": "Process Execution",
+          "B": "Process Simulation",
+          "C": "Process Analysis"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM benefit enhances decision-making through real-time process insights?",
+        "choices": {
+          "A": "Process Visibility",
+          "B": "Task Delay",
+          "C": "Manual Reporting"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM practice supports compliance with regulations?",
+        "choices": {
+          "A": "Process Governance",
+          "B": "Ad-hoc Workflows",
+          "C": "Manual Reports"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BPM methodology supports continuous improvement cycles?",
+        "choices": {
+          "A": "Plan-Do-Check-Act (PDCA)",
+          "B": "One-Time Implementation",
+          "C": "Ad-hoc Execution"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "BPM focuses on optimizing business processes.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Process modeling is used to visualize workflows.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Process execution phase involves automating tasks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process monitoring tracks performance using KPIs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process analysis identifies inefficiencies in workflows.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "BPMN is a notation for representing business processes.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Process optimization focuses on improving efficiency.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process discovery is unrelated to workflow documentation.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process governance ensures compliance and quality.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "BPM is only applicable to IT departments.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Process simulation predicts outcomes before deployment.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Digital BPM integrates technology for smarter processes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process execution ensures processes are repeatable and scalable.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process analysis uses data to identify improvement opportunities.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Holistic BPM emphasizes cross-functional collaboration.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PDCA methodology supports continuous improvement in BPM.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process monitoring is performed after process execution.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process modeling is optional and not recommended in BPM.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "BPM improves decision-making through process visibility.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Process governance is unrelated to aligning processes with strategy.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

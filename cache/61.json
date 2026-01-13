@@ -1,0 +1,158 @@
+{
+  "IoT Fundamentals & Protocols": {
+    "mcq": [
+      {
+        "question": "What does IoT stand for?",
+        "choices": {
+          "A": "Internal of Technology",
+          "B": "Internet of Things",
+          "C": "Interface of Transmitters"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol is lightweight and commonly used in IoT devices?",
+        "choices": {
+          "A": "HTTP",
+          "B": "FTP",
+          "C": "MQTT"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol is designed for constrained devices and low-bandwidth networks?",
+        "choices": {
+          "A": "SMTP",
+          "B": "CoAP",
+          "C": "HTTPS"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT layer handles data processing and storage?",
+        "choices": {
+          "A": "Perception Layer",
+          "B": "Application Layer",
+          "C": "Network Layer"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT layer is responsible for sensing physical parameters?",
+        "choices": {
+          "A": "Application Layer",
+          "B": "Perception Layer",
+          "C": "Network Layer"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which communication model does MQTT use?",
+        "choices": {
+          "A": "Peer-to-Peer",
+          "B": "Publish/Subscribe",
+          "C": "Client/Server only"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT network is commonly used for short-range, low-power devices?",
+        "choices": {
+          "A": "DSL",
+          "B": "Ethernet",
+          "C": "LoRaWAN"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol uses RESTful architecture for constrained devices?",
+        "choices": {
+          "A": "SMTP",
+          "B": "FTP",
+          "C": "CoAP"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT component collects data from sensors?",
+        "choices": {
+          "A": "Edge Device",
+          "B": "Router",
+          "C": "Cloud Storage"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which IoT protocol is designed for secure and lightweight messaging?",
+        "choices": {
+          "A": "Telnet",
+          "B": "MQTT",
+          "C": "FTP"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "IoT stands for Internet of Things.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "MQTT is a lightweight protocol commonly used in IoT.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CoAP is suitable for constrained devices and low-bandwidth networks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The Perception Layer in IoT handles sensing of physical parameters.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The Application Layer in IoT handles data processing and storage.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MQTT uses a publish/subscribe communication model.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "LoRaWAN is commonly used for short-range, low-power IoT devices.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CoAP protocol uses RESTful architecture.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Edge devices in IoT collect data from sensors.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "FTP is commonly used for lightweight messaging in IoT.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

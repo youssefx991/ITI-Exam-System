@@ -1,0 +1,158 @@
+{
+  "Network Security & Firewalls": {
+    "mcq": [
+      {
+        "question": "What is the main purpose of a firewall?",
+        "choices": {
+          "A": "To monitor CPU usage",
+          "B": "To filter network traffic based on rules",
+          "C": "To encrypt hard drives"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of firewall examines each packet individually without context?",
+        "choices": {
+          "A": "Stateful Firewall",
+          "B": "Packet-Filtering Firewall",
+          "C": "Application Firewall"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which firewall type keeps track of active connections and their states?",
+        "choices": {
+          "A": "Stateful Firewall",
+          "B": "Packet-Filtering Firewall",
+          "C": "Proxy Firewall"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which firewall type filters traffic based on applications or services?",
+        "choices": {
+          "A": "Stateful Firewall",
+          "B": "Packet-Filtering Firewall",
+          "C": "Application Firewall"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which attack does a firewall help prevent?",
+        "choices": {
+          "A": "Power failure",
+          "B": "Hardware malfunction",
+          "C": "Unauthorized access"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is DMZ in network security?",
+        "choices": {
+          "A": "Disk management zone for backups",
+          "B": "A demilitarized zone that isolates public servers from internal network",
+          "C": "Direct memory zone in routers"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol is commonly used for encrypted network traffic?",
+        "choices": {
+          "A": "HTTPS",
+          "B": "FTP",
+          "C": "HTTP"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which network device combines routing and firewall functionality?",
+        "choices": {
+          "A": "Switch",
+          "B": "Hub",
+          "C": "UTM (Unified Threat Management)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method inspects entire network packets for malicious payloads?",
+        "choices": {
+          "A": "Shallow Packet Check",
+          "B": "Deep Packet Inspection",
+          "C": "Ping Test"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which attack floods a network to make it unavailable?",
+        "choices": {
+          "A": "DDoS",
+          "B": "Phishing",
+          "C": "Keylogging"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Firewalls filter network traffic to protect systems.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Packet-filtering firewalls do not maintain connection state.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Stateful firewalls track active connections and states.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Application firewalls filter traffic based on application or service.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Firewalls can prevent unauthorized access to networks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "DMZ isolates internal network from public-facing servers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTTPS provides encrypted network communication.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Switches combine routing and firewall functionalities.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Deep Packet Inspection analyzes entire packets for threats.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "DDoS attacks aim to overwhelm network resources.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "IoT Security & Authentication": {
+    "mcq": [
+      {
+        "question": "Which is a primary concern in IoT security?",
+        "choices": {
+          "A": "Power consumption only",
+          "B": "Data confidentiality and integrity",
+          "C": "Sensor accuracy only"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol is widely used to secure IoT communication over MQTT?",
+        "choices": {
+          "A": "HTTP",
+          "B": "TLS/SSL",
+          "C": "FTP"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT security method ensures that only authorized devices can connect?",
+        "choices": {
+          "A": "Data Logging",
+          "B": "Authentication",
+          "C": "Encryption"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of attack targets the availability of IoT devices or services?",
+        "choices": {
+          "A": "Denial-of-Service (DoS)",
+          "B": "Spoofing only",
+          "C": "Phishing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which cryptographic technique ensures that data is not tampered with during transmission?",
+        "choices": {
+          "A": "Compression",
+          "B": "Digital Signature",
+          "C": "Checksum only"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT security measure protects data from eavesdropping?",
+        "choices": {
+          "A": "Encryption",
+          "B": "Debug Logging",
+          "C": "Rate Limiting"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which authentication method uses unique keys or certificates per device?",
+        "choices": {
+          "A": "Open Access",
+          "B": "Mutual Authentication",
+          "C": "Password Only"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which IoT security principle involves granting minimal privileges needed for operation?",
+        "choices": {
+          "A": "Least Privilege",
+          "B": "Anonymous Access",
+          "C": "Maximum Access"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer of IoT architecture is most vulnerable to physical attacks?",
+        "choices": {
+          "A": "Application Layer",
+          "B": "Network Layer",
+          "C": "Perception Layer"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach helps prevent IoT device firmware tampering?",
+        "choices": {
+          "A": "Unverified Updates",
+          "B": "Debug Mode",
+          "C": "Secure Boot"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Data confidentiality is a primary concern in IoT security.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "TLS/SSL is used to secure MQTT communication.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Authentication ensures only authorized devices can connect to IoT networks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Denial-of-Service attacks target the availability of IoT devices.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Digital signatures can ensure data integrity in IoT communication.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Encryption protects IoT data from eavesdropping.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Mutual authentication uses unique keys or certificates for devices.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Least privilege principle grants minimal privileges required for device operation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The Perception Layer is vulnerable to physical attacks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Unverified firmware updates are safe for IoT devices.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

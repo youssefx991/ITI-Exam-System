@@ -1,0 +1,158 @@
+{
+  "Cloud Networking (AWS/Azure)": {
+    "mcq": [
+      {
+        "question": "Which AWS service is used to create isolated virtual networks?",
+        "choices": {
+          "A": "EC2",
+          "B": "S3",
+          "C": "VPC"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Azure service allows you to create private networks in the cloud?",
+        "choices": {
+          "A": "Azure Blob Storage",
+          "B": "Azure Virtual Network (VNet)",
+          "C": "Azure Functions"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which service connects on-premises networks to cloud networks securely?",
+        "choices": {
+          "A": "VPN Gateway",
+          "B": "Route 53",
+          "C": "S3 Bucket"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AWS service provides domain name system management?",
+        "choices": {
+          "A": "CloudFront",
+          "B": "Route 53",
+          "C": "Lambda"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Azure service routes traffic across regions for high availability?",
+        "choices": {
+          "A": "Azure Traffic Manager",
+          "B": "Azure Key Vault",
+          "C": "Azure SQL Database"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which component controls inbound and outbound traffic in AWS VPC?",
+        "choices": {
+          "A": "S3 Policies",
+          "B": "Security Groups and NACLs",
+          "C": "IAM Roles"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AWS service provides scalable content delivery globally?",
+        "choices": {
+          "A": "CloudFront",
+          "B": "EC2",
+          "C": "RDS"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Azure service allows secure cross-premises connectivity?",
+        "choices": {
+          "A": "Azure DevOps",
+          "B": "Azure VPN Gateway",
+          "C": "Azure Functions"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which networking feature enables traffic isolation between subnets in cloud?",
+        "choices": {
+          "A": "Load Balancers",
+          "B": "IAM Policies",
+          "C": "Subnetting with Network ACLs"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which cloud concept ensures high availability and failover for services?",
+        "choices": {
+          "A": "Static IP Assignment",
+          "B": "Redundancy and Multi-AZ Deployment",
+          "C": "Single Region Deployment"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "AWS VPC allows creation of isolated virtual networks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Azure Virtual Network (VNet) is used for private networking in Azure.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "VPN Gateway enables secure connectivity between on-premises and cloud networks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "AWS Route 53 is used for domain name resolution and DNS management.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Azure Traffic Manager distributes traffic across regions for high availability.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Security Groups and NACLs control inbound and outbound traffic in AWS VPC.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CloudFront is used for global content delivery and caching.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Subnetting with NACLs cannot isolate traffic between cloud subnets.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Azure VPN Gateway provides secure cross-premises connectivity.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Multi-AZ deployment ensures redundancy and high availability.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

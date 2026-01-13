@@ -1,0 +1,498 @@
+{
+  "RESTful APIs & GraphQL": {
+    "mcq": [
+      {
+        "question": "Which HTTP method is typically used to retrieve data from a RESTful API?",
+        "choices": {
+          "A": "GET",
+          "B": "POST",
+          "C": "DELETE"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP method is used to create a new resource in REST?",
+        "choices": {
+          "A": "POST",
+          "B": "PUT",
+          "C": "PATCH"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP method is idempotent and replaces a resource entirely?",
+        "choices": {
+          "A": "POST",
+          "B": "GET",
+          "C": "PUT"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates a successful request?",
+        "choices": {
+          "A": "200",
+          "B": "404",
+          "C": "500"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP status code indicates a resource was not found?",
+        "choices": {
+          "A": "404",
+          "B": "200",
+          "C": "403"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which format is commonly used for RESTful API responses?",
+        "choices": {
+          "A": "JSON",
+          "B": "CSV",
+          "C": "XML"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL component defines the types of data clients can query?",
+        "choices": {
+          "A": "Resolver",
+          "B": "Schema",
+          "C": "Endpoint"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GraphQL component contains the logic to fetch data?",
+        "choices": {
+          "A": "Schema",
+          "B": "Resolver",
+          "C": "Query"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method is used to partially update a resource?",
+        "choices": {
+          "A": "PUT",
+          "B": "POST",
+          "C": "PATCH"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GraphQL operation retrieves data from the server?",
+        "choices": {
+          "A": "Subscription",
+          "B": "Mutation",
+          "C": "Query"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL operation modifies data on the server?",
+        "choices": {
+          "A": "Query",
+          "B": "Subscription",
+          "C": "Mutation"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GraphQL operation allows real-time data updates?",
+        "choices": {
+          "A": "Subscription",
+          "B": "Mutation",
+          "C": "Query"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which REST principle enforces that each URL represents a unique resource?",
+        "choices": {
+          "A": "Resource identification",
+          "B": "Statelessness",
+          "C": "Cacheability"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which REST principle ensures each request contains all required information?",
+        "choices": {
+          "A": "HATEOAS",
+          "B": "Uniform interface",
+          "C": "Statelessness"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which header is used to specify content type in HTTP requests?",
+        "choices": {
+          "A": "Accept",
+          "B": "Authorization",
+          "C": "Content-Type"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL feature allows clients to request only the data they need?",
+        "choices": {
+          "A": "Fragment",
+          "B": "Field selection",
+          "C": "Directive"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which REST concept allows caching responses to improve performance?",
+        "choices": {
+          "A": "Cacheability",
+          "B": "Idempotency",
+          "C": "Statelessness"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates unauthorized access?",
+        "choices": {
+          "A": "401",
+          "B": "404",
+          "C": "403"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL type represents an object with fields?",
+        "choices": {
+          "A": "Scalar Type",
+          "B": "Object Type",
+          "C": "Interface Type"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which REST constraint ensures responses are cacheable by clients?",
+        "choices": {
+          "A": "Uniform interface",
+          "B": "Client-server separation",
+          "C": "Cacheable responses"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GraphQL directive allows conditional inclusion of fields?",
+        "choices": {
+          "A": "deprecated",
+          "B": "include",
+          "C": "skip"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which HTTP method is safe and does not modify server data?",
+        "choices": {
+          "A": "POST",
+          "B": "GET",
+          "C": "DELETE"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL type represents a single scalar value?",
+        "choices": {
+          "A": "Object Type",
+          "B": "Scalar Type",
+          "C": "Interface Type"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which principle requires that each REST API call must contain all necessary information?",
+        "choices": {
+          "A": "Statelessness",
+          "B": "Uniform interface",
+          "C": "HATEOAS"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP header is used to pass authentication tokens?",
+        "choices": {
+          "A": "Content-Type",
+          "B": "Authorization",
+          "C": "Accept"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL feature enables reusable sets of fields?",
+        "choices": {
+          "A": "Resolvers",
+          "B": "Directives",
+          "C": "Fragments"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method is used to delete resources?",
+        "choices": {
+          "A": "POST",
+          "B": "PATCH",
+          "C": "DELETE"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL type allows defining a union of multiple types?",
+        "choices": {
+          "A": "Union Type",
+          "B": "Scalar Type",
+          "C": "Enum Type"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which GraphQL component connects queries to the data source?",
+        "choices": {
+          "A": "Schema",
+          "B": "Resolver",
+          "C": "Field"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which REST practice encourages using URLs to represent resources instead of actions?",
+        "choices": {
+          "A": "Action-based URLs",
+          "B": "Resource-based URLs",
+          "C": "Verb-based URLs"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GraphQL type is used to define enumerated values?",
+        "choices": {
+          "A": "Enum Type",
+          "B": "Scalar Type",
+          "C": "Object Type"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method is typically used for login forms?",
+        "choices": {
+          "A": "PUT",
+          "B": "POST",
+          "C": "GET"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL type can implement an interface?",
+        "choices": {
+          "A": "Object Type",
+          "B": "Union Type",
+          "C": "Scalar Type"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which REST constraint enforces separation between client and server?",
+        "choices": {
+          "A": "Statelessness",
+          "B": "Client-server architecture",
+          "C": "Cacheability"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method is unsafe and modifies server resources?",
+        "choices": {
+          "A": "POST",
+          "B": "GET",
+          "C": "HEAD"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL feature enables real-time updates to clients?",
+        "choices": {
+          "A": "Mutation",
+          "B": "Query",
+          "C": "Subscription"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates a server error?",
+        "choices": {
+          "A": "404",
+          "B": "200",
+          "C": "500"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GraphQL feature allows deprecating fields?",
+        "choices": {
+          "A": "include directive",
+          "B": "deprecated directive",
+          "C": "skip directive"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which principle ensures REST APIs are stateless?",
+        "choices": {
+          "A": "Use of HTTP verbs",
+          "B": "Cacheable responses",
+          "C": "Each request contains all necessary information"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "GraphQL allows clients to request only the data they need.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "REST APIs are always stateful.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "HTTP GET method is safe and does not modify server data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "HTTP PUT method partially updates a resource.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GraphQL Mutations are used to modify server-side data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTTP 404 indicates a successful request.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "GraphQL Subscriptions allow real-time updates to clients.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "REST resource URLs should represent actions rather than resources.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTTP 500 indicates a server-side error.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "GraphQL schemas define the types of data clients can query.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTTP PATCH method is used for partial updates.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GraphQL Resolvers contain logic to fetch data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTTP POST method is safe and idempotent.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "REST APIs enforce statelessness for each request.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GraphQL fields cannot have arguments.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTTP 401 indicates unauthorized access.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "GraphQL Fragments allow reusable sets of fields.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GraphQL does not support enumerated types.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "REST constraint HATEOAS ensures clients discover actions through hypermedia links.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "GraphQL queries are always executed on the server.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

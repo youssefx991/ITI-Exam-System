@@ -1,0 +1,498 @@
+{
+  "SAP ERP Overview & Navigation": {
+    "mcq": [
+      {
+        "question": "What does SAP ERP stand for?",
+        "choices": {
+          "A": "Software Application Platform",
+          "B": "System Analysis Program",
+          "C": "Systems, Applications, and Products in Enterprise Resource Planning"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the main purpose of SAP ERP?",
+        "choices": {
+          "A": "Designing websites",
+          "B": "Managing network security",
+          "C": "Integrating business processes"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP component handles financial accounting?",
+        "choices": {
+          "A": "SAP MM",
+          "B": "SAP SD",
+          "C": "SAP FI"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module manages materials and inventory?",
+        "choices": {
+          "A": "SAP CO",
+          "B": "SAP MM",
+          "C": "SAP HR"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP module handles sales and distribution?",
+        "choices": {
+          "A": "SAP PP",
+          "B": "SAP FI",
+          "C": "SAP SD"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module focuses on production planning?",
+        "choices": {
+          "A": "SAP MM",
+          "B": "SAP SD",
+          "C": "SAP PP"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP module manages human resources?",
+        "choices": {
+          "A": "SAP MM",
+          "B": "SAP FI",
+          "C": "SAP HCM"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is a transaction code in SAP?",
+        "choices": {
+          "A": "A report output",
+          "B": "A shortcut to execute a task",
+          "C": "A database table"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which field is used to enter a transaction code?",
+        "choices": {
+          "A": "Status bar",
+          "B": "Menu bar",
+          "C": "Command field"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP interface component shows system messages?",
+        "choices": {
+          "A": "Menu bar",
+          "B": "Title bar",
+          "C": "Status bar"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does the SAP Easy Access screen provide?",
+        "choices": {
+          "A": "User documentation",
+          "B": "System configuration only",
+          "C": "Access to all SAP functions"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP object stores business data?",
+        "choices": {
+          "A": "User role",
+          "B": "Database table",
+          "C": "Transaction code"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP feature controls user access?",
+        "choices": {
+          "A": "Authorization roles",
+          "B": "Transaction variants",
+          "C": "Spool requests"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does the back button do in SAP GUI?",
+        "choices": {
+          "A": "Returns to the previous screen",
+          "B": "Logs out the user",
+          "C": "Closes the system"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which button saves data in SAP?",
+        "choices": {
+          "A": "Save",
+          "B": "Exit",
+          "C": "Cancel"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does the exit button do?",
+        "choices": {
+          "A": "Deletes data",
+          "B": "Shuts down SAP",
+          "C": "Leaves the current transaction"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP environment is used for testing?",
+        "choices": {
+          "A": "Development",
+          "B": "Quality Assurance",
+          "C": "Production"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP environment is used by end users?",
+        "choices": {
+          "A": "Sandbox",
+          "B": "Production",
+          "C": "Development"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is SAP GUI?",
+        "choices": {
+          "A": "Graphical user interface for SAP",
+          "B": "Programming language",
+          "C": "Database engine"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which menu shows frequently used transactions?",
+        "choices": {
+          "A": "Help",
+          "B": "System",
+          "C": "Favorites"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does F1 help provide?",
+        "choices": {
+          "A": "Transaction history",
+          "B": "Field-level help",
+          "C": "System logs"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does F4 help provide?",
+        "choices": {
+          "A": "Possible input values",
+          "B": "Save function",
+          "C": "Error messages"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP feature allows multiple sessions?",
+        "choices": {
+          "A": "Client copy",
+          "B": "Transport request",
+          "C": "Multiple logon"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP object records changes between systems?",
+        "choices": {
+          "A": "Transport request",
+          "B": "User role",
+          "C": "Spool request"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is a client in SAP?",
+        "choices": {
+          "A": "A self-contained business environment",
+          "B": "A user interface",
+          "C": "A report"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP navigation method uses menus?",
+        "choices": {
+          "A": "Menu path",
+          "B": "Database query",
+          "C": "Command line only"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP feature personalizes the user menu?",
+        "choices": {
+          "A": "System parameters",
+          "B": "Client settings",
+          "C": "User roles"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP component displays reports?",
+        "choices": {
+          "A": "IDoc",
+          "B": "ALV",
+          "C": "BAPI"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does ALV stand for?",
+        "choices": {
+          "A": "ABAP List Viewer",
+          "B": "Application Level View",
+          "C": "Advanced Log View"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP technology is used for customization?",
+        "choices": {
+          "A": "ABAP",
+          "B": "Python",
+          "C": "JavaScript"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP menu contains system settings?",
+        "choices": {
+          "A": "System",
+          "B": "Help",
+          "C": "Favorites"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which icon is used to cancel an action?",
+        "choices": {
+          "A": "Enter",
+          "B": "Cancel",
+          "C": "Save"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP feature logs user activities?",
+        "choices": {
+          "A": "Spool",
+          "B": "Favorites",
+          "C": "Audit log"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which SAP concept ensures data consistency across modules?",
+        "choices": {
+          "A": "Authorization",
+          "B": "Customization",
+          "C": "Integration"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP screen element shows the transaction name?",
+        "choices": {
+          "A": "Menu bar",
+          "B": "Status bar",
+          "C": "Title bar"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP function ends the user session?",
+        "choices": {
+          "A": "Log off",
+          "B": "Back",
+          "C": "Exit"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP concept supports process automation?",
+        "choices": {
+          "A": "Workflow",
+          "B": "Client",
+          "C": "Authorization"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SAP object defines business processes?",
+        "choices": {
+          "A": "Client",
+          "B": "Module",
+          "C": "User"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SAP feature helps track errors?",
+        "choices": {
+          "A": "System messages",
+          "B": "User menu",
+          "C": "Favorites"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "SAP ERP integrates multiple business functions.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "SAP FI is used for financial accounting.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Transaction codes speed up navigation.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "SAP GUI is the user interface for SAP ERP.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The status bar displays system messages.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Favorites menu stores frequently used transactions.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "F4 provides possible input values.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Production systems are used for testing.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Clients separate business data in SAP.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Authorization roles control user access.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Transport requests move changes between systems.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ABAP is used for SAP customization.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "ALV is used to display reports.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Users can open multiple SAP sessions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SAP workflows support automation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The back button saves data automatically.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Data entered in one module can affect others.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Log off ends the SAP user session.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "SAP ERP is only used by IT departments.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Integration is a core strength of SAP ERP.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

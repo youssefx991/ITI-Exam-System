@@ -1,0 +1,158 @@
+{
+  "RTOS Concepts & FreeRTOS": {
+    "mcq": [
+      {
+        "question": "What does RTOS stand for?",
+        "choices": {
+          "A": "Real-Time Operating System",
+          "B": "Random Time Operating System",
+          "C": "Remote Task Operating System"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature distinguishes an RTOS from a general-purpose OS?",
+        "choices": {
+          "A": "Deterministic timing and predictable task execution",
+          "B": "Large storage support",
+          "C": "Graphical user interface"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which scheduling method allows tasks to run based on priority in RTOS?",
+        "choices": {
+          "A": "Priority-based Scheduling",
+          "B": "First-Come-First-Served",
+          "C": "Round-Robin Scheduling"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RTOS component stores the state of tasks?",
+        "choices": {
+          "A": "Kernel Stack",
+          "B": "Heap Memory",
+          "C": "Task Control Block (TCB)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which FreeRTOS function creates a new task?",
+        "choices": {
+          "A": "xTaskCreate()",
+          "B": "vTaskDelete()",
+          "C": "xQueueSend()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which RTOS concept allows tasks to communicate safely?",
+        "choices": {
+          "A": "Inter-Task Communication (Queues, Semaphores)",
+          "B": "Shared Global Variables without protection",
+          "C": "Direct memory access"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of RTOS supports preemptive multitasking?",
+        "choices": {
+          "A": "Batch RTOS",
+          "B": "Cooperative RTOS",
+          "C": "Preemptive RTOS"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which FreeRTOS object allows tasks to wait for events?",
+        "choices": {
+          "A": "Semaphore",
+          "B": "Heap",
+          "C": "Stack"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which term refers to a task that runs periodically in RTOS?",
+        "choices": {
+          "A": "Periodic Task",
+          "B": "Idle Task",
+          "C": "Interrupt Task"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature of FreeRTOS allows memory management for tasks?",
+        "choices": {
+          "A": "Heap Management",
+          "B": "Direct Memory Access",
+          "C": "File System"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "RTOS stands for Real-Time Operating System.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "An RTOS guarantees deterministic and predictable task execution.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Priority-based scheduling allows higher-priority tasks to preempt lower-priority tasks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Task Control Block (TCB) stores task state information.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "xTaskCreate() is used in FreeRTOS to create a new task.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Queues and semaphores are used for safe inter-task communication.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Preemptive RTOS does not allow higher-priority tasks to preempt running tasks.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Semaphores in FreeRTOS allow tasks to wait for events or resources.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Periodic tasks in RTOS execute at regular intervals.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "FreeRTOS does not provide any memory management features.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

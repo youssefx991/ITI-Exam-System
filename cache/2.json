@@ -1,0 +1,478 @@
+{
+  "Advanced JavaScript & ES6+": {
+    "mcq": [
+      {
+        "question": "Which keyword is used to declare a block-scoped variable in ES6?",
+        "choices": {
+          "A": "const",
+          "B": "var",
+          "C": "let"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which of the following creates a constant in JavaScript?",
+        "choices": {
+          "A": "const",
+          "B": "let",
+          "C": "var"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method is used to copy values from one object to another in ES6?",
+        "choices": {
+          "A": "Object.assign()",
+          "B": "Object.copy()",
+          "C": "Object.extend()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows unpacking values from arrays or objects?",
+        "choices": {
+          "A": "Template literals",
+          "B": "Spread operator",
+          "C": "Destructuring"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method is used to create a new array with results of calling a function on every element?",
+        "choices": {
+          "A": "filter()",
+          "B": "forEach()",
+          "C": "map()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which symbol is used for default parameters in ES6 functions?",
+        "choices": {
+          "A": "=>",
+          "B": ":",
+          "C": "="
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operator is used to merge objects in ES6?",
+        "choices": {
+          "A": "... (spread)",
+          "B": "&&",
+          "C": "||"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows embedding expressions in strings?",
+        "choices": {
+          "A": "String interpolation",
+          "B": "Template literals",
+          "C": "Backtick syntax"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the output of 'typeof NaN' in JavaScript?",
+        "choices": {
+          "A": "number",
+          "B": "NaN",
+          "C": "undefined"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature is used to create anonymous functions?",
+        "choices": {
+          "A": "Lambda functions",
+          "B": "Arrow functions",
+          "C": "Function expressions"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method returns a shallow copy of an array containing only elements that pass a test?",
+        "choices": {
+          "A": "filter()",
+          "B": "map()",
+          "C": "reduce()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 keyword allows you to define a class?",
+        "choices": {
+          "A": "object",
+          "B": "function",
+          "C": "class"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method combines all array elements into a single string?",
+        "choices": {
+          "A": "reduce()",
+          "B": "concat()",
+          "C": "join()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ES6 feature allows a function to accept indefinite arguments as an array?",
+        "choices": {
+          "A": "Spread operator",
+          "B": "Rest parameters",
+          "C": "Destructuring"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 method checks if an array includes a certain element?",
+        "choices": {
+          "A": "find()",
+          "B": "indexOf()",
+          "C": "includes()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ES6 feature allows shorthand property names in objects?",
+        "choices": {
+          "A": "Property defaults",
+          "B": "Object shorthand",
+          "C": "Enhanced object literals"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 method returns a new array from an iterable object?",
+        "choices": {
+          "A": "Array.copy()",
+          "B": "Array.of()",
+          "C": "Array.from()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 keyword creates a variable that cannot be redeclared or reassigned?",
+        "choices": {
+          "A": "const",
+          "B": "var",
+          "C": "let"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method executes a reducer function on each array element to reduce it to a single value?",
+        "choices": {
+          "A": "map()",
+          "B": "reduce()",
+          "C": "filter()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows string expressions to span multiple lines?",
+        "choices": {
+          "A": "Template literals",
+          "B": "Multiline strings",
+          "C": "Backticks"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature creates a new symbol value that is unique and immutable?",
+        "choices": {
+          "A": "Identifier()",
+          "B": "Symbol()",
+          "C": "Unique()"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which ES6 method creates an array from arguments?",
+        "choices": {
+          "A": "Array.create()",
+          "B": "Array.of()",
+          "C": "Array.from()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which keyword prevents modification of an object in ES6?",
+        "choices": {
+          "A": "const",
+          "B": "Object.freeze()",
+          "C": "Object.seal()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows importing only parts of a module?",
+        "choices": {
+          "A": "Selective import",
+          "B": "Named imports",
+          "C": "Destructured imports"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method returns the index of the first element satisfying a condition?",
+        "choices": {
+          "A": "find()",
+          "B": "findIndex()",
+          "C": "indexOf()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows a function to return another function?",
+        "choices": {
+          "A": "Currying",
+          "B": "Closures",
+          "C": "Arrow functions"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which ES6 keyword is used for asynchronous functions?",
+        "choices": {
+          "A": "promise",
+          "B": "async",
+          "C": "await"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 method merges arrays or iterables into one?",
+        "choices": {
+          "A": "concat()",
+          "B": "Spread operator",
+          "C": "push()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 method returns an iterator for array keys?",
+        "choices": {
+          "A": "values()",
+          "B": "entries()",
+          "C": "keys()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows defining default values for function parameters?",
+        "choices": {
+          "A": "Rest parameters",
+          "B": "Spread operator",
+          "C": "Default parameters"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ES6 method returns an array of a given object's own enumerable property values?",
+        "choices": {
+          "A": "Object.keys()",
+          "B": "Object.values()",
+          "C": "Object.entries()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature prevents modifications to existing properties of an object but allows adding new properties?",
+        "choices": {
+          "A": "Object.seal()",
+          "B": "Object.lock()",
+          "C": "Object.freeze()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows iteration over key/value pairs in an object?",
+        "choices": {
+          "A": "for...in",
+          "B": "Object.keys()",
+          "C": "Object.entries()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows using promises to handle asynchronous operations?",
+        "choices": {
+          "A": "Async functions",
+          "B": "Callbacks",
+          "C": "Promises"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ES6 feature allows grouping import statements into a single module import?",
+        "choices": {
+          "A": "Wildcard import",
+          "B": "Namespace import",
+          "C": "Destructured import"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 method returns an array of a given object's own enumerable property [key, value] pairs?",
+        "choices": {
+          "A": "Object.keys()",
+          "B": "Object.entries()",
+          "C": "Object.values()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ES6 feature allows a function to pause execution until a promise resolves?",
+        "choices": {
+          "A": "await",
+          "B": "async",
+          "C": "yield"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      }
+    ],
+    "tf": [
+      {
+        "question": "The 'let' keyword in JavaScript allows redeclaration of the same variable in the same scope.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Arrow functions do not have their own 'this' context.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Template literals allow multi-line strings without using escape characters.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "const variables can be reassigned after declaration.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Rest parameters allow a function to accept an indefinite number of arguments as an array.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Spread operator cannot be used to copy arrays.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Destructuring assignment allows extracting values from arrays or objects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Promises in JavaScript are used for synchronous operations.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'async' keyword is used to define asynchronous functions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Object.freeze() allows modification of object properties.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Array.from() creates a new array instance from an array-like or iterable object.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Default parameters in functions allow optional arguments to have default values.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Object.assign() can merge multiple source objects into a target object.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'let' keyword is function-scoped like 'var'.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Arrow functions can be used as constructors with 'new'.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Object.entries() returns an array of key-value pairs from an object.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Promises have 'then', 'catch', and 'finally' methods for handling results and errors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Array.map() modifies the original array directly.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Symbol() creates unique and immutable primitive values.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "The 'await' keyword can only be used inside functions declared with 'async'.",
+        "answer": "T",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

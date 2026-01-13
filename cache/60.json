@@ -1,0 +1,158 @@
+{
+  "Embedded Linux Basics": {
+    "mcq": [
+      {
+        "question": "What is Embedded Linux?",
+        "choices": {
+          "A": "A Linux operating system designed for embedded systems",
+          "B": "A version of Windows for embedded devices",
+          "C": "A cloud-based Linux service"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used to cross-compile applications for Embedded Linux?",
+        "choices": {
+          "A": "Visual Studio",
+          "B": "Docker",
+          "C": "GCC Cross Compiler"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which filesystem is commonly used in Embedded Linux for root file systems?",
+        "choices": {
+          "A": "SquashFS",
+          "B": "FAT32",
+          "C": "NTFS"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which bootloader is widely used in Embedded Linux systems?",
+        "choices": {
+          "A": "GRUB",
+          "B": "U-Boot",
+          "C": "LILO"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command shows running processes in Embedded Linux?",
+        "choices": {
+          "A": "ps",
+          "B": "mkdir",
+          "C": "ls"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which kernel feature allows real-time task execution in Embedded Linux?",
+        "choices": {
+          "A": "PREEMPT_RT Patch",
+          "B": "Ext4 Filesystem",
+          "C": "Swap Memory"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which utility is used to configure network interfaces in Embedded Linux?",
+        "choices": {
+          "A": "ping",
+          "B": "lsmod",
+          "C": "ifconfig"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which package management system is commonly used in Embedded Linux distributions?",
+        "choices": {
+          "A": "apt-get",
+          "B": "opkg",
+          "C": "yum"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which shell is commonly used in Embedded Linux?",
+        "choices": {
+          "A": "Bash",
+          "B": "PowerShell",
+          "C": "Zsh only"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method is used to reduce memory footprint in Embedded Linux?",
+        "choices": {
+          "A": "Stripping unnecessary libraries and services",
+          "B": "Adding swap memory",
+          "C": "Using a larger hard disk"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Embedded Linux is a version of Linux designed for embedded systems.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "U-Boot is a common bootloader in Embedded Linux.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PREEMPT_RT patch allows real-time execution in Embedded Linux.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SquashFS is often used as a root filesystem in Embedded Linux.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GCC cross compiler is used to build programs for embedded targets.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ifconfig is used to configure network interfaces.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "opkg is a package manager commonly used in embedded Linux distributions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Adding unnecessary libraries helps reduce memory footprint in Embedded Linux.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The Bash shell is commonly used in Embedded Linux systems.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "ps command is used to display running processes in Embedded Linux.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

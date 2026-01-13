@@ -104,13 +104,12 @@ BEGIN
 END
 GO
 
-CREATE OR ALTER PROCEDURE sp_AllCourses_Select
-    @CrsId INT = NULL  -- If NULL, return all courses; if provided, return specific one
+CREATE OR ALTER PROCEDURE sp_Courses_SelectAll
 AS
 BEGIN
     SELECT 
         CrsId,
-        CrsName,
+        CrsName
     FROM Course 
     ORDER BY CrsId
 END

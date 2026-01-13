@@ -2,7 +2,7 @@ USE ITI_ExamSystem
 GO 
 
 
-CREATE OR ALTER PROCEDURE sp_Insert_Question
+CREATE OR ALTER PROCEDURE sp_Question_InsertAI
     @QText NVARCHAR(500),
     @QType VARCHAR(10),        -- MCQ / TF
     @QAnswer CHAR(1),          -- A/B/C or T/F

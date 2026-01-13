@@ -1,0 +1,468 @@
+{
+  "API Testing with Postman": {
+    "mcq": [
+      {
+        "question": "What is Postman primarily used for?",
+        "choices": {
+          "A": "API testing and development",
+          "B": "Database management",
+          "C": "Frontend development"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP method is used to retrieve data from a server?",
+        "choices": {
+          "A": "PUT",
+          "B": "GET",
+          "C": "POST"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP method is used to create new resources?",
+        "choices": {
+          "A": "POST",
+          "B": "DELETE",
+          "C": "GET"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP status code indicates success?",
+        "choices": {
+          "A": "200 OK",
+          "B": "500 Internal Server Error",
+          "C": "404 Not Found"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature in Postman allows storing reusable variables?",
+        "choices": {
+          "A": "Workspaces",
+          "B": "Environment Variables",
+          "C": "Collections"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature groups related requests together?",
+        "choices": {
+          "A": "Collections",
+          "B": "Environments",
+          "C": "Workspaces"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows automated execution of tests?",
+        "choices": {
+          "A": "Postman Tests",
+          "B": "Workspaces",
+          "C": "Environment Variables"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which scripting language is used in Postman tests?",
+        "choices": {
+          "A": "JavaScript",
+          "B": "Java",
+          "C": "Python"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method updates an existing resource completely?",
+        "choices": {
+          "A": "PUT",
+          "B": "PATCH",
+          "C": "POST"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method partially updates a resource?",
+        "choices": {
+          "A": "POST",
+          "B": "PUT",
+          "C": "PATCH"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates that a resource was not found?",
+        "choices": {
+          "A": "403 Forbidden",
+          "B": "404 Not Found",
+          "C": "200 OK"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP status code indicates a server error?",
+        "choices": {
+          "A": "400 Bad Request",
+          "B": "500 Internal Server Error",
+          "C": "200 OK"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of authentication can be used in Postman for APIs?",
+        "choices": {
+          "A": "Basic Auth",
+          "B": "FTP Auth",
+          "C": "SSH Auth"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows chaining requests with dynamic data?",
+        "choices": {
+          "A": "Workspaces",
+          "B": "Variables",
+          "C": "Collections"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows running multiple requests automatically?",
+        "choices": {
+          "A": "Test Script",
+          "B": "Collection Runner",
+          "C": "New Request"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which content type is commonly used for sending JSON data in Postman?",
+        "choices": {
+          "A": "multipart/form-data",
+          "B": "application/json",
+          "C": "text/html"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in Postman can validate API response data?",
+        "choices": {
+          "A": "Headers tab",
+          "B": "Tests tab with assertions",
+          "C": "Body tab"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of API returns data in a predefined format without storing state?",
+        "choices": {
+          "A": "RESTful API",
+          "B": "SOAP API",
+          "C": "GraphQL API"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows saving environment-specific URLs or credentials?",
+        "choices": {
+          "A": "Global Variables",
+          "B": "Collection Variables",
+          "C": "Environment Variables"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates unauthorized access?",
+        "choices": {
+          "A": "403 Forbidden",
+          "B": "404 Not Found",
+          "C": "401 Unauthorized"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows automated scheduled execution of Postman tests in the cloud?",
+        "choices": {
+          "A": "Workspaces",
+          "B": "Collection Runner",
+          "C": "Postman Monitors"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which data format is commonly used in API responses?",
+        "choices": {
+          "A": "XLSX",
+          "B": "JSON",
+          "C": "DOCX"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP method deletes a resource?",
+        "choices": {
+          "A": "POST",
+          "B": "DELETE",
+          "C": "GET"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature in Postman allows storing sensitive API keys securely?",
+        "choices": {
+          "A": "Environment Variables",
+          "B": "Collection Runner",
+          "C": "Global Variables"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of request body is used to send form data?",
+        "choices": {
+          "A": "text/plain",
+          "B": "x-www-form-urlencoded",
+          "C": "application/json"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature can be used to document APIs?",
+        "choices": {
+          "A": "Environment Variables",
+          "B": "Collection Runner",
+          "C": "Postman Documentation"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows storing reusable request parameters for multiple requests?",
+        "choices": {
+          "A": "Global Variables",
+          "B": "Environment Variables",
+          "C": "Collection Variables"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows exporting and sharing requests with the team?",
+        "choices": {
+          "A": "Workspaces",
+          "B": "Environments",
+          "C": "Collections"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman method is used to assert that response code is 200?",
+        "choices": {
+          "A": "pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+          "B": "assert.status(200);",
+          "C": "pm.assert(200);"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which type of variable in Postman can be shared across all collections and environments?",
+        "choices": {
+          "A": "Environment Variable",
+          "B": "Collection Variable",
+          "C": "Global Variable"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows testing APIs for different environments like dev, staging, and production?",
+        "choices": {
+          "A": "Environments",
+          "B": "Collections",
+          "C": "Workspaces"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman method validates JSON schema of an API response?",
+        "choices": {
+          "A": "pm.response.validateSchema()",
+          "B": "pm.response.checkSchema()",
+          "C": "pm.response.to.have.jsonSchema()"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which HTTP header is commonly used to send authorization tokens?",
+        "choices": {
+          "A": "Content-Type",
+          "B": "Accept",
+          "C": "Authorization"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman tab is used to add scripts before or after request execution?",
+        "choices": {
+          "A": "Body tab",
+          "B": "Pre-request Script & Tests tab",
+          "C": "Headers tab"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Postman feature allows visualizing API responses in charts or tables?",
+        "choices": {
+          "A": "Visualize tab",
+          "B": "Tests tab",
+          "C": "Body tab"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates a bad request?",
+        "choices": {
+          "A": "401 Unauthorized",
+          "B": "403 Forbidden",
+          "C": "400 Bad Request"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Postman can be used for both testing and documenting APIs.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "GET requests are used to modify server data.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "POST requests are used to create new resources.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "HTTP status code 200 indicates a successful request.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "HTTP status code 404 indicates the request was successful.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Environment Variables in Postman store reusable values like URLs and tokens.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Collection Runner allows executing multiple requests automatically.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "JavaScript is used in Postman for writing test scripts.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PATCH requests completely replace the existing resource.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PUT requests are used to fully update existing resources.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Postman cannot be used to validate response status codes.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "POST requests can include a body with JSON data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Authorization tokens are usually sent via the HTTP Authorization header.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Global Variables in Postman are shared across all collections and environments.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "JSON is a common format for API responses.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Postman can only be used for RESTful APIs.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Visualize tab allows creating charts and tables from API responses.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Pre-request scripts run after the request is executed.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Postman Monitors can run tests on a schedule.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Content-Type header defines the format of the request body.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

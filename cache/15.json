@@ -1,0 +1,508 @@
+{
+  "Performance & Load Testing": {
+    "mcq": [
+      {
+        "question": "What is the primary goal of performance testing?",
+        "choices": {
+          "A": "Check UI design",
+          "B": "Validate business logic",
+          "C": "Evaluate system speed, scalability, and stability"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing measures system behavior under expected load?",
+        "choices": {
+          "A": "Load testing",
+          "B": "Spike testing",
+          "C": "Stress testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing determines system limits by pushing beyond capacity?",
+        "choices": {
+          "A": "Stress testing",
+          "B": "Smoke testing",
+          "C": "Load testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing checks sudden increases in user traffic?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Spike testing",
+          "C": "Endurance testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing evaluates performance over a long duration?",
+        "choices": {
+          "A": "Spike testing",
+          "B": "Stress testing",
+          "C": "Endurance testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric measures how long a request takes to complete?",
+        "choices": {
+          "A": "Throughput",
+          "B": "Latency variance",
+          "C": "Response time"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which metric measures the number of requests handled per second?",
+        "choices": {
+          "A": "Response time",
+          "B": "Error rate",
+          "C": "Throughput"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which metric indicates the percentage of failed requests?",
+        "choices": {
+          "A": "Error rate",
+          "B": "Latency",
+          "C": "Throughput"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used for load testing?",
+        "choices": {
+          "A": "Git",
+          "B": "Apache JMeter",
+          "C": "Postman"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is used for performance testing of web applications?",
+        "choices": {
+          "A": "Docker",
+          "B": "Figma",
+          "C": "Gatling"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks system behavior when resources are constrained?",
+        "choices": {
+          "A": "Smoke testing",
+          "B": "Unit testing",
+          "C": "Stress testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which component often becomes a bottleneck under heavy load?",
+        "choices": {
+          "A": "Database",
+          "B": "HTML tags",
+          "C": "CSS styles"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates system scalability?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Scalability testing",
+          "C": "Usability testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which scalability approach adds more machines?",
+        "choices": {
+          "A": "Diagonal scaling",
+          "B": "Horizontal scaling",
+          "C": "Vertical scaling"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which scalability approach increases machine resources?",
+        "choices": {
+          "A": "Auto scaling",
+          "B": "Vertical scaling",
+          "C": "Horizontal scaling"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test simulates real-world user behavior?",
+        "choices": {
+          "A": "Load testing",
+          "B": "Unit testing",
+          "C": "Static testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which metric measures delay before data transfer begins?",
+        "choices": {
+          "A": "Throughput",
+          "B": "Latency",
+          "C": "Error rate"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures system recovery after failure?",
+        "choices": {
+          "A": "Recovery testing",
+          "B": "Spike testing",
+          "C": "Smoke testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks performance with maximum expected users?",
+        "choices": {
+          "A": "Load testing",
+          "B": "Exploratory testing",
+          "C": "Stress testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing focuses on gradual increase in load?",
+        "choices": {
+          "A": "Smoke testing",
+          "B": "Spike testing",
+          "C": "Ramp-up testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates cloud auto-scaling rules?",
+        "choices": {
+          "A": "Scalability testing",
+          "B": "UI testing",
+          "C": "Unit testing"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which JMeter element defines user behavior?",
+        "choices": {
+          "A": "Assertion",
+          "B": "Listener",
+          "C": "Thread Group"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which JMeter element collects test results?",
+        "choices": {
+          "A": "Thread Group",
+          "B": "Listener",
+          "C": "Sampler"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which JMeter element sends requests to the server?",
+        "choices": {
+          "A": "Timer",
+          "B": "Listener",
+          "C": "Sampler"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing identifies memory leaks?",
+        "choices": {
+          "A": "UI testing",
+          "B": "Smoke testing",
+          "C": "Performance testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures acceptable response time SLAs?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Functional testing",
+          "C": "Performance testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which metric measures concurrent users?",
+        "choices": {
+          "A": "Error rate",
+          "B": "Latency",
+          "C": "Concurrency"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates system under peak traffic?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Smoke testing",
+          "C": "Peak load testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing focuses on database performance?",
+        "choices": {
+          "A": "Accessibility testing",
+          "B": "Database performance testing",
+          "C": "UI testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is used for browser-based performance analysis?",
+        "choices": {
+          "A": "JUnit",
+          "B": "JMeter",
+          "C": "Lighthouse"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates API performance?",
+        "choices": {
+          "A": "API load testing",
+          "B": "UI testing",
+          "C": "Manual testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which metric indicates server stability?",
+        "choices": {
+          "A": "HTML size",
+          "B": "CSS count",
+          "C": "Error rate"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing checks system under long peak usage?",
+        "choices": {
+          "A": "Spike testing",
+          "B": "Smoke testing",
+          "C": "Endurance testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing helps capacity planning?",
+        "choices": {
+          "A": "Load testing",
+          "B": "Exploratory testing",
+          "C": "UI testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates caching effectiveness?",
+        "choices": {
+          "A": "Performance testing",
+          "B": "Unit testing",
+          "C": "Regression testing"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing checks behavior after sudden traffic drop?",
+        "choices": {
+          "A": "Smoke testing",
+          "B": "Spike testing",
+          "C": "Unit testing"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing identifies throughput limits?",
+        "choices": {
+          "A": "Accessibility testing",
+          "B": "Stress testing",
+          "C": "UI testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing ensures stable memory usage over time?",
+        "choices": {
+          "A": "Regression testing",
+          "B": "Smoke testing",
+          "C": "Endurance testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing validates performance after deployment?",
+        "choices": {
+          "A": "Unit testing",
+          "B": "Post-deployment performance testing",
+          "C": "Static testing"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing evaluates CDN impact?",
+        "choices": {
+          "A": "UI testing",
+          "B": "Performance testing",
+          "C": "Functional testing"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Performance testing evaluates speed and stability.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Load testing checks behavior beyond capacity.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Stress testing pushes the system to failure.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Spike testing handles sudden traffic changes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Endurance testing runs for a short time.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Throughput measures requests per second.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Response time measures request completion time.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Error rate indicates failed requests.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "JMeter is used for load testing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Thread Group defines users in JMeter.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Listeners send requests in JMeter.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Scalability testing validates growth handling.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Horizontal scaling adds more machines.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Vertical scaling adds more servers.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Latency measures delay before response.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Performance testing helps capacity planning.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Spike testing checks gradual load increase.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Endurance testing finds memory leaks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "API performance testing checks response under load.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Performance testing is only done after release.",
+        "answer": "F",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

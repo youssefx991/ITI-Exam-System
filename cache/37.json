@@ -1,0 +1,308 @@
+{
+  "Deep Learning with TensorFlow": {
+    "mcq": [
+      {
+        "question": "Which library is commonly used for building deep learning models in Python?",
+        "choices": {
+          "A": "TensorFlow",
+          "B": "Pandas",
+          "C": "Scikit-learn"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the basic building block of a neural network?",
+        "choices": {
+          "A": "Neuron",
+          "B": "Dataset",
+          "C": "Layer"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which activation function outputs values between 0 and 1?",
+        "choices": {
+          "A": "Tanh",
+          "B": "ReLU",
+          "C": "Sigmoid"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which activation function outputs values between -1 and 1?",
+        "choices": {
+          "A": "ReLU",
+          "B": "Sigmoid",
+          "C": "Tanh"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method is used to prevent overfitting in neural networks?",
+        "choices": {
+          "A": "Pooling",
+          "B": "Dropout",
+          "C": "Gradient Descent"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which optimizer adapts learning rate for each parameter individually?",
+        "choices": {
+          "A": "SGD",
+          "B": "Adam",
+          "C": "RMSProp"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which loss function is commonly used for binary classification?",
+        "choices": {
+          "A": "Mean Squared Error",
+          "B": "Binary Crossentropy",
+          "C": "Categorical Crossentropy"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TensorFlow module provides high-level APIs for building models?",
+        "choices": {
+          "A": "tf.signal",
+          "B": "tf.keras",
+          "C": "tf.data"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method initializes a Sequential model in TensorFlow?",
+        "choices": {
+          "A": "tf.keras.Sequential()",
+          "B": "tf.layers.Sequential()",
+          "C": "tf.model.Sequential()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique combines outputs of multiple neurons to reduce dimensionality?",
+        "choices": {
+          "A": "Dropout",
+          "B": "Normalization",
+          "C": "Pooling"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function adds a fully connected layer in tf.keras?",
+        "choices": {
+          "A": "Conv2D()",
+          "B": "MaxPooling2D()",
+          "C": "Dense()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TensorFlow class handles datasets efficiently for training?",
+        "choices": {
+          "A": "tf.keras.Model",
+          "B": "tf.data.Dataset",
+          "C": "tf.keras.Layer"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique normalizes input data for faster training?",
+        "choices": {
+          "A": "Batch Normalization",
+          "B": "Dropout",
+          "C": "Pooling"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer type is used in convolutional neural networks to extract features?",
+        "choices": {
+          "A": "Dense",
+          "B": "Dropout",
+          "C": "Conv2D"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer type reduces spatial dimensions in CNNs?",
+        "choices": {
+          "A": "Flatten",
+          "B": "MaxPooling2D",
+          "C": "Dense"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function compiles a TensorFlow model?",
+        "choices": {
+          "A": "model.evaluate()",
+          "B": "model.compile()",
+          "C": "model.fit()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function trains a TensorFlow model?",
+        "choices": {
+          "A": "model.compile()",
+          "B": "model.predict()",
+          "C": "model.fit()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function evaluates a TensorFlow model on test data?",
+        "choices": {
+          "A": "model.evaluate()",
+          "B": "model.compile()",
+          "C": "model.fit()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer flattens multi-dimensional input into a vector?",
+        "choices": {
+          "A": "Flatten",
+          "B": "Dense",
+          "C": "Conv2D"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which TensorFlow function makes predictions with a trained model?",
+        "choices": {
+          "A": "model.predict()",
+          "B": "model.fit()",
+          "C": "model.evaluate()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "TensorFlow is used for building deep learning models.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Sigmoid activation outputs values between -1 and 1.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Tanh activation outputs values between -1 and 1.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ReLU activation outputs negative values for negative inputs.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dropout is used to prevent overfitting.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Adam optimizer adapts learning rates for each parameter.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Binary Crossentropy is used for binary classification.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "tf.keras provides high-level APIs for building models.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Sequential model is created using tf.keras.Sequential().",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Pooling layers reduce overfitting by dropping neurons.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dense layer adds a fully connected layer.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "tf.data.Dataset is used for efficient dataset handling.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Batch Normalization normalizes input for faster training.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Conv2D layers are used to extract features in CNNs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MaxPooling2D reduces spatial dimensions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "model.compile() trains the model.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "model.fit() trains the model.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "model.evaluate() evaluates the model on test data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Flatten layer converts multi-dimensional input to a vector.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "model.predict() makes predictions with the trained model.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

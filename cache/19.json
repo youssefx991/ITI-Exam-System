@@ -1,0 +1,508 @@
+{
+  "Tableau Desktop & Prep": {
+    "mcq": [
+      {
+        "question": "What is Tableau Desktop primarily used for?",
+        "choices": {
+          "A": "Backend application development",
+          "B": "Database administration",
+          "C": "Data visualization and analysis"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is Tableau Prep mainly used for?",
+        "choices": {
+          "A": "Creating dashboards",
+          "B": "Writing SQL queries",
+          "C": "Data preparation and cleaning"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file extension is used by Tableau workbooks?",
+        "choices": {
+          "A": ".tbl",
+          "B": ".tds",
+          "C": ".twb"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file type stores both data and visuals?",
+        "choices": {
+          "A": ".twb",
+          "B": ".csv",
+          "C": ".twbx"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is a dimension in Tableau?",
+        "choices": {
+          "A": "A calculated metric",
+          "B": "A filter rule",
+          "C": "A categorical field"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is a measure in Tableau?",
+        "choices": {
+          "A": "A text field",
+          "B": "A numerical field",
+          "C": "A date filter"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which shelf controls how data is displayed visually?",
+        "choices": {
+          "A": "Marks",
+          "B": "Filters",
+          "C": "Pages"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which chart type is best for showing trends over time?",
+        "choices": {
+          "A": "Scatter plot",
+          "B": "Line chart",
+          "C": "Pie chart"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Tableau feature combines multiple worksheets?",
+        "choices": {
+          "A": "Dashboard",
+          "B": "Story",
+          "C": "Workbook"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature presents data insights step by step?",
+        "choices": {
+          "A": "Story",
+          "B": "Dashboard",
+          "C": "Worksheet"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which join type returns only matching rows?",
+        "choices": {
+          "A": "Left Join",
+          "B": "Full Join",
+          "C": "Inner Join"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which join keeps all rows from the left table?",
+        "choices": {
+          "A": "Right Join",
+          "B": "Inner Join",
+          "C": "Left Join"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Tableau feature blends data from different sources?",
+        "choices": {
+          "A": "Data blending",
+          "B": "Joins",
+          "C": "Relationships"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does a calculated field do?",
+        "choices": {
+          "A": "Imports external data",
+          "B": "Creates new data from existing fields",
+          "C": "Deletes null values"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function aggregates data?",
+        "choices": {
+          "A": "ATTR()",
+          "B": "SUM()",
+          "C": "ZN()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which aggregation shows the number of records?",
+        "choices": {
+          "A": "AVG()",
+          "B": "SUM()",
+          "C": "COUNT()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which chart type compares categories?",
+        "choices": {
+          "A": "Bar chart",
+          "B": "Line chart",
+          "C": "Map"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does Tableau Prep output?",
+        "choices": {
+          "A": "Cleaned data set",
+          "B": "Story",
+          "C": "Dashboard"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Tableau feature highlights key metrics?",
+        "choices": {
+          "A": "Stories",
+          "B": "KPI cards",
+          "C": "Pages shelf"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Tableau calculation type is row-level?",
+        "choices": {
+          "A": "LOD expression",
+          "B": "Table calculation",
+          "C": "Calculated field"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which calculation is performed after aggregation?",
+        "choices": {
+          "A": "Join",
+          "B": "Table calculation",
+          "C": "Calculated field"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which LOD expression ignores view-level filters?",
+        "choices": {
+          "A": "FIXED",
+          "B": "EXCLUDE",
+          "C": "INCLUDE"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which LOD expression adds dimensions to the view?",
+        "choices": {
+          "A": "FIXED",
+          "B": "INCLUDE",
+          "C": "REMOVE"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which LOD expression removes dimensions from the view?",
+        "choices": {
+          "A": "FIXED",
+          "B": "EXCLUDE",
+          "C": "INCLUDE"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which Tableau feature improves performance?",
+        "choices": {
+          "A": "Extracts",
+          "B": "Stories",
+          "C": "Live connections"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is a Tableau extract?",
+        "choices": {
+          "A": "A calculated field",
+          "B": "A SQL query",
+          "C": "A snapshot of data"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature allows user interaction?",
+        "choices": {
+          "A": "Measures",
+          "B": "Filters",
+          "C": "Dimensions"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which object controls page-by-page analysis?",
+        "choices": {
+          "A": "Marks shelf",
+          "B": "Rows shelf",
+          "C": "Pages shelf"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which visualization is best for geographic data?",
+        "choices": {
+          "A": "Scatter plot",
+          "B": "Map",
+          "C": "Bar chart"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Tableau Prep step combines multiple inputs?",
+        "choices": {
+          "A": "Output step",
+          "B": "Clean step",
+          "C": "Join step"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Prep step removes null values?",
+        "choices": {
+          "A": "Aggregate step",
+          "B": "Clean step",
+          "C": "Join step"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Prep step summarizes data?",
+        "choices": {
+          "A": "Output step",
+          "B": "Aggregate step",
+          "C": "Clean step"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Tableau feature controls dashboard layout?",
+        "choices": {
+          "A": "Extracts",
+          "B": "Containers",
+          "C": "Stories"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which container allows flexible resizing?",
+        "choices": {
+          "A": "Tiled",
+          "B": "Fixed",
+          "C": "Floating"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Tableau calculation handles NULL values?",
+        "choices": {
+          "A": "IF()",
+          "B": "ATTR()",
+          "C": "ZN()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Tableau feature supports storytelling?",
+        "choices": {
+          "A": "Extracts",
+          "B": "Story points",
+          "C": "Joins"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which best practice improves dashboard performance?",
+        "choices": {
+          "A": "Using live data only",
+          "B": "Limiting filters",
+          "C": "Using many worksheets"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which feature allows reuse of data connections?",
+        "choices": {
+          "A": "Worksheet",
+          "B": "Data source",
+          "C": "Story"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Tableau role controls viewing permissions?",
+        "choices": {
+          "A": "Viewer",
+          "B": "Creator",
+          "C": "Editor"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Tableau concept focuses on clarity and simplicity?",
+        "choices": {
+          "A": "Visual best practices",
+          "B": "Joins",
+          "C": "LOD expressions"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Tableau Desktop is used for data visualization.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Tableau Prep is used for data cleaning.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dimensions are usually categorical.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Measures are usually numeric.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dashboards can contain multiple worksheets.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Stories present data insights sequentially.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Inner joins return all rows from both tables.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Extracts can improve performance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Calculated fields create new data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Table calculations run before aggregation.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "FIXED LOD ignores view-level filters.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Maps are best for geographic analysis.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Filters enable user interaction.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Floating containers allow free placement.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Prep output can be reused in Tableau Desktop.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "ZN() replaces NULL values with zero.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Aggregate steps summarize data in Prep.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Using many filters always improves performance.",
+        "answer": "F",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "LOD expressions help control data granularity.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Good visualization focuses on clarity.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

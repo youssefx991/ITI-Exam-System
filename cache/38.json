@@ -1,0 +1,308 @@
+{
+  "Model Deployment & MLOps": {
+    "mcq": [
+      {
+        "question": "What is the primary goal of MLOps?",
+        "choices": {
+          "A": "Automate ML model deployment and monitoring",
+          "B": "Collect data only",
+          "C": "Train models manually"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used for containerizing ML models?",
+        "choices": {
+          "A": "NumPy",
+          "B": "Docker",
+          "C": "Jupyter Notebook"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which framework helps orchestrate containers for deployment?",
+        "choices": {
+          "A": "Pandas",
+          "B": "Kubernetes",
+          "C": "Matplotlib"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which format is commonly used to save trained ML models?",
+        "choices": {
+          "A": "CSV",
+          "B": "JSON only",
+          "C": "Pickle"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process involves monitoring model performance in production?",
+        "choices": {
+          "A": "Model Monitoring",
+          "B": "Model Training",
+          "C": "Data Cleaning"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which deployment type serves models through APIs?",
+        "choices": {
+          "A": "Excel Sheet",
+          "B": "REST API",
+          "C": "Batch File"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which process automates retraining when model performance drops?",
+        "choices": {
+          "A": "Continuous Training",
+          "B": "Data Visualization",
+          "C": "Manual Labeling"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which monitoring metric is commonly used for regression models in production?",
+        "choices": {
+          "A": "Mean Squared Error",
+          "B": "F1-Score",
+          "C": "Accuracy"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which service is used to deploy models in cloud environments?",
+        "choices": {
+          "A": "AWS SageMaker",
+          "B": "Docker Compose only",
+          "C": "GitHub"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which practice ensures code quality and reproducibility in MLOps?",
+        "choices": {
+          "A": "Version Control",
+          "B": "Data Cleaning only",
+          "C": "Visualization"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which architecture involves automating ML workflows end-to-end?",
+        "choices": {
+          "A": "CI/CD for ML",
+          "B": "Manual training pipeline",
+          "C": "Batch processing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which framework is used for experiment tracking in MLOps?",
+        "choices": {
+          "A": "MLflow",
+          "B": "Pandas",
+          "C": "Seaborn"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which deployment strategy allows zero downtime updates?",
+        "choices": {
+          "A": "FTP Upload",
+          "B": "Blue-Green Deployment",
+          "C": "Manual Overwrite"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which MLOps practice ensures models are explainable?",
+        "choices": {
+          "A": "Dockerization",
+          "B": "Batch Processing",
+          "C": "Model Interpretability"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach automatically rolls back a model if performance decreases?",
+        "choices": {
+          "A": "Manual Training",
+          "B": "Random Deployment",
+          "C": "Canary Deployment"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which metric monitors classification performance in production?",
+        "choices": {
+          "A": "Mean Squared Error",
+          "B": "RMSProp",
+          "C": "F1-Score"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which practice ensures reproducibility of experiments?",
+        "choices": {
+          "A": "Random Sampling Only",
+          "B": "Manual Calculation",
+          "C": "Logging Parameters and Metrics"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process automates model testing before deployment?",
+        "choices": {
+          "A": "Manual Review Only",
+          "B": "Continuous Integration",
+          "C": "Data Visualization"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which storage format is used for large models in production?",
+        "choices": {
+          "A": "TXT",
+          "B": "CSV",
+          "C": "SavedModel"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which practice reduces technical debt in ML pipelines?",
+        "choices": {
+          "A": "Automated Testing and CI/CD",
+          "B": "Manual Training Only",
+          "C": "Visualization Only"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "MLOps automates ML model deployment and monitoring.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Docker is used to containerize ML models.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Kubernetes orchestrates containers for deployment.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Pickle is a common format to save ML models.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Model Monitoring tracks performance in production.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "REST API is a common method to serve ML models.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Continuous Training retrains models automatically when performance drops.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Mean Squared Error can be used to monitor regression models.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GitHub is used to deploy models in cloud.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Version Control ensures code quality and reproducibility.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CI/CD pipelines automate ML workflows end-to-end.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MLflow is used for experiment tracking.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Blue-Green Deployment allows zero downtime updates.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Model Interpretability ensures models are explainable.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Canary Deployment automatically rolls back underperforming models.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "F1-Score can monitor classification performance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Logging parameters and metrics ensures reproducibility.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Continuous Integration automates model testing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SavedModel format stores large models in production.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Automated Testing and CI/CD reduces technical debt.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

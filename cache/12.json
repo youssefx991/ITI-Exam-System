@@ -1,0 +1,489 @@
+{
+  "Automation Testing - Selenium": {
+    "mcq": [
+      {
+        "question": "What is Selenium primarily used for?",
+        "choices": {
+          "A": "API development",
+          "B": "Database testing",
+          "C": "Automated web application testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which language is not supported by Selenium WebDriver?",
+        "choices": {
+          "A": "COBOL",
+          "B": "Java",
+          "C": "Python"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium component allows recording and playback of tests?",
+        "choices": {
+          "A": "Grid",
+          "B": "Selenium IDE",
+          "C": "WebDriver"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium component allows testing on multiple browsers and platforms?",
+        "choices": {
+          "A": "Selenium Grid",
+          "B": "Selenium IDE",
+          "C": "WebDriver"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in WebDriver navigates to a URL?",
+        "choices": {
+          "A": "driver.open()",
+          "B": "driver.get()",
+          "C": "driver.navigate()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method clicks a web element in Selenium?",
+        "choices": {
+          "A": "element.click()",
+          "B": "element.tap()",
+          "C": "element.press()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method retrieves text from a web element?",
+        "choices": {
+          "A": "element.text()",
+          "B": "element.read()",
+          "C": "element.getText()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which locator is the fastest and most reliable in Selenium?",
+        "choices": {
+          "A": "ClassName",
+          "B": "ID",
+          "C": "XPath"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which locator allows finding elements using hierarchical path in HTML?",
+        "choices": {
+          "A": "ID",
+          "B": "Name",
+          "C": "XPath"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium method submits a form?",
+        "choices": {
+          "A": "driver.submit()",
+          "B": "element.sendKeys()",
+          "C": "element.submit()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium WebDriver interface is used for handling alerts?",
+        "choices": {
+          "A": "Popup",
+          "B": "Alert",
+          "C": "Dialog"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium method handles multiple browser windows or tabs?",
+        "choices": {
+          "A": "driver.switchWindow()",
+          "B": "driver.navigate().tab()",
+          "C": "driver.switchTo().window()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method simulates typing text into input fields?",
+        "choices": {
+          "A": "element.input()",
+          "B": "element.type()",
+          "C": "element.sendKeys()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium waits until a certain condition is met before executing further steps?",
+        "choices": {
+          "A": "Sleep",
+          "B": "Explicit Wait",
+          "C": "Implicit Wait"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which wait applies globally to all web elements in Selenium?",
+        "choices": {
+          "A": "Fluent Wait",
+          "B": "Implicit Wait",
+          "C": "Explicit Wait"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium wait allows custom polling intervals and exception ignoring?",
+        "choices": {
+          "A": "Explicit Wait",
+          "B": "Fluent Wait",
+          "C": "Implicit Wait"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which method maximizes the browser window in Selenium?",
+        "choices": {
+          "A": "window.maximize()",
+          "B": "driver.maximize()",
+          "C": "driver.manage().window().maximize()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method refreshes the current page in Selenium?",
+        "choices": {
+          "A": "driver.refresh()",
+          "B": "window.reload()",
+          "C": "driver.navigate().refresh()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium class handles keyboard and mouse events?",
+        "choices": {
+          "A": "MouseKeys",
+          "B": "EventHandler",
+          "C": "Actions"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which locator strategy selects elements by CSS selectors?",
+        "choices": {
+          "A": "By.xpath()",
+          "B": "By.className()",
+          "C": "By.cssSelector()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium component supports running tests in parallel on different machines?",
+        "choices": {
+          "A": "Selenium Grid",
+          "B": "Selenium IDE",
+          "C": "WebDriver"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium command closes the current browser window?",
+        "choices": {
+          "A": "driver.quit()",
+          "B": "driver.close()",
+          "C": "driver.exit()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium command closes all browser windows and ends the session?",
+        "choices": {
+          "A": "driver.close()",
+          "B": "driver.quit()",
+          "C": "driver.exit()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium interface handles drop-down selection?",
+        "choices": {
+          "A": "Select",
+          "B": "Dropdown",
+          "C": "ComboBox"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium WebDriver interface is used to interact with frames?",
+        "choices": {
+          "A": "driver.switchTo().frame()",
+          "B": "driver.frame()",
+          "C": "driver.switchFrame()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium method scrolls the page to bring an element into view?",
+        "choices": {
+          "A": "window.scrollTo()",
+          "B": "element.scrollIntoView()",
+          "C": "driver.scroll()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium locator finds elements by tag name?",
+        "choices": {
+          "A": "By.tagName()",
+          "B": "By.className()",
+          "C": "By.id()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium feature allows taking screenshots of the browser window?",
+        "choices": {
+          "A": "TakesScreenshot interface",
+          "B": "ScreenCapture class",
+          "C": "CaptureScreenshot method"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium locator selects elements by HTML class attribute?",
+        "choices": {
+          "A": "By.className()",
+          "B": "By.id()",
+          "C": "By.tagName()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium interface handles JavaScript alerts, confirms, and prompts?",
+        "choices": {
+          "A": "Alert",
+          "B": "DialogBox",
+          "C": "Popup"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium locator selects elements by their name attribute?",
+        "choices": {
+          "A": "By.cssSelector()",
+          "B": "By.id()",
+          "C": "By.name()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium component allows cross-browser testing?",
+        "choices": {
+          "A": "A",
+          "B": "WebDriver",
+          "C": "Grid",
+          "D": "IDE"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium class is used to handle multiple windows and tabs?",
+        "choices": {
+          "A": "WindowHandler",
+          "B": "WindowManager",
+          "C": "driver.switchTo().window()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium interface supports interacting with dynamic elements using wait conditions?",
+        "choices": {
+          "A": "FluentWait",
+          "B": "WebDriverWait",
+          "C": "WaitHandler"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium feature simulates complex user gestures like drag-and-drop?",
+        "choices": {
+          "A": "Actions class",
+          "B": "EventBuilder",
+          "C": "MouseEvents"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium component allows testing on cloud-based browsers like Sauce Labs?",
+        "choices": {
+          "A": "IDE",
+          "B": "WebDriver",
+          "C": "Grid"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Selenium method clears input fields before typing?",
+        "choices": {
+          "A": "element.clear()",
+          "B": "element.erase()",
+          "C": "element.reset()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Selenium feature supports handling dynamic waits for asynchronous elements?",
+        "choices": {
+          "A": "Sleep",
+          "B": "Implicit Wait",
+          "C": "Explicit Wait"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Selenium can be used to automate web application testing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Selenium WebDriver only supports Java.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Selenium IDE is used for recording and playback of tests.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Selenium Grid is used to run tests on multiple browsers and platforms.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The driver.get() method navigates to a specific URL.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "element.click() is used to submit a form in Selenium.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "By ID is the fastest and most reliable locator strategy in Selenium.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Explicit Wait in Selenium waits globally for all elements.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Implicit Wait applies globally to all web elements in Selenium.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Fluent Wait allows custom polling intervals and ignoring exceptions.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "driver.close() closes all browser windows.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "driver.quit() closes all browser windows and ends the session.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Actions class handles keyboard and mouse events.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "WebDriver cannot handle JavaScript alerts.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "element.sendKeys() types text into input fields.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "By.cssSelector() is used to locate elements using CSS selectors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Selenium cannot take screenshots of the browser window.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "driver.switchTo().frame() is used to switch to a frame in Selenium.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Selenium supports cloud-based browser testing like Sauce Labs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "element.clear() clears input fields before typing in Selenium.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

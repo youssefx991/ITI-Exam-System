@@ -1,0 +1,508 @@
+{
+  "Node.js & Express Backend": {
+    "mcq": [
+      {
+        "question": "Which module is used to create a web server in Node.js?",
+        "choices": {
+          "A": "http",
+          "B": "fs",
+          "C": "url"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method starts an Express server on a specified port?",
+        "choices": {
+          "A": "app.listen()",
+          "B": "app.start()",
+          "C": "server.run()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command is used to initialize a Node.js project?",
+        "choices": {
+          "A": "npm install",
+          "B": "node start",
+          "C": "npm init"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which object in Express represents the HTTP request?",
+        "choices": {
+          "A": "req",
+          "B": "app",
+          "C": "res"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which object in Express represents the HTTP response?",
+        "choices": {
+          "A": "res",
+          "B": "req",
+          "C": "next"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Express method defines a route for GET requests?",
+        "choices": {
+          "A": "app.get()",
+          "B": "app.post()",
+          "C": "app.put()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method is used to parse incoming JSON requests in Express?",
+        "choices": {
+          "A": "app.json()",
+          "B": "bodyParser.urlencoded()",
+          "C": "express.json()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module is used for file system operations in Node.js?",
+        "choices": {
+          "A": "path",
+          "B": "http",
+          "C": "fs"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Node.js feature allows handling asynchronous operations efficiently?",
+        "choices": {
+          "A": "Callback Stack",
+          "B": "Event Loop",
+          "C": "Thread Pool"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in Express passes control to the next middleware?",
+        "choices": {
+          "A": "pass()",
+          "B": "continue()",
+          "C": "next()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which package manager is used to install Node.js dependencies?",
+        "choices": {
+          "A": "npm",
+          "B": "yarnpkg",
+          "C": "pip"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP status code indicates a successful request?",
+        "choices": {
+          "A": "200",
+          "B": "404",
+          "C": "500"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which middleware serves static files in Express?",
+        "choices": {
+          "A": "express.files()",
+          "B": "express.assets()",
+          "C": "express.static()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Node.js module is used for working with file paths?",
+        "choices": {
+          "A": "url",
+          "B": "path",
+          "C": "fs"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method sends JSON data in an Express response?",
+        "choices": {
+          "A": "res.json()",
+          "B": "res.sendData()",
+          "C": "res.sendJson()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTTP method is used to update resources partially?",
+        "choices": {
+          "A": "PUT",
+          "B": "POST",
+          "C": "PATCH"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Express middleware handles errors?",
+        "choices": {
+          "A": "express.error()",
+          "B": "Error-handling middleware",
+          "C": "app.use()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command installs a specific package locally in Node.js?",
+        "choices": {
+          "A": "npm get package-name",
+          "B": "npm init package-name",
+          "C": "npm install package-name"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Node.js global variable provides the current module file path?",
+        "choices": {
+          "A": "__dirname",
+          "B": "__filename",
+          "C": "module.filename"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Node.js global variable provides the directory path of the current module?",
+        "choices": {
+          "A": "process.cwd()",
+          "B": "__dirname",
+          "C": "__filename"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in Express sends an HTTP status code and message?",
+        "choices": {
+          "A": "res.status()",
+          "B": "res.sendStatus()",
+          "C": "res.code()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Node.js feature allows importing modules?",
+        "choices": {
+          "A": "include()",
+          "B": "require()",
+          "C": "import()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Node.js module helps in creating events?",
+        "choices": {
+          "A": "net",
+          "B": "fs",
+          "C": "events"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP method is used to delete resources on a server?",
+        "choices": {
+          "A": "PUT",
+          "B": "POST",
+          "C": "DELETE"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Express method handles POST requests to a route?",
+        "choices": {
+          "A": "app.get()",
+          "B": "app.post()",
+          "C": "app.put()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool automatically restarts a Node.js server during development?",
+        "choices": {
+          "A": "webpack",
+          "B": "nodemon",
+          "C": "pm2"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Node.js object provides information about the current process?",
+        "choices": {
+          "A": "os",
+          "B": "global",
+          "C": "process"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command globally installs a Node.js package?",
+        "choices": {
+          "A": "npm install -g package-name",
+          "B": "npm install package-name",
+          "C": "npm add package-name"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Express middleware parses URL-encoded form data?",
+        "choices": {
+          "A": "express.json()",
+          "B": "express.urlencoded()",
+          "C": "bodyParser.json()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Node.js module helps in creating TCP servers and clients?",
+        "choices": {
+          "A": "url",
+          "B": "net",
+          "C": "http"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Express method defines a route for all HTTP methods?",
+        "choices": {
+          "A": "app.all()",
+          "B": "app.use()",
+          "C": "app.any()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which module in Node.js provides utilities for working with streams?",
+        "choices": {
+          "A": "stream",
+          "B": "buffer",
+          "C": "fs"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Express method mounts middleware on a specific path?",
+        "choices": {
+          "A": "app.middleware('/path', middleware)",
+          "B": "app.mount(middleware)",
+          "C": "app.use('/path', middleware)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method sends plain text as a response in Express?",
+        "choices": {
+          "A": "res.send()",
+          "B": "res.write()",
+          "C": "res.text()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Node.js module allows working with environment variables?",
+        "choices": {
+          "A": "dotenv",
+          "B": "process.env",
+          "C": "config"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in Express terminates the request-response cycle?",
+        "choices": {
+          "A": "res.end()",
+          "B": "res.json()",
+          "C": "res.send()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTTP status code indicates a client error?",
+        "choices": {
+          "A": "5xx",
+          "B": "4xx",
+          "C": "2xx"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method in Express can redirect a client to a different URL?",
+        "choices": {
+          "A": "res.sendRedirect()",
+          "B": "res.redirect()",
+          "C": "res.goto()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method in Express parses cookies from the request headers?",
+        "choices": {
+          "A": "express.cookies()",
+          "B": "cookie-parser middleware",
+          "C": "req.cookies()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Node.js feature allows non-blocking I/O operations?",
+        "choices": {
+          "A": "Multithreading",
+          "B": "Synchronous programming",
+          "C": "Asynchronous programming"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Node.js is built on the V8 JavaScript engine.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Express is a frontend framework for Node.js.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The 'fs' module is used for handling HTTP requests.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Middleware in Express can modify the request and response objects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'require' function is used to import modules in Node.js.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Node.js uses a multithreaded architecture to handle requests.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'path' module helps work with file and directory paths.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Express routes can handle multiple HTTP methods.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Async/await in Node.js is used for synchronous operations.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'http' module can create both HTTP servers and clients.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Express's 'res.json()' method automatically sets Content-Type to 'application/json'.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Node.js global variable '__dirname' returns the current module filename.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Nodemon is used to automatically restart a Node.js server during development.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Express's 'app.use()' can mount middleware for specific paths.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'process' object in Node.js provides environment information and process control.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'net' module is used for creating HTTP routes.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Express can handle errors using dedicated error-handling middleware.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Static files in Express can be served using 'express.static()'.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'res.redirect()' method sends a 404 error to the client.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Node.js supports non-blocking I/O operations by default.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

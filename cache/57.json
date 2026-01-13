@@ -1,0 +1,158 @@
+{
+  "Microcontrollers (STM32/Arduino)": {
+    "mcq": [
+      {
+        "question": "What is a microcontroller?",
+        "choices": {
+          "A": "A type of network router",
+          "B": "A compact integrated circuit with CPU, memory, and peripherals",
+          "C": "A high-speed storage device"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which programming language is commonly used for Arduino?",
+        "choices": {
+          "A": "Python only",
+          "B": "C/C++",
+          "C": "JavaScript"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which STM32 feature allows precise timing control?",
+        "choices": {
+          "A": "Timers",
+          "B": "EEPROM",
+          "C": "PWM pins"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Arduino function initializes setup code to run once?",
+        "choices": {
+          "A": "setup()",
+          "B": "loop()",
+          "C": "init()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which STM32 peripheral allows analog input reading?",
+        "choices": {
+          "A": "ADC (Analog-to-Digital Converter)",
+          "B": "GPIO",
+          "C": "PWM"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which pin type is used for digital output in Arduino?",
+        "choices": {
+          "A": "Analog Pin",
+          "B": "UART Pin",
+          "C": "Digital Pin"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which STM32 feature generates variable duty cycle signals?",
+        "choices": {
+          "A": "DAC",
+          "B": "PWM (Pulse Width Modulation)",
+          "C": "ADC"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Arduino function runs repeatedly after setup()?",
+        "choices": {
+          "A": "init()",
+          "B": "loop()",
+          "C": "start()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which microcontroller memory type is non-volatile?",
+        "choices": {
+          "A": "Flash",
+          "B": "RAM",
+          "C": "SRAM"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which communication protocol is commonly used between STM32 and sensors?",
+        "choices": {
+          "A": "SMTP",
+          "B": "I2C",
+          "C": "HTTP"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "A microcontroller contains CPU, memory, and peripherals on a single chip.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Arduino is commonly programmed using C/C++.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "setup() function in Arduino runs only once at the beginning.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "loop() function in Arduino runs repeatedly after setup().",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "STM32 ADC reads analog signals and converts them to digital.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PWM generates variable duty cycle digital signals.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Flash memory is non-volatile in microcontrollers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Digital pins are used for outputting only analog signals.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "I2C protocol allows communication between microcontrollers and sensors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "RAM retains data after the microcontroller is powered off.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

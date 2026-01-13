@@ -1,0 +1,488 @@
+{
+  "Responsive Web Design & UI/UX": {
+    "mcq": [
+      {
+        "question": "Which CSS technique is commonly used for responsive layouts?",
+        "choices": {
+          "A": "Media Queries",
+          "B": "CSS Variables",
+          "C": "Flexbox"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which unit is relative to the viewport width in CSS?",
+        "choices": {
+          "A": "vw",
+          "B": "px",
+          "C": "em"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS layout method allows distributing space among items along a single axis?",
+        "choices": {
+          "A": "Grid",
+          "B": "Flexbox",
+          "C": "Float"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML meta tag is essential for responsive design?",
+        "choices": {
+          "A": "<meta name='author'>",
+          "B": "<meta charset='UTF-8'>",
+          "C": "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property controls how an image scales to fit its container?",
+        "choices": {
+          "A": "background-size",
+          "B": "resize",
+          "C": "object-fit"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS layout method allows designing both rows and columns simultaneously?",
+        "choices": {
+          "A": "Float",
+          "B": "Grid",
+          "C": "Flexbox"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which UI principle ensures that elements are easy to perceive and use?",
+        "choices": {
+          "A": "Usability",
+          "B": "Aesthetics",
+          "C": "Responsiveness"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS unit is relative to the font size of the root element?",
+        "choices": {
+          "A": "px",
+          "B": "em",
+          "C": "rem"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which design principle emphasizes consistency and visual hierarchy?",
+        "choices": {
+          "A": "Accessibility",
+          "B": "Responsive Design",
+          "C": "UI/UX Design Principles"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property controls how flex items wrap onto multiple lines?",
+        "choices": {
+          "A": "flex-wrap",
+          "B": "flex-direction",
+          "C": "flex-flow"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique helps design websites for multiple screen sizes?",
+        "choices": {
+          "A": "Responsive Design",
+          "B": "Adaptive Design",
+          "C": "Fixed Layout"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property controls the gap between rows and columns in a grid layout?",
+        "choices": {
+          "A": "grid-gap",
+          "B": "gap",
+          "C": "spacing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach adjusts the layout based on breakpoints in CSS?",
+        "choices": {
+          "A": "Media Queries",
+          "B": "CSS Variables",
+          "C": "Flexbox"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which color contrast principle improves readability and accessibility?",
+        "choices": {
+          "A": "Using vibrant colors only",
+          "B": "Use of gradients",
+          "C": "Sufficient contrast between text and background"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property aligns items along the main axis in Flexbox?",
+        "choices": {
+          "A": "align-items",
+          "B": "justify-content",
+          "C": "align-content"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property aligns items along the cross axis in Flexbox?",
+        "choices": {
+          "A": "align-items",
+          "B": "flex-direction",
+          "C": "justify-content"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which responsive image technique uses the 'srcset' attribute?",
+        "choices": {
+          "A": "Using inline images only",
+          "B": "Serving different images based on device resolution",
+          "C": "Setting image width in CSS"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which UI design principle ensures minimal cognitive load for users?",
+        "choices": {
+          "A": "Contrast",
+          "B": "Consistency",
+          "C": "Simplicity"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property specifies the size of background images?",
+        "choices": {
+          "A": "background-scale",
+          "B": "background-size",
+          "C": "background-fit"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Flexbox property controls the alignment of a single flex item along the cross axis?",
+        "choices": {
+          "A": "justify-content",
+          "B": "align-self",
+          "C": "align-items"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique ensures UI components are accessible to users with disabilities?",
+        "choices": {
+          "A": "Responsive Design",
+          "B": "Accessibility",
+          "C": "Progressive Enhancement"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property defines the flow of flex items (row or column)?",
+        "choices": {
+          "A": "flex-flow",
+          "B": "direction",
+          "C": "flex-direction"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which UX principle emphasizes providing feedback for user actions?",
+        "choices": {
+          "A": "Feedback",
+          "B": "Consistency",
+          "C": "Affordance"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS feature allows overlapping elements in a grid layout?",
+        "choices": {
+          "A": "grid-area",
+          "B": "grid-overlap",
+          "C": "z-index"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layout technique is better for two-dimensional arrangements of rows and columns?",
+        "choices": {
+          "A": "CSS Grid",
+          "B": "Float",
+          "C": "Flexbox"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property specifies how extra space is distributed along the cross axis in Flexbox?",
+        "choices": {
+          "A": "align-content",
+          "B": "justify-content",
+          "C": "align-items"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS unit is relative to the viewport height?",
+        "choices": {
+          "A": "rem",
+          "B": "em",
+          "C": "vh"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which UI design principle ensures elements are predictable and consistent across screens?",
+        "choices": {
+          "A": "Consistency",
+          "B": "Contrast",
+          "C": "Hierarchy"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique ensures that text is readable on different screen sizes?",
+        "choices": {
+          "A": "Responsive Typography",
+          "B": "Fixed Fonts",
+          "C": "Scaled Images"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach adapts layouts specifically to each device type instead of fluid resizing?",
+        "choices": {
+          "A": "Adaptive Design",
+          "B": "Responsive Design",
+          "C": "Fixed Layout"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property defines the order of Flexbox items?",
+        "choices": {
+          "A": "flex-order",
+          "B": "z-index",
+          "C": "order"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which principle prioritizes important content visually using size, color, or position?",
+        "choices": {
+          "A": "Consistency",
+          "B": "Visual Hierarchy",
+          "C": "Accessibility"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which responsive technique allows different layouts depending on screen width breakpoints?",
+        "choices": {
+          "A": "Media Queries",
+          "B": "Flexbox",
+          "C": "Grid"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property sets minimum and maximum sizes for elements?",
+        "choices": {
+          "A": "size-constraints",
+          "B": "width-limit",
+          "C": "min-width / max-width"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which UX principle helps users navigate efficiently by making navigation intuitive?",
+        "choices": {
+          "A": "Feedback",
+          "B": "Affordance",
+          "C": "Learnability"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property is used to hide overflowing content with ellipsis?",
+        "choices": {
+          "A": "text-overflow",
+          "B": "overflow",
+          "C": "clip"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which principle ensures that interactive elements look clickable or touchable?",
+        "choices": {
+          "A": "Accessibility",
+          "B": "Contrast",
+          "C": "Affordance"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS feature helps maintain proportional spacing between elements in a grid?",
+        "choices": {
+          "A": "margin",
+          "B": "gap",
+          "C": "padding"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Responsive Web Design adapts layouts for different screen sizes.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Flexbox is ideal for two-dimensional layouts.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Media Queries allow applying CSS rules based on device characteristics.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Grid layouts are suitable for both rows and columns simultaneously.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Using vw and vh units allows scaling elements based on viewport size.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Accessibility is not a concern in responsive design.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Visual hierarchy helps users focus on important content first.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Flexbox can control both the main and cross axes of layout.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Using fixed-width layouts ensures perfect responsiveness.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The meta viewport tag is necessary for responsive behavior on mobile devices.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CSS 'gap' works for both Flexbox and Grid layouts.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Adaptive design uses fluid resizing rather than device-specific layouts.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Affordance ensures elements visually indicate interactivity.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Responsive typography adapts text size for readability across devices.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Visual consistency reduces cognitive load for users.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Grid-area allows positioning items anywhere in a CSS Grid.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Media Queries can detect only screen width, not height.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Using relative units like rem or em improves responsive layouts.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Overflowing text cannot be truncated with ellipsis using CSS.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Learnability ensures users can easily understand and navigate the UI.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

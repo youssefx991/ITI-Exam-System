@@ -1,0 +1,158 @@
+{
+  "ESP32 & Arduino IoT Projects": {
+    "mcq": [
+      {
+        "question": "Which microcontroller is commonly used for IoT projects with Wi-Fi?",
+        "choices": {
+          "A": "ESP32",
+          "B": "Arduino Uno",
+          "C": "Raspberry Pi"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Arduino function initializes the setup code?",
+        "choices": {
+          "A": "loop()",
+          "B": "init()",
+          "C": "setup()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol is commonly used for IoT messaging in ESP32 projects?",
+        "choices": {
+          "A": "MQTT",
+          "B": "FTP",
+          "C": "SMTP"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function in Arduino runs repeatedly after setup()?",
+        "choices": {
+          "A": "init()",
+          "B": "loop()",
+          "C": "main()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which ESP32 feature allows analog input readings?",
+        "choices": {
+          "A": "PWM",
+          "B": "ADC (Analog-to-Digital Converter)",
+          "C": "DAC"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which actuator is commonly controlled in IoT projects for motion?",
+        "choices": {
+          "A": "Resistor",
+          "B": "LED",
+          "C": "Servo Motor"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature of ESP32 supports Bluetooth communication?",
+        "choices": {
+          "A": "Wi-Fi only",
+          "B": "Zigbee",
+          "C": "BLE (Bluetooth Low Energy)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Arduino library is commonly used to connect to Wi-Fi networks?",
+        "choices": {
+          "A": "SPI.h",
+          "B": "Ethernet.h",
+          "C": "WiFi.h"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ESP32 feature allows multiple sensors to send data to a cloud server?",
+        "choices": {
+          "A": "PWM",
+          "B": "MQTT Client",
+          "C": "GPIO"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which component is essential to power ESP32 and Arduino IoT devices?",
+        "choices": {
+          "A": "DC Power Supply or Battery",
+          "B": "Ethernet Cable",
+          "C": "Resistor Array"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "ESP32 is widely used in IoT projects due to built-in Wi-Fi and Bluetooth.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The setup() function in Arduino runs once at the start.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "loop() function in Arduino executes repeatedly.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "MQTT is a lightweight protocol used for messaging in IoT projects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ADC allows ESP32 to read analog signals from sensors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Servo motors are used as actuators for motion control in IoT projects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ESP32 supports Bluetooth Low Energy (BLE) communication.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "WiFi.h library is used in Arduino to connect to Wi-Fi networks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MQTT clients allow multiple sensors to send data to a server or cloud.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Resistors alone are sufficient to power ESP32 IoT devices.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "Frontend Performance Optimization": {
+    "mcq": [
+      {
+        "question": "Which technique reduces the number of HTTP requests on a webpage?",
+        "choices": {
+          "A": "Bundling assets",
+          "B": "Minification",
+          "C": "Lazy loading"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method improves performance by loading images only when they appear in the viewport?",
+        "choices": {
+          "A": "Lazy loading",
+          "B": "Preloading",
+          "C": "Bundling"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used to measure website performance in Chrome?",
+        "choices": {
+          "A": "React DevTools",
+          "B": "Webpack",
+          "C": "Lighthouse"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique reduces file size by removing whitespace and comments in CSS and JS?",
+        "choices": {
+          "A": "Compression",
+          "B": "Minification",
+          "C": "Caching"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which caching strategy allows storing static assets in the browser for faster load?",
+        "choices": {
+          "A": "Server caching",
+          "B": "Browser caching",
+          "C": "Memory caching"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method improves performance by splitting code into smaller chunks loaded on demand?",
+        "choices": {
+          "A": "Code splitting",
+          "B": "Caching",
+          "C": "Minification"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property can trigger layout recalculations if overused?",
+        "choices": {
+          "A": "background-color",
+          "B": "color",
+          "C": "width"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which image format provides better compression for photos with minimal quality loss?",
+        "choices": {
+          "A": "PNG",
+          "B": "GIF",
+          "C": "WebP"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which performance metric measures how quickly the main content becomes visible?",
+        "choices": {
+          "A": "Largest Contentful Paint (LCP)",
+          "B": "Cumulative Layout Shift (CLS)",
+          "C": "First Input Delay (FID)"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method reduces initial load time by deferring non-critical JavaScript?",
+        "choices": {
+          "A": "Bundling",
+          "B": "Async and defer",
+          "C": "Minification"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique avoids render-blocking CSS for faster page load?",
+        "choices": {
+          "A": "Lazy loading",
+          "B": "Critical CSS",
+          "C": "Bundling"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which method reduces repetitive layout recalculations in the browser?",
+        "choices": {
+          "A": "Using !important",
+          "B": "Avoiding forced synchronous layouts",
+          "C": "Using inline styles"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which tool provides waterfall charts for analyzing network requests?",
+        "choices": {
+          "A": "Webpack Analyzer",
+          "B": "React Profiler",
+          "C": "Chrome DevTools Network Panel"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique improves perceived performance by showing placeholders for content?",
+        "choices": {
+          "A": "Skeleton screens",
+          "B": "Lazy loading",
+          "C": "Caching"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which file compression method reduces transfer size over the network?",
+        "choices": {
+          "A": "Gzip/Brotli",
+          "B": "Bundling",
+          "C": "Minification"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which performance metric measures the time from user input to browser response?",
+        "choices": {
+          "A": "Time to Interactive (TTI)",
+          "B": "Largest Contentful Paint (LCP)",
+          "C": "First Input Delay (FID)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique reduces unused CSS rules to improve page speed?",
+        "choices": {
+          "A": "CSS tree-shaking",
+          "B": "Bundling",
+          "C": "Minification"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique avoids loading JavaScript until it is needed?",
+        "choices": {
+          "A": "Bundling",
+          "B": "Inlining",
+          "C": "Dynamic imports"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which browser API can be used to prefetch resources for faster navigation?",
+        "choices": {
+          "A": "link rel='prefetch'",
+          "B": "script async",
+          "C": "link rel='stylesheet'"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique helps reduce Time to First Byte (TTFB) by storing precomputed responses?",
+        "choices": {
+          "A": "Server-side caching",
+          "B": "Client-side caching",
+          "C": "Bundling"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric measures visual stability of a webpage during load?",
+        "choices": {
+          "A": "Largest Contentful Paint (LCP)",
+          "B": "Cumulative Layout Shift (CLS)",
+          "C": "First Input Delay (FID)"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which method inlining critical CSS improves above-the-fold content rendering?",
+        "choices": {
+          "A": "Minified CSS",
+          "B": "Critical CSS",
+          "C": "External CSS"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which JS technique improves performance by running code outside the main thread?",
+        "choices": {
+          "A": "Async/Await",
+          "B": "Web Workers",
+          "C": "Promises"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which technique avoids layout thrashing by batching DOM reads and writes?",
+        "choices": {
+          "A": "setTimeout",
+          "B": "RequestAnimationFrame batching",
+          "C": "setInterval"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which performance strategy reduces load by splitting vendor and application code?",
+        "choices": {
+          "A": "Code splitting",
+          "B": "Lazy loading",
+          "C": "Tree shaking"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method reduces unused JavaScript in production builds?",
+        "choices": {
+          "A": "Code splitting",
+          "B": "Minification",
+          "C": "Tree shaking"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique uses placeholders to keep layout consistent before content loads?",
+        "choices": {
+          "A": "Skeleton screens",
+          "B": "Lazy loading",
+          "C": "Preloading"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach prioritizes loading visible content first for faster perceived performance?",
+        "choices": {
+          "A": "Below-the-fold optimization",
+          "B": "Deferred loading",
+          "C": "Above-the-fold optimization"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool analyzes bundle size and identifies heavy dependencies?",
+        "choices": {
+          "A": "React Profiler",
+          "B": "Webpack Bundle Analyzer",
+          "C": "Chrome Lighthouse"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique reduces rendering time by precomputing layout in the browser?",
+        "choices": {
+          "A": "Precomputed layouts",
+          "B": "Code splitting",
+          "C": "Lazy loading"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which approach reduces first render time by serving compressed static assets?",
+        "choices": {
+          "A": "Tree shaking",
+          "B": "Minification",
+          "C": "Gzip/Brotli compression"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which strategy improves performance by caching API responses in the browser?",
+        "choices": {
+          "A": "Client-side caching",
+          "B": "Lazy loading",
+          "C": "Server-side caching"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique reduces JavaScript execution time by offloading computation?",
+        "choices": {
+          "A": "setTimeout",
+          "B": "Async/Await",
+          "C": "Web Workers"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which method reduces render-blocking resources by inlining critical CSS?",
+        "choices": {
+          "A": "Critical CSS",
+          "B": "Tree shaking",
+          "C": "Lazy loading"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which performance metric indicates when the page is fully interactive?",
+        "choices": {
+          "A": "Cumulative Layout Shift (CLS)",
+          "B": "Time to Interactive (TTI)",
+          "C": "First Contentful Paint (FCP)"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique reduces JavaScript size by removing unused code during build?",
+        "choices": {
+          "A": "Minification",
+          "B": "Code splitting",
+          "C": "Tree shaking"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Minification reduces file size by removing whitespace and comments.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Lazy loading only applies to JavaScript files, not images.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Browser caching stores static assets locally to improve performance.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Code splitting divides code into smaller bundles loaded on demand.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Critical CSS ensures above-the-fold content renders faster.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Tree shaking removes unused JavaScript during production builds.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Gzip and Brotli compression reduce network transfer size of assets.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Web Workers run code on the main UI thread for faster execution.",
+        "answer": "F",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Skeleton screens improve perceived performance by showing placeholders.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Time to Interactive (TTI) measures when the page is fully responsive to user input.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Largest Contentful Paint (LCP) measures time to display largest visible element.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Async and defer attributes on scripts help prevent render-blocking.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "RequestAnimationFrame can help avoid layout thrashing by batching DOM updates.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Dynamic imports allow loading JavaScript modules only when needed.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Inlining critical CSS increases render-blocking and slows down the page.",
+        "answer": "F",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Tree shaking and minification achieve the same purpose in optimizing performance.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Cumulative Layout Shift (CLS) measures visual stability during page load.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Webpack Bundle Analyzer helps identify heavy dependencies in a project.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Preloading resources can improve navigation speed for future pages.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Lazy loading decreases perceived performance by delaying content visibility.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

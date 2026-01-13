@@ -1,0 +1,498 @@
+{
+  "Business Intelligence Fundamentals": {
+    "mcq": [
+      {
+        "question": "What is Business Intelligence (BI) primarily used for?",
+        "choices": {
+          "A": "Supporting data-driven decision making",
+          "B": "Developing mobile applications",
+          "C": "Managing network security"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which component is part of a typical BI architecture?",
+        "choices": {
+          "A": "Web server",
+          "B": "Data warehouse",
+          "C": "Firewall"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the main purpose of a data warehouse?",
+        "choices": {
+          "A": "Host websites",
+          "B": "Store integrated historical data",
+          "C": "Run transactional systems"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which data source is commonly used in BI?",
+        "choices": {
+          "A": "Text editors",
+          "B": "Operational databases",
+          "C": "Email clients"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does ETL stand for?",
+        "choices": {
+          "A": "Evaluate, Track, Learn",
+          "B": "Extract, Transform, Load",
+          "C": "Enter, Transfer, Log"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI process extracts data from source systems?",
+        "choices": {
+          "A": "Transform",
+          "B": "Load",
+          "C": "Extract"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which step cleans and reshapes data?",
+        "choices": {
+          "A": "Transform",
+          "B": "Extract",
+          "C": "Load"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which step loads data into the warehouse?",
+        "choices": {
+          "A": "Transform",
+          "B": "Extract",
+          "C": "Load"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What type of data is mainly used in BI?",
+        "choices": {
+          "A": "Multimedia files",
+          "B": "Historical data",
+          "C": "Real-time gaming data"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI output shows key metrics at a glance?",
+        "choices": {
+          "A": "Database",
+          "B": "Dashboard",
+          "C": "Log file"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is a KPI?",
+        "choices": {
+          "A": "Known Process Input",
+          "B": "Key Program Interface",
+          "C": "Key Performance Indicator"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which visualization best shows trends over time?",
+        "choices": {
+          "A": "Pie chart",
+          "B": "Table",
+          "C": "Line chart"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which chart compares categories effectively?",
+        "choices": {
+          "A": "Bar chart",
+          "B": "Map",
+          "C": "Line chart"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI concept focuses on summarizing data?",
+        "choices": {
+          "A": "Encryption",
+          "B": "Normalization",
+          "C": "Aggregation"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is OLAP mainly used for?",
+        "choices": {
+          "A": "Multidimensional analysis",
+          "B": "Data entry",
+          "C": "Transaction processing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which OLAP operation summarizes data?",
+        "choices": {
+          "A": "Drill-down",
+          "B": "Slice",
+          "C": "Roll-up"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which OLAP operation shows more detail?",
+        "choices": {
+          "A": "Pivot",
+          "B": "Roll-up",
+          "C": "Drill-down"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which OLAP operation filters a single dimension?",
+        "choices": {
+          "A": "Dice",
+          "B": "Roll-up",
+          "C": "Slice"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which schema is commonly used in BI?",
+        "choices": {
+          "A": "Graph schema",
+          "B": "Hierarchical schema",
+          "C": "Star schema"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does a fact table store?",
+        "choices": {
+          "A": "Application logs",
+          "B": "Measures and metrics",
+          "C": "User names"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What do dimension tables store?",
+        "choices": {
+          "A": "Calculated KPIs",
+          "B": "Indexes",
+          "C": "Descriptive attributes"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI tool category focuses on reporting?",
+        "choices": {
+          "A": "ETL tools",
+          "B": "Database engines",
+          "C": "Visualization tools"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI feature allows user interaction?",
+        "choices": {
+          "A": "Indexes",
+          "B": "Filters",
+          "C": "Constraints"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which data quality issue affects BI results?",
+        "choices": {
+          "A": "Fast queries",
+          "B": "Optimized indexes",
+          "C": "Inconsistent data"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is data governance?",
+        "choices": {
+          "A": "Designing dashboards",
+          "B": "Managing data quality and usage",
+          "C": "Encrypting databases"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which role defines business requirements in BI?",
+        "choices": {
+          "A": "Network engineer",
+          "B": "Business analyst",
+          "C": "System administrator"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI layer handles data storage?",
+        "choices": {
+          "A": "Presentation layer",
+          "B": "Data layer",
+          "C": "Application layer"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI layer handles dashboards and reports?",
+        "choices": {
+          "A": "ETL layer",
+          "B": "Presentation layer",
+          "C": "Data layer"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI concept ensures trusted data usage?",
+        "choices": {
+          "A": "Manual reporting",
+          "B": "Single source of truth",
+          "C": "Multiple data copies"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BI practice improves decision speed?",
+        "choices": {
+          "A": "Paper-based reports",
+          "B": "Self-service BI",
+          "C": "Manual Excel reports"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BI trend focuses on user empowerment?",
+        "choices": {
+          "A": "Legacy reporting",
+          "B": "Batch processing",
+          "C": "Self-service analytics"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BI metric measures profitability?",
+        "choices": {
+          "A": "Page views",
+          "B": "Response time",
+          "C": "Profit margin"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI challenge relates to large data volumes?",
+        "choices": {
+          "A": "Scalability",
+          "B": "Visualization",
+          "C": "Formatting"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BI concept focuses on historical comparison?",
+        "choices": {
+          "A": "Normalization",
+          "B": "Data entry",
+          "C": "Trend analysis"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI deliverable is interactive?",
+        "choices": {
+          "A": "Static PDF",
+          "B": "Dashboard",
+          "C": "Printed report"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI practice improves data trust?",
+        "choices": {
+          "A": "Manual edits",
+          "B": "Data validation",
+          "C": "Data duplication"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BI feature supports executive decisions?",
+        "choices": {
+          "A": "High-level KPIs",
+          "B": "System metrics",
+          "C": "Raw logs"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which BI approach focuses on business questions?",
+        "choices": {
+          "A": "Ad-hoc coding",
+          "B": "Technology-driven BI",
+          "C": "Business-driven BI"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which BI tool category includes Power BI and Tableau?",
+        "choices": {
+          "A": "Visualization tools",
+          "B": "ETL tools",
+          "C": "Database systems"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Business Intelligence supports decision making.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "BI systems mainly use historical data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "ETL stands for Extract, Transform, Load.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dashboards display KPIs.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Data warehouses store transactional data only.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Star schema is common in BI.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Fact tables store descriptive attributes.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dimension tables store descriptive data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "OLAP supports multidimensional analysis.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Roll-up provides more detail.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Drill-down shows detailed data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Data quality affects BI outcomes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Self-service BI empowers users.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "BI is only used by IT teams.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "KPIs measure business performance.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Visualization improves data understanding.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Data governance improves data trust.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "BI dashboards are usually static.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Trend analysis compares data over time.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "BI helps align strategy with data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

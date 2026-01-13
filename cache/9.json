@@ -1,0 +1,488 @@
+{
+  "DevOps Basics for Full-Stack": {
+    "mcq": [
+      {
+        "question": "What does DevOps aim to improve?",
+        "choices": {
+          "A": "Only software development speed",
+          "B": "Only IT operations efficiency",
+          "C": "Collaboration between development and operations"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used for version control in DevOps?",
+        "choices": {
+          "A": "Git",
+          "B": "Jenkins",
+          "C": "Docker"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool automates building, testing, and deploying software?",
+        "choices": {
+          "A": "Kubernetes",
+          "B": "Git",
+          "C": "Jenkins"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which process integrates code changes frequently into a shared repository?",
+        "choices": {
+          "A": "Continuous Deployment",
+          "B": "Continuous Integration",
+          "C": "Continuous Delivery"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which process automatically deploys software to production after tests?",
+        "choices": {
+          "A": "Continuous Deployment",
+          "B": "Continuous Integration",
+          "C": "Version Control"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process ensures software is always ready to release after CI?",
+        "choices": {
+          "A": "Continuous Delivery",
+          "B": "Manual Deployment",
+          "C": "Continuous Deployment"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is used to create and manage containers?",
+        "choices": {
+          "A": "Docker",
+          "B": "Git",
+          "C": "Jenkins"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which container orchestration tool manages deployment, scaling, and operations?",
+        "choices": {
+          "A": "GitLab",
+          "B": "Docker Compose",
+          "C": "Kubernetes"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which practice emphasizes monitoring and feedback loops in DevOps?",
+        "choices": {
+          "A": "Continuous Integration",
+          "B": "Continuous Monitoring",
+          "C": "Continuous Delivery"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which file is commonly used to define Docker containers?",
+        "choices": {
+          "A": "Jenkinsfile",
+          "B": "Compose.yaml",
+          "C": "Dockerfile"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DevOps principle reduces manual errors by automating processes?",
+        "choices": {
+          "A": "Versioning",
+          "B": "Manual Testing",
+          "C": "Automation"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which practice helps detect bugs early by running automated tests on new code?",
+        "choices": {
+          "A": "Continuous Deployment",
+          "B": "Continuous Integration",
+          "C": "Continuous Monitoring"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is used for configuration management in DevOps?",
+        "choices": {
+          "A": "Docker",
+          "B": "Git",
+          "C": "Ansible"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which configuration management tool uses YAML for defining infrastructure?",
+        "choices": {
+          "A": "Chef",
+          "B": "Puppet",
+          "C": "Ansible"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps practice emphasizes frequent releases with minimal downtime?",
+        "choices": {
+          "A": "Continuous Delivery",
+          "B": "Continuous Integration",
+          "C": "Manual Deployment"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing is often automated in a CI/CD pipeline?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Ad-hoc Testing",
+          "C": "Exploratory Testing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DevOps tool helps visualize and track workflow pipelines?",
+        "choices": {
+          "A": "Docker",
+          "B": "Jenkins",
+          "C": "Kubernetes"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool manages secrets and environment variables securely in DevOps?",
+        "choices": {
+          "A": "Vault",
+          "B": "Git",
+          "C": "Docker"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric measures the time between code commit and deployment?",
+        "choices": {
+          "A": "MTTR",
+          "B": "Cycle Time",
+          "C": "Lead Time"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps principle emphasizes collaboration across teams?",
+        "choices": {
+          "A": "Monitoring",
+          "B": "Automation",
+          "C": "Culture"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool manages and orchestrates multiple Docker containers?",
+        "choices": {
+          "A": "Git",
+          "B": "Docker Compose",
+          "C": "Kubernetes"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CI/CD stage ensures new code does not break existing functionality?",
+        "choices": {
+          "A": "Automated Testing",
+          "B": "Deployment",
+          "C": "Monitoring"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DevOps metric measures system downtime?",
+        "choices": {
+          "A": "Lead Time",
+          "B": "Velocity",
+          "C": "MTTR (Mean Time to Recovery)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is commonly used for infrastructure as code (IaC)?",
+        "choices": {
+          "A": "Git",
+          "B": "Docker",
+          "C": "Terraform"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of deployment gradually shifts traffic to the new version?",
+        "choices": {
+          "A": "Canary Deployment",
+          "B": "Rolling Deployment",
+          "C": "Blue-Green Deployment"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which deployment strategy replaces all instances with the new version at once?",
+        "choices": {
+          "A": "Rolling",
+          "B": "All-at-once",
+          "C": "Canary"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps tool monitors system performance and metrics?",
+        "choices": {
+          "A": "Prometheus",
+          "B": "Docker",
+          "C": "Jenkins"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps tool manages container networking and scaling?",
+        "choices": {
+          "A": "Git",
+          "B": "Docker Compose",
+          "C": "Kubernetes"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps principle focuses on rapid feedback and improvement?",
+        "choices": {
+          "A": "Automation",
+          "B": "Continuous Improvement",
+          "C": "Culture"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file defines CI/CD pipeline steps in Jenkins?",
+        "choices": {
+          "A": "Dockerfile",
+          "B": "Pipeline.yaml",
+          "C": "Jenkinsfile"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which practice emphasizes storing code, configuration, and scripts in a repository?",
+        "choices": {
+          "A": "Monitoring",
+          "B": "Continuous Deployment",
+          "C": "Version Control"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which container tool isolates applications from the host OS?",
+        "choices": {
+          "A": "Terraform",
+          "B": "Docker",
+          "C": "Kubernetes"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DevOps tool helps schedule and run automated jobs?",
+        "choices": {
+          "A": "Prometheus",
+          "B": "Jenkins",
+          "C": "Docker"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of deployment slowly rolls out changes to a subset of users?",
+        "choices": {
+          "A": "Rolling Deployment",
+          "B": "Canary Deployment",
+          "C": "Blue-Green Deployment"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps metric measures frequency of deployments to production?",
+        "choices": {
+          "A": "MTTR",
+          "B": "Lead Time",
+          "C": "Deployment Frequency"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CI/CD concept automatically builds, tests, and deploys code?",
+        "choices": {
+          "A": "Pipeline",
+          "B": "Branch",
+          "C": "Repository"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DevOps tool is used for log aggregation and visualization?",
+        "choices": {
+          "A": "Docker",
+          "B": "ELK Stack",
+          "C": "Git"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DevOps practice emphasizes versioning and traceability of infrastructure?",
+        "choices": {
+          "A": "Infrastructure as Code",
+          "B": "Monitoring",
+          "C": "Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "DevOps aims to integrate development and operations teams.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Continuous Integration automatically deploys code to production.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Docker is used to create containers for applications.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Kubernetes orchestrates containers across multiple nodes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Automation reduces manual errors in DevOps workflows.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Continuous Delivery ensures code is always ready to deploy.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Jenkins is a version control system.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Terraform is used for infrastructure as code.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Blue-Green Deployment gradually shifts traffic to a new version.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Canary Deployment rolls out changes to a small subset of users.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Continuous Monitoring helps detect system issues early.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Docker isolates applications using virtual machines.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Jenkinsfile defines the steps of a CI/CD pipeline.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Infrastructure as Code enables version control for configuration.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Prometheus is used for continuous integration.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Automated testing in CI/CD helps detect bugs early.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "DevOps culture emphasizes communication and collaboration.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Deployment Frequency measures how often code is deployed.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ELK Stack is used for log aggregation and visualization.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Automation is not a key principle in DevOps.",
+        "answer": "F",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "Linux & Open Source Tools": {
+    "mcq": [
+      {
+        "question": "What is Linux primarily used for?",
+        "choices": {
+          "A": "Web browser",
+          "B": "Office suite",
+          "C": "Operating system"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command is used to list files in Linux?",
+        "choices": {
+          "A": "ls",
+          "B": "dir",
+          "C": "list"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which open source license allows modification and redistribution?",
+        "choices": {
+          "A": "Proprietary",
+          "B": "Closed Source",
+          "C": "GPL"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command shows the current working directory?",
+        "choices": {
+          "A": "pwd",
+          "B": "ls",
+          "C": "cd"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux tool is used for process monitoring?",
+        "choices": {
+          "A": "grep",
+          "B": "top",
+          "C": "chmod"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to change file permissions?",
+        "choices": {
+          "A": "ls",
+          "B": "chmod",
+          "C": "chown"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which package manager is used in Debian-based systems?",
+        "choices": {
+          "A": "yum",
+          "B": "rpm",
+          "C": "apt"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux tool is used to search text in files?",
+        "choices": {
+          "A": "awk",
+          "B": "sed",
+          "C": "grep"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to view the contents of a file?",
+        "choices": {
+          "A": "cat",
+          "B": "mkdir",
+          "C": "ls"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux shell is commonly used?",
+        "choices": {
+          "A": "Bash",
+          "B": "Command Prompt",
+          "C": "PowerShell"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command is used to create directories in Linux?",
+        "choices": {
+          "A": "touch",
+          "B": "rmdir",
+          "C": "mkdir"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux tool automates repetitive tasks?",
+        "choices": {
+          "A": "cron",
+          "B": "top",
+          "C": "grep"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to move or rename files?",
+        "choices": {
+          "A": "cp",
+          "B": "mv",
+          "C": "rm"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command is used to copy files?",
+        "choices": {
+          "A": "cp",
+          "B": "rm",
+          "C": "mv"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux command displays disk usage?",
+        "choices": {
+          "A": "ls",
+          "B": "du",
+          "C": "df"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command shows running services in Linux?",
+        "choices": {
+          "A": "service",
+          "B": "ps",
+          "C": "systemctl"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux tool is used for version control?",
+        "choices": {
+          "A": "Git",
+          "B": "Mercurial",
+          "C": "SVN"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command displays the first lines of a file?",
+        "choices": {
+          "A": "less",
+          "B": "head",
+          "C": "tail"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command displays the last lines of a file?",
+        "choices": {
+          "A": "cat",
+          "B": "tail",
+          "C": "head"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to search and replace text?",
+        "choices": {
+          "A": "sed",
+          "B": "grep",
+          "C": "awk"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which Linux command displays network configuration?",
+        "choices": {
+          "A": "ping",
+          "B": "netstat",
+          "C": "ifconfig"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to remove files in Linux?",
+        "choices": {
+          "A": "rm",
+          "B": "erase",
+          "C": "del"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux tool is used for text processing and reporting?",
+        "choices": {
+          "A": "grep",
+          "B": "awk",
+          "C": "sed"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux shell command lists environment variables?",
+        "choices": {
+          "A": "echo",
+          "B": "env",
+          "C": "set"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to change the owner of a file?",
+        "choices": {
+          "A": "ls",
+          "B": "chmod",
+          "C": "chown"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux tool manages software packages in RedHat-based systems?",
+        "choices": {
+          "A": "yum",
+          "B": "pacman",
+          "C": "apt"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to compress files in Linux?",
+        "choices": {
+          "A": "gzip",
+          "B": "tar",
+          "C": "zip"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux tool helps monitor memory and CPU usage?",
+        "choices": {
+          "A": "vim",
+          "B": "nano",
+          "C": "htop"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command is used to view running processes?",
+        "choices": {
+          "A": "top",
+          "B": "jobs",
+          "C": "ps"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command shows file type information?",
+        "choices": {
+          "A": "type",
+          "B": "ls",
+          "C": "file"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux tool is used for editing text files in the terminal?",
+        "choices": {
+          "A": "vim",
+          "B": "nano",
+          "C": "Both A and B"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command changes the current directory?",
+        "choices": {
+          "A": "pwd",
+          "B": "cd",
+          "C": "ls"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux command shows disk usage for directories?",
+        "choices": {
+          "A": "df",
+          "B": "ls",
+          "C": "du"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux command shows system uptime?",
+        "choices": {
+          "A": "who",
+          "B": "top",
+          "C": "uptime"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which open source tool is used for containerization?",
+        "choices": {
+          "A": "Docker",
+          "B": "VMware",
+          "C": "VirtualBox"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Linux command displays manual pages?",
+        "choices": {
+          "A": "man",
+          "B": "help",
+          "C": "info"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux command is used to change file timestamps?",
+        "choices": {
+          "A": "chmod",
+          "B": "chown",
+          "C": "touch"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command outputs the first 10 lines of a file?",
+        "choices": {
+          "A": "tail",
+          "B": "less",
+          "C": "head"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Linux command shows active network connections?",
+        "choices": {
+          "A": "ping",
+          "B": "netstat",
+          "C": "ifconfig"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Linux is an open source operating system.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The 'ls' command lists files in a directory.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "'chmod' changes file permissions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'pwd' displays the current working directory.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "'mv' is used to move or rename files.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "'cp' is used to copy files.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "'rm' deletes files in Linux.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "'grep' is used to search text in files.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'top' shows running processes and system resource usage.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'mkdir' creates a new directory.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "'chown' changes the file owner.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'apt' is a package manager for Debian-based Linux systems.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'yum' is used in RedHat-based systems.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'tar' can be used to compress files.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'htop' is a tool to monitor CPU and memory usage.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'vim' and 'nano' are terminal-based text editors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'ifconfig' shows network interface configuration.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'Docker' is an open source containerization tool.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'head' displays the first lines of a file.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "'tail' displays the last lines of a file.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

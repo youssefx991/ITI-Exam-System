@@ -1,0 +1,158 @@
+{
+  "Cybersecurity Fundamentals": {
+    "mcq": [
+      {
+        "question": "What is the primary goal of cybersecurity?",
+        "choices": {
+          "A": "Develop faster CPUs",
+          "B": "Protect systems and data from attacks",
+          "C": "Improve software UI"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which of the following is a type of malware?",
+        "choices": {
+          "A": "Ransomware",
+          "B": "CSS",
+          "C": "HTTP"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does a firewall do?",
+        "choices": {
+          "A": "Filters network traffic based on rules",
+          "B": "Encrypts files automatically",
+          "C": "Monitors CPU usage"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which attack tricks users into revealing sensitive information?",
+        "choices": {
+          "A": "Phishing",
+          "B": "SQL Injection",
+          "C": "DDoS"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which cybersecurity principle ensures data is not altered by unauthorized users?",
+        "choices": {
+          "A": "Confidentiality",
+          "B": "Availability",
+          "C": "Integrity"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which principle ensures data is accessible to authorized users when needed?",
+        "choices": {
+          "A": "Integrity",
+          "B": "Confidentiality",
+          "C": "Availability"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which principle ensures only authorized users can access data?",
+        "choices": {
+          "A": "Confidentiality",
+          "B": "Availability",
+          "C": "Integrity"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What type of attack floods a system with traffic to make it unavailable?",
+        "choices": {
+          "A": "Trojan",
+          "B": "Phishing",
+          "C": "DDoS"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is used to monitor network traffic for suspicious activity?",
+        "choices": {
+          "A": "Database Indexer",
+          "B": "HTML Parser",
+          "C": "IDS/IPS"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which attack exploits vulnerabilities in SQL databases?",
+        "choices": {
+          "A": "Cross-Site Scripting",
+          "B": "SQL Injection",
+          "C": "Keylogging"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Cybersecurity protects systems, networks, and data from attacks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Ransomware encrypts a victim's data and demands payment.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "A firewall filters incoming and outgoing network traffic.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Phishing attacks attempt to steal sensitive information.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Integrity in cybersecurity ensures data is not tampered with.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Availability ensures data is only accessible to attackers.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Confidentiality ensures only authorized users can access data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "DDoS attacks aim to make systems unavailable by flooding traffic.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "IDS/IPS systems monitor network traffic for malicious activity.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SQL Injection attacks exploit vulnerabilities in databases.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

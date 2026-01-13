@@ -1,0 +1,478 @@
+{
+  "Manual Testing & Test Cases": {
+    "mcq": [
+      {
+        "question": "What is the main goal of manual testing?",
+        "choices": {
+          "A": "Automate repetitive tasks",
+          "B": "Find defects in the software",
+          "C": "Deploy software to production"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of testing checks individual units of code?",
+        "choices": {
+          "A": "Integration Testing",
+          "B": "Unit Testing",
+          "C": "System Testing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of test verifies the system as a whole?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "System Testing",
+          "C": "Integration Testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which document describes the expected behavior of a feature?",
+        "choices": {
+          "A": "User Manual",
+          "B": "Bug Report",
+          "C": "Test Case"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which step in test case execution involves checking actual vs expected results?",
+        "choices": {
+          "A": "Planning",
+          "B": "Design",
+          "C": "Verification"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type ensures that new changes do not break existing functionality?",
+        "choices": {
+          "A": "Smoke Testing",
+          "B": "Regression Testing",
+          "C": "Acceptance Testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing is performed without knowledge of the internal code?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Black-box Testing",
+          "C": "White-box Testing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of testing checks internal logic and code structure?",
+        "choices": {
+          "A": "Black-box Testing",
+          "B": "User Acceptance Testing",
+          "C": "White-box Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test type verifies critical functions before detailed testing?",
+        "choices": {
+          "A": "Smoke Testing",
+          "B": "Sanity Testing",
+          "C": "Regression Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test type verifies specific functionality after minor changes?",
+        "choices": {
+          "A": "Smoke Testing",
+          "B": "Integration Testing",
+          "C": "Sanity Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing involves end users to validate requirements?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "System Testing",
+          "C": "User Acceptance Testing (UAT)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test case field describes test inputs?",
+        "choices": {
+          "A": "Test Data",
+          "B": "Expected Result",
+          "C": "Test Objective"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which test case field describes the expected outcome?",
+        "choices": {
+          "A": "Test Data",
+          "B": "Test Objective",
+          "C": "Expected Result"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing type is performed after integration of multiple modules?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Integration Testing",
+          "C": "System Testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which document is used to report discovered defects?",
+        "choices": {
+          "A": "Bug Report",
+          "B": "Test Plan",
+          "C": "Test Case"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing type checks software under expected workload?",
+        "choices": {
+          "A": "Performance Testing",
+          "B": "Smoke Testing",
+          "C": "Unit Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type verifies behavior under abnormal conditions?",
+        "choices": {
+          "A": "Sanity Testing",
+          "B": "Load Testing",
+          "C": "Stress Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test type ensures software is installed and starts correctly?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Installation Testing",
+          "C": "Integration Testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type validates the system for compliance with regulations?",
+        "choices": {
+          "A": "Acceptance Testing",
+          "B": "System Testing",
+          "C": "Compliance Testing"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which testing type verifies software usability and user experience?",
+        "choices": {
+          "A": "Usability Testing",
+          "B": "Regression Testing",
+          "C": "Unit Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type ensures software works on different hardware and OS?",
+        "choices": {
+          "A": "System Testing",
+          "B": "Unit Testing",
+          "C": "Compatibility Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of defect occurs due to missing requirements?",
+        "choices": {
+          "A": "Omission Defect",
+          "B": "Commission Defect",
+          "C": "Syntax Defect"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type focuses on database integrity and queries?",
+        "choices": {
+          "A": "Database Testing",
+          "B": "Integration Testing",
+          "C": "Unit Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test case type is written to verify a single condition or scenario?",
+        "choices": {
+          "A": "Negative Test Case",
+          "B": "Edge Case",
+          "C": "Positive Test Case"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which test case type checks software against invalid inputs?",
+        "choices": {
+          "A": "Negative Test Case",
+          "B": "Edge Case",
+          "C": "Positive Test Case"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test case type checks boundary conditions and limits?",
+        "choices": {
+          "A": "Regression Test Case",
+          "B": "Boundary/Edge Case",
+          "C": "Unit Test Case"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing is performed without executing the code?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Dynamic Testing",
+          "C": "Static Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing involves executing the code to find defects?",
+        "choices": {
+          "A": "Dynamic Testing",
+          "B": "Static Testing",
+          "C": "Unit Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type ensures that fixes do not break other parts of software?",
+        "choices": {
+          "A": "Regression Testing",
+          "B": "Smoke Testing",
+          "C": "Sanity Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type is performed by testers without coding knowledge?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Automated Testing",
+          "C": "Manual Testing"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which testing type checks the most important features before full testing?",
+        "choices": {
+          "A": "Smoke Testing",
+          "B": "Sanity Testing",
+          "C": "Acceptance Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing type validates end-to-end workflow of an application?",
+        "choices": {
+          "A": "Integration Testing",
+          "B": "Unit Testing",
+          "C": "System Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of test design technique uses input combinations and conditions?",
+        "choices": {
+          "A": "Equivalence Partitioning",
+          "B": "Regression Testing",
+          "C": "Boundary Testing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing checks the behavior under heavy workload?",
+        "choices": {
+          "A": "Stress Testing",
+          "B": "Performance Testing",
+          "C": "Load Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of testing checks system behavior under extreme conditions?",
+        "choices": {
+          "A": "Performance Testing",
+          "B": "Load Testing",
+          "C": "Stress Testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which test type verifies software against defined standards and guidelines?",
+        "choices": {
+          "A": "Compliance Testing",
+          "B": "Unit Testing",
+          "C": "Regression Testing"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which test type ensures that system installation and setup works correctly?",
+        "choices": {
+          "A": "Unit Testing",
+          "B": "Installation Testing",
+          "C": "Regression Testing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Manual testing requires executing test cases without automation.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Unit testing is a type of manual testing.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Smoke testing verifies basic functionality before detailed testing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sanity testing is performed after minor changes to verify specific functionality.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Regression testing ensures that new changes do not break existing features.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "User Acceptance Testing is performed by developers.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Black-box testing requires knowledge of internal code.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "White-box testing checks internal logic and code structure.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Test cases document expected input and output for testing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Omission defects occur due to extra, unnecessary code.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Static testing involves reviewing documents without executing code.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dynamic testing requires executing the software to find defects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Compatibility testing ensures software works on multiple platforms.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Usability testing is focused on code correctness.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Boundary testing focuses on edge conditions and limits.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Installation testing checks proper installation and setup.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Stress testing verifies software behavior under peak load.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Compliance testing ensures software meets standards and regulations.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Positive test cases check for expected behavior with valid input.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Negative test cases check software behavior with invalid input.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

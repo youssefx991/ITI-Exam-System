@@ -1,0 +1,308 @@
+{
+  "Computer Vision Basics": {
+    "mcq": [
+      {
+        "question": "Which library is widely used for computer vision tasks in Python?",
+        "choices": {
+          "A": "Pandas",
+          "B": "OpenCV",
+          "C": "NumPy"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which process involves converting an image into numerical data for analysis?",
+        "choices": {
+          "A": "Text Mining",
+          "B": "Image Processing",
+          "C": "Data Cleaning"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique detects edges in an image?",
+        "choices": {
+          "A": "Canny Edge Detection",
+          "B": "Gaussian Blur",
+          "C": "Histogram Equalization"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method converts a color image to grayscale?",
+        "choices": {
+          "A": "cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)",
+          "B": "image.flatten()",
+          "C": "np.array(image)"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method is used to blur an image?",
+        "choices": {
+          "A": "cv2.threshold()",
+          "B": "cv2.Canny()",
+          "C": "cv2.GaussianBlur()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process detects and recognizes objects in images?",
+        "choices": {
+          "A": "Segmentation",
+          "B": "Object Detection",
+          "C": "Classification"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique divides an image into regions for analysis?",
+        "choices": {
+          "A": "Segmentation",
+          "B": "Edge Detection",
+          "C": "Thresholding"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function is used to read an image in OpenCV?",
+        "choices": {
+          "A": "cv2.imshow()",
+          "B": "cv2.imwrite()",
+          "C": "cv2.imread()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method writes an image to disk in OpenCV?",
+        "choices": {
+          "A": "cv2.imwrite()",
+          "B": "cv2.imread()",
+          "C": "cv2.imshow()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function displays an image in a window?",
+        "choices": {
+          "A": "cv2.imread()",
+          "B": "cv2.imwrite()",
+          "C": "cv2.imshow()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is commonly used for face detection?",
+        "choices": {
+          "A": "Haar Cascade Classifier",
+          "B": "K-Means",
+          "C": "SVM"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method converts images into arrays for machine learning?",
+        "choices": {
+          "A": "Image Flattening",
+          "B": "Edge Detection",
+          "C": "Histogram Equalization"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operation enhances contrast in images?",
+        "choices": {
+          "A": "Edge Detection",
+          "B": "Gaussian Blur",
+          "C": "Histogram Equalization"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique identifies pixels belonging to specific objects?",
+        "choices": {
+          "A": "Flattening",
+          "B": "Classification",
+          "C": "Segmentation"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which deep learning architecture is commonly used for image classification?",
+        "choices": {
+          "A": "RNNs",
+          "B": "Convolutional Neural Networks (CNNs)",
+          "C": "SVMs"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method threshold an image to create a binary image?",
+        "choices": {
+          "A": "cv2.threshold()",
+          "B": "cv2.cvtColor()",
+          "C": "cv2.GaussianBlur()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique reduces image noise while preserving edges?",
+        "choices": {
+          "A": "Histogram Equalization",
+          "B": "Bilateral Filtering",
+          "C": "Gaussian Blur"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which image representation uses width, height, and color channels?",
+        "choices": {
+          "A": "1D Array",
+          "B": "DataFrame",
+          "C": "3D NumPy Array"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which operation resizes an image to new dimensions?",
+        "choices": {
+          "A": "cv2.cvtColor()",
+          "B": "cv2.GaussianBlur()",
+          "C": "cv2.resize()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique detects key points or corners in images?",
+        "choices": {
+          "A": "Feature Detection",
+          "B": "Thresholding",
+          "C": "Segmentation"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "OpenCV is a popular library for computer vision tasks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Grayscale images have three color channels.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Canny Edge Detection is used to detect edges.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "cv2.imread() displays an image in a window.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "cv2.imwrite() saves an image to disk.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "cv2.imshow() is used to display images.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Haar Cascade Classifier is used for face detection.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Histogram Equalization enhances image contrast.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Segmentation divides an image into meaningful regions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Feature Detection identifies key points in images.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Gaussian Blur increases image noise.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Bilateral Filtering reduces noise while preserving edges.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Convolutional Neural Networks are used for image classification.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Thresholding creates binary images based on pixel intensity.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Image flattening converts images into arrays for ML models.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Segmentation is used for object detection at the pixel level.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "cv2.resize() is used to change image dimensions.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Color images in OpenCV use BGR format by default.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "DataFrames are used to represent images in OpenCV.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "cv2.cvtColor() can convert images to grayscale.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "Data Cleaning & EDA": {
+    "mcq": [
+      {
+        "question": "What does EDA stand for in data science?",
+        "choices": {
+          "A": "Extended Data Analytics",
+          "B": "Estimated Data Approximation",
+          "C": "Exploratory Data Analysis"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Python library is commonly used for data cleaning?",
+        "choices": {
+          "A": "seaborn",
+          "B": "matplotlib",
+          "C": "pandas"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which pandas function checks for missing values in a DataFrame?",
+        "choices": {
+          "A": "df.info()",
+          "B": "df.describe()",
+          "C": "df.isnull()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function fills missing values in a pandas DataFrame?",
+        "choices": {
+          "A": "df.fillna()",
+          "B": "df.dropna()",
+          "C": "df.replace()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function removes rows with missing values?",
+        "choices": {
+          "A": "df.isnull()",
+          "B": "df.dropna()",
+          "C": "df.fillna()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method identifies duplicate rows in a DataFrame?",
+        "choices": {
+          "A": "df.info()",
+          "B": "df.duplicated()",
+          "C": "df.unique()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method removes duplicate rows from a DataFrame?",
+        "choices": {
+          "A": "df.drop_duplicates()",
+          "B": "df.duplicate_drop()",
+          "C": "df.remove_duplicates()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which pandas function shows statistical summary of numerical columns?",
+        "choices": {
+          "A": "df.head()",
+          "B": "df.info()",
+          "C": "df.describe()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method in pandas replaces values in a column or DataFrame?",
+        "choices": {
+          "A": "df.fillna()",
+          "B": "df.replace()",
+          "C": "df.dropna()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which visualization is commonly used to detect outliers?",
+        "choices": {
+          "A": "Line plot",
+          "B": "Box plot",
+          "C": "Histogram"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function plots a histogram in pandas?",
+        "choices": {
+          "A": "df.plot_bar()",
+          "B": "df['column'].hist()",
+          "C": "df.plot_line()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which plot shows relationship between two continuous variables?",
+        "choices": {
+          "A": "Bar chart",
+          "B": "Pie chart",
+          "C": "Scatter plot"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function shows the correlation between numerical columns?",
+        "choices": {
+          "A": "df.cov()",
+          "B": "df.corr()",
+          "C": "df.describe()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method renames columns in a pandas DataFrame?",
+        "choices": {
+          "A": "df.columns()",
+          "B": "df.rename()",
+          "C": "df.set_names()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method converts column data types in pandas?",
+        "choices": {
+          "A": "df.astype()",
+          "B": "df.type()",
+          "C": "df.convert()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which pandas method returns unique values of a column?",
+        "choices": {
+          "A": "df['column'].distinct()",
+          "B": "df['column'].unique()",
+          "C": "df['column'].values()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which pandas function samples random rows from a DataFrame?",
+        "choices": {
+          "A": "df.pick()",
+          "B": "df.sample()",
+          "C": "df.random()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method converts a column to datetime format?",
+        "choices": {
+          "A": "pd.to_datetime()",
+          "B": "df.astype(datetime)",
+          "C": "df.to_date()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method detects outliers based on the IQR?",
+        "choices": {
+          "A": "df.head()",
+          "B": "df.describe()",
+          "C": "Using df.quantile() and IQR calculation"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which method replaces categorical values with numerical codes?",
+        "choices": {
+          "A": "df.replace()",
+          "B": "df.map_values()",
+          "C": "df['col'].astype('category').cat.codes"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "EDA stands for Exploratory Data Analysis.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.isnull() identifies missing values in a DataFrame.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.fillna() fills missing values with a specified value.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.dropna() removes rows with missing values.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.duplicated() identifies duplicate rows.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.drop_duplicates() removes duplicate rows.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.describe() provides summary statistics for numerical columns.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Box plots are useful for detecting outliers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Scatter plots show relationships between two continuous variables.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.corr() shows correlation between numerical columns.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.rename() can rename columns in a DataFrame.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.astype() converts column data types.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df['col'].unique() returns all unique values in a column.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "df.sample() selects random rows from a DataFrame.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "pd.to_datetime() converts column to datetime format.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Outliers can be detected using IQR method.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Categorical values can be encoded numerically using cat.codes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "EDA includes visualizing, cleaning, and summarizing data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "df.head() returns the last 5 rows of a DataFrame.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Replacing missing values is part of data cleaning.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

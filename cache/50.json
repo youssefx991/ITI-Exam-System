@@ -1,0 +1,158 @@
+{
+  "Incident Response & Forensics": {
+    "mcq": [
+      {
+        "question": "What is the first phase in the incident response process?",
+        "choices": {
+          "A": "Preparation",
+          "B": "Recovery",
+          "C": "Containment"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which phase involves isolating affected systems to prevent further damage?",
+        "choices": {
+          "A": "Eradication",
+          "B": "Identification",
+          "C": "Containment"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is commonly used for disk imaging in forensic investigations?",
+        "choices": {
+          "A": "Wireshark",
+          "B": "FTK Imager",
+          "C": "Nmap"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique ensures evidence integrity during forensic analysis?",
+        "choices": {
+          "A": "Firewalling",
+          "B": "Encryption of passwords",
+          "C": "Hashing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of analysis examines system logs to identify attacks?",
+        "choices": {
+          "A": "Log Analysis",
+          "B": "Disk Imaging",
+          "C": "Memory Dump Analysis"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process restores systems to normal operation after an incident?",
+        "choices": {
+          "A": "Recovery",
+          "B": "Identification",
+          "C": "Containment"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does a forensic investigator use to analyze volatile memory?",
+        "choices": {
+          "A": "Disk Imager",
+          "B": "Memory Dump",
+          "C": "Firewall Logs"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which phase involves learning from the incident to improve security?",
+        "choices": {
+          "A": "Lessons Learned",
+          "B": "Eradication",
+          "C": "Containment"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which process removes malware and unauthorized access from systems?",
+        "choices": {
+          "A": "Preparation",
+          "B": "Eradication",
+          "C": "Recovery"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of evidence is often collected from a network during an incident?",
+        "choices": {
+          "A": "Disk Imager Logs",
+          "B": "Packet Captures",
+          "C": "Firewall Rules Only"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Preparation is the first phase of incident response.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Containment aims to isolate affected systems.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Recovery restores systems to normal operation after an incident.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Eradication removes malware and unauthorized access.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Lessons Learned phase improves future incident response plans.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Hashing ensures integrity of forensic evidence.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Memory dump analysis is used to examine volatile memory.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Packet captures cannot provide useful evidence in network incidents.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Disk imaging is commonly used to preserve evidence from drives.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Incident response is not concerned with learning from past incidents.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

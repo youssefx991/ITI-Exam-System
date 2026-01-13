@@ -1,0 +1,308 @@
+{
+  "Natural Language Processing": {
+    "mcq": [
+      {
+        "question": "What does NLP stand for?",
+        "choices": {
+          "A": "Natural Language Processing",
+          "B": "Neural Learning Protocol",
+          "C": "Network Layer Processing"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Python library is commonly used for NLP?",
+        "choices": {
+          "A": "Matplotlib",
+          "B": "Pandas",
+          "C": "NLTK"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which process converts text into tokens?",
+        "choices": {
+          "A": "Stemming",
+          "B": "Lemmatization",
+          "C": "Tokenization"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique reduces words to their root form?",
+        "choices": {
+          "A": "Vectorization",
+          "B": "Stemming",
+          "C": "Tokenization"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique converts words to base dictionary form?",
+        "choices": {
+          "A": "Lemmatization",
+          "B": "Tokenization",
+          "C": "Stemming"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which representation converts text into numeric vectors?",
+        "choices": {
+          "A": "Stopwords Removal",
+          "B": "Part-of-Speech Tagging",
+          "C": "Word Embedding"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is commonly used for text classification?",
+        "choices": {
+          "A": "K-Means",
+          "B": "Naive Bayes",
+          "C": "PCA"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique removes common words like 'the', 'is', 'and'?",
+        "choices": {
+          "A": "Tokenization",
+          "B": "Stemming",
+          "C": "Stopwords Removal"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method measures similarity between documents?",
+        "choices": {
+          "A": "Cosine Similarity",
+          "B": "RMSE",
+          "C": "Euclidean Distance"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which NLP task identifies nouns, verbs, and adjectives?",
+        "choices": {
+          "A": "NER",
+          "B": "Tokenization",
+          "C": "Part-of-Speech Tagging"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which NLP task identifies entities like names and locations?",
+        "choices": {
+          "A": "Stemming",
+          "B": "Named Entity Recognition (NER)",
+          "C": "Tokenization"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which deep learning model is used for sequence processing?",
+        "choices": {
+          "A": "CNN",
+          "B": "Recurrent Neural Network (RNN)",
+          "C": "Random Forest"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique reduces dimensionality of text vectors?",
+        "choices": {
+          "A": "Stopwords Removal",
+          "B": "Tokenization",
+          "C": "PCA"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which representation uses frequency of words in a document?",
+        "choices": {
+          "A": "Bag of Words",
+          "B": "TF-IDF",
+          "C": "Word2Vec"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method weighs words based on importance in a document?",
+        "choices": {
+          "A": "Bag of Words",
+          "B": "Word Embedding",
+          "C": "TF-IDF"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which neural network is best for long-term dependencies in text?",
+        "choices": {
+          "A": "MLP",
+          "B": "CNN",
+          "C": "LSTM"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which NLP task generates human-like text?",
+        "choices": {
+          "A": "Text Generation",
+          "B": "Stemming",
+          "C": "NER"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique measures sentiment in text?",
+        "choices": {
+          "A": "POS Tagging",
+          "B": "Sentiment Analysis",
+          "C": "Tokenization"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which approach encodes words into dense vectors capturing meaning?",
+        "choices": {
+          "A": "TF-IDF",
+          "B": "Word Embedding",
+          "C": "Bag of Words"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which NLP model is transformer-based for sequence tasks?",
+        "choices": {
+          "A": "Naive Bayes",
+          "B": "BERT",
+          "C": "LSTM"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      }
+    ],
+    "tf": [
+      {
+        "question": "NLP stands for Natural Language Processing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Tokenization splits text into words or sentences.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Stemming reduces words to their root form.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Lemmatization converts words to dictionary base form.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Stopwords are commonly removed in NLP preprocessing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Bag of Words captures semantic meaning of words.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "TF-IDF weighs words based on frequency and importance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Word Embedding encodes words into dense vectors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Part-of-Speech tagging identifies nouns, verbs, adjectives, etc.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Named Entity Recognition identifies entities like names and locations.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "RNNs are used for sequential data in NLP.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "LSTM handles long-term dependencies in sequences.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Text Generation is a task in NLP.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sentiment Analysis measures opinions or emotions in text.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Word2Vec is a type of word embedding model.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PCA is not used in text dimensionality reduction.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Naive Bayes is commonly used for text classification.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "BERT is a transformer-based NLP model.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "TF-IDF ignores term importance across the corpus.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Lemmatization and Stemming are identical processes.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

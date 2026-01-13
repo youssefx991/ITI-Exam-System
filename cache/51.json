@@ -1,0 +1,158 @@
+{
+  "CCNA - Networking Fundamentals": {
+    "mcq": [
+      {
+        "question": "Which device connects multiple networks and directs data packets between them?",
+        "choices": {
+          "A": "Router",
+          "B": "Hub",
+          "C": "Switch"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which device is used to connect multiple devices within the same network segment?",
+        "choices": {
+          "A": "Router",
+          "B": "Switch",
+          "C": "Firewall"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol assigns IP addresses automatically?",
+        "choices": {
+          "A": "DNS",
+          "B": "HTTP",
+          "C": "DHCP"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which layer of the OSI model handles routing between networks?",
+        "choices": {
+          "A": "Network Layer",
+          "B": "Transport Layer",
+          "C": "Data Link Layer"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol resolves domain names to IP addresses?",
+        "choices": {
+          "A": "SMTP",
+          "B": "DNS",
+          "C": "DHCP"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which IP address class is used for large networks with many hosts?",
+        "choices": {
+          "A": "Class C",
+          "B": "Class B",
+          "C": "Class A"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command tests connectivity between two network devices?",
+        "choices": {
+          "A": "nslookup",
+          "B": "ping",
+          "C": "tracert"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of IP address is private and not routable on the internet?",
+        "choices": {
+          "A": "Public IP",
+          "B": "Private IP",
+          "C": "Loopback IP"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which topology connects all devices in a closed loop?",
+        "choices": {
+          "A": "Bus",
+          "B": "Ring",
+          "C": "Star"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol ensures reliable data delivery using acknowledgment?",
+        "choices": {
+          "A": "TCP",
+          "B": "ICMP",
+          "C": "UDP"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Routers are used to connect multiple networks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Switches operate primarily at the network layer.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "DHCP automatically assigns IP addresses to devices.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "DNS resolves domain names into IP addresses.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Class A IP addresses are suitable for networks with a large number of hosts.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The ping command is used to test connectivity between devices.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Private IP addresses can be routed over the internet without NAT.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Ring topology connects devices in a closed loop.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "TCP provides reliable data delivery with acknowledgment.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "UDP ensures reliable delivery of packets.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "Cryptography & Secure Coding": {
+    "mcq": [
+      {
+        "question": "What is the primary purpose of cryptography?",
+        "choices": {
+          "A": "Increase processor speed",
+          "B": "Optimize database queries",
+          "C": "Protect data confidentiality and integrity"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is symmetric key encryption?",
+        "choices": {
+          "A": "ECC",
+          "B": "AES",
+          "C": "RSA"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm uses public and private keys?",
+        "choices": {
+          "A": "DES",
+          "B": "AES",
+          "C": "RSA"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which hash function produces a fixed-size output from arbitrary input?",
+        "choices": {
+          "A": "RSA",
+          "B": "SHA-256",
+          "C": "AES"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique prevents code from executing unsafe inputs?",
+        "choices": {
+          "A": "Input validation",
+          "B": "Multithreading",
+          "C": "Caching"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which vulnerability occurs when user input is executed as code?",
+        "choices": {
+          "A": "SQL Injection",
+          "B": "Code Injection",
+          "C": "Cross-Site Scripting"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does SSL/TLS provide in network communication?",
+        "choices": {
+          "A": "Firewall protection",
+          "B": "Encryption and secure transmission",
+          "C": "Faster bandwidth"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which coding practice helps prevent buffer overflow attacks?",
+        "choices": {
+          "A": "Bounds checking",
+          "B": "Ignoring errors",
+          "C": "Hardcoding passwords"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which key is used in symmetric encryption?",
+        "choices": {
+          "A": "Public key only",
+          "B": "Private key only",
+          "C": "Same key for encryption and decryption"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which practice improves secure coding?",
+        "choices": {
+          "A": "Sanitizing user inputs",
+          "B": "Disabling authentication",
+          "C": "Storing passwords in plaintext"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Cryptography ensures data confidentiality and integrity.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "AES is an example of symmetric encryption.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "RSA uses public and private keys for encryption.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "SHA-256 is a hashing algorithm.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Input validation helps prevent unsafe code execution.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Code injection occurs when untrusted input is executed as code.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SSL/TLS provides encrypted and secure communication.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Ignoring buffer limits prevents buffer overflow attacks.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sanitizing user inputs improves secure coding.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Storing passwords in plaintext is a secure practice.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

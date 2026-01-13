@@ -1,0 +1,158 @@
+{
+  "AI in Real-World Applications": {
+    "mcq": [
+      {
+        "question": "Which AI application is used for recommending products on e-commerce websites?",
+        "choices": {
+          "A": "Sentiment Analysis",
+          "B": "Image Segmentation",
+          "C": "Recommendation Systems"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI application is used for detecting fraudulent transactions in banking?",
+        "choices": {
+          "A": "Text Summarization",
+          "B": "Speech Recognition",
+          "C": "Fraud Detection"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI technique powers self-driving cars to perceive surroundings?",
+        "choices": {
+          "A": "Natural Language Processing",
+          "B": "Computer Vision",
+          "C": "Reinforcement Learning Only"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI application predicts equipment failures in industries?",
+        "choices": {
+          "A": "Chatbots",
+          "B": "Translation Services",
+          "C": "Predictive Maintenance"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI application analyzes customer feedback to understand emotions?",
+        "choices": {
+          "A": "Recommendation Systems",
+          "B": "Fraud Detection",
+          "C": "Sentiment Analysis"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI technology enables voice assistants like Alexa or Siri?",
+        "choices": {
+          "A": "Speech Recognition",
+          "B": "Computer Vision",
+          "C": "Image Recognition"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI approach is commonly used for optimizing logistics routes?",
+        "choices": {
+          "A": "Supervised Learning Only",
+          "B": "Clustering",
+          "C": "Reinforcement Learning"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI application detects diseases from medical images?",
+        "choices": {
+          "A": "Speech Recognition",
+          "B": "Text Generation",
+          "C": "Medical Image Analysis"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI application automates customer support using chatbots?",
+        "choices": {
+          "A": "Predictive Maintenance",
+          "B": "Recommender Systems",
+          "C": "Conversational AI"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI approach is used to forecast stock prices?",
+        "choices": {
+          "A": "Clustering",
+          "B": "Image Classification",
+          "C": "Time Series Forecasting"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "AI can be used for predictive maintenance in industries.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Recommendation systems suggest items based on user preferences.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Fraud detection in banking uses AI to identify suspicious transactions.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Speech recognition enables virtual assistants to understand voice commands.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Computer vision is used in self-driving cars for environment perception.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sentiment analysis can determine emotions from customer feedback.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Time series forecasting in AI is not suitable for stock price prediction.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Conversational AI automates customer support through chatbots.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Reinforcement learning is used to optimize logistics and routing.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Medical image analysis using AI cannot detect diseases from images.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

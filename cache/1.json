@@ -1,0 +1,508 @@
+{
+  "HTML5 & CSS3 Fundamentals": {
+    "mcq": [
+      {
+        "question": "Which HTML5 element is used to define the main content of a document?",
+        "choices": {
+          "A": "<section>",
+          "B": "<main>",
+          "C": "<article>"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to change the text color?",
+        "choices": {
+          "A": "color",
+          "B": "font-color",
+          "C": "text-color"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 element is used for embedding video content?",
+        "choices": {
+          "A": "<video>",
+          "B": "<movie>",
+          "C": "<media>"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does the 'z-index' property in CSS control?",
+        "choices": {
+          "A": "Element width",
+          "B": "Stacking order",
+          "C": "Element opacity"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS unit is relative to the font size of the root element?",
+        "choices": {
+          "A": "%",
+          "B": "em",
+          "C": "rem"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 attribute allows you to provide a hint for input fields?",
+        "choices": {
+          "A": "placeholder",
+          "B": "hint",
+          "C": "title"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to create rounded corners?",
+        "choices": {
+          "A": "corner-radius",
+          "B": "radius",
+          "C": "border-radius"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 element is used to define navigation links?",
+        "choices": {
+          "A": "<nav>",
+          "B": "<menu>",
+          "C": "<links>"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to control the spacing between lines of text?",
+        "choices": {
+          "A": "line-height",
+          "B": "text-spacing",
+          "C": "letter-spacing"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to define a footer for a document?",
+        "choices": {
+          "A": "<end>",
+          "B": "<footer>",
+          "C": "<bottom>"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS pseudo-class selects an element when the mouse hovers over it?",
+        "choices": {
+          "A": ":focus",
+          "B": ":hover",
+          "C": ":active"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does the 'position: fixed' property do in CSS?",
+        "choices": {
+          "A": "Element stays in place when scrolling",
+          "B": "Element is hidden",
+          "C": "Element scrolls with page"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to define an independent block of content?",
+        "choices": {
+          "A": "<section>",
+          "B": "<div>",
+          "C": "<article>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property is used to add space inside an element's border?",
+        "choices": {
+          "A": "margin",
+          "B": "padding",
+          "C": "spacing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 element is used for self-contained content that could be distributed independently?",
+        "choices": {
+          "A": "<aside>",
+          "B": "<section>",
+          "C": "<article>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property is used to hide overflow content?",
+        "choices": {
+          "A": "hidden-content",
+          "B": "clip",
+          "C": "overflow"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to group media content such as video, audio, and captions?",
+        "choices": {
+          "A": "<content>",
+          "B": "<figure>",
+          "C": "<media>"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property defines the type of bullets for a list?",
+        "choices": {
+          "A": "bullet-type",
+          "B": "list-style-type",
+          "C": "marker-type"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used for content aside from the main content?",
+        "choices": {
+          "A": "<aside>",
+          "B": "<article>",
+          "C": "<section>"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to set the transparency of an element?",
+        "choices": {
+          "A": "visibility",
+          "B": "opacity",
+          "C": "transparency"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to define a section with related content grouped together?",
+        "choices": {
+          "A": "<div>",
+          "B": "<section>",
+          "C": "<article>"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property sets the font size of text?",
+        "choices": {
+          "A": "text-size",
+          "B": "font-style",
+          "C": "font-size"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 attribute specifies that an input field must be filled out?",
+        "choices": {
+          "A": "mandatory",
+          "B": "validate",
+          "C": "required"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property controls the horizontal alignment of text?",
+        "choices": {
+          "A": "horizontal-align",
+          "B": "text-align",
+          "C": "align-text"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 element is used to define a container for graphics like canvas?",
+        "choices": {
+          "A": "<svg>",
+          "B": "<graphic>",
+          "C": "<canvas>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property allows you to apply multiple shadows to text?",
+        "choices": {
+          "A": "text-shadow",
+          "B": "shadow",
+          "C": "box-shadow"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 input type allows selecting a date?",
+        "choices": {
+          "A": "calendar",
+          "B": "date",
+          "C": "datetime"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to create a flexible layout for responsive design?",
+        "choices": {
+          "A": "display: block",
+          "B": "display: inline",
+          "C": "display: flex"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to define a caption for a table?",
+        "choices": {
+          "A": "<label>",
+          "B": "<caption>",
+          "C": "<title>"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to change the background color of an element?",
+        "choices": {
+          "A": "bgcolor",
+          "B": "background-color",
+          "C": "color"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 tag is used to define a progress bar?",
+        "choices": {
+          "A": "<meter>",
+          "B": "<bar>",
+          "C": "<progress>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CSS property defines the maximum width of an element?",
+        "choices": {
+          "A": "max-width",
+          "B": "width-max",
+          "C": "limit-width"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used for preformatted text?",
+        "choices": {
+          "A": "<code>",
+          "B": "<samp>",
+          "C": "<pre>"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property controls the order of flex items?",
+        "choices": {
+          "A": "flex-order",
+          "B": "order",
+          "C": "z-index"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to create an interactive form?",
+        "choices": {
+          "A": "<fieldset>",
+          "B": "<form>",
+          "C": "<input>"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property controls the visibility of an element without removing it from layout?",
+        "choices": {
+          "A": "opacity",
+          "B": "visibility",
+          "C": "display"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which HTML5 element is used to define a navigation menu?",
+        "choices": {
+          "A": "<nav>",
+          "B": "<menu>",
+          "C": "<ul>"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property allows you to float an element to the left or right?",
+        "choices": {
+          "A": "align",
+          "B": "float",
+          "C": "position"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which HTML5 element is used to embed audio content?",
+        "choices": {
+          "A": "<audio>",
+          "B": "<sound>",
+          "C": "<media>"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which CSS property is used to control text overflow with ellipsis?",
+        "choices": {
+          "A": "clip-text",
+          "B": "overflow",
+          "C": "text-overflow"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "HTML5 supports semantic elements like <header>, <footer>, and <article>.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CSS Flexbox is used to create responsive layouts easily.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The <div> element in HTML5 has a default semantic meaning.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CSS Grid allows for two-dimensional layout control.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTML5 does not support the <video> element.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The 'z-index' property can have negative values in CSS.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CSS 'position: absolute' positions an element relative to its nearest positioned ancestor.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTML5 forms cannot validate email input type automatically.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The <canvas> element is used for drawing graphics via JavaScript.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The 'rem' unit in CSS is relative to the parent element's font size.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The <aside> element is used for content related to the main content.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The 'opacity' property in CSS can have values from 0 to 1.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTML5 deprecated the <section> element.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CSS 'text-align: justify' aligns text to both left and right edges.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "The <header> element can only appear once per HTML document.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CSS 'float' removes the element from the normal flow of the document.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTML5 introduced local storage to store data in the browser.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CSS 'display: none' hides the element but keeps its space reserved.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HTML5 supports the <progress> element to show task completion.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The <figure> element can include an image and a <figcaption>.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

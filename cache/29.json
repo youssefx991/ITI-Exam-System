@@ -1,0 +1,308 @@
+{
+  "Python for Open Source Projects": {
+    "mcq": [
+      {
+        "question": "Which Python feature makes it popular for open source projects?",
+        "choices": {
+          "A": "Readable and maintainable code",
+          "B": "Requires paid license",
+          "C": "Windows only"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used for version control in Python open source projects?",
+        "choices": {
+          "A": "Git",
+          "B": "SVN",
+          "C": "Mercurial"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file defines dependencies for Python projects?",
+        "choices": {
+          "A": "dependencies.json",
+          "B": "requirements.txt",
+          "C": "packages.xml"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Python tool helps create virtual environments?",
+        "choices": {
+          "A": "setuptools",
+          "B": "pip",
+          "C": "venv"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command installs dependencies from requirements.txt?",
+        "choices": {
+          "A": "pip fetch requirements.txt",
+          "B": "python setup.py install",
+          "C": "pip install -r requirements.txt"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Python tool is used for packaging and distribution?",
+        "choices": {
+          "A": "pipenv",
+          "B": "pytest",
+          "C": "setuptools"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which file often contains project metadata in Python?",
+        "choices": {
+          "A": "README.md",
+          "B": "LICENSE",
+          "C": "setup.py"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which testing framework is commonly used in Python open source projects?",
+        "choices": {
+          "A": "JUnit",
+          "B": "pytest",
+          "C": "Mocha"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python tool is used for static code analysis?",
+        "choices": {
+          "A": "venv",
+          "B": "pytest",
+          "C": "pylint"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python feature allows modular programming in projects?",
+        "choices": {
+          "A": "Classes only",
+          "B": "Functions only",
+          "C": "Modules and packages"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python package manager installs and manages libraries?",
+        "choices": {
+          "A": "npm",
+          "B": "gem",
+          "C": "pip"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file documents the purpose and usage of a Python project?",
+        "choices": {
+          "A": "setup.py",
+          "B": "README.md",
+          "C": "LICENSE"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command runs Python unit tests using pytest?",
+        "choices": {
+          "A": "python test.py",
+          "B": "python setup.py test",
+          "C": "pytest"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python feature helps manage dependencies and isolated environments?",
+        "choices": {
+          "A": "Global interpreter only",
+          "B": "Python console",
+          "C": "Virtual environments"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python module helps read and parse configuration files?",
+        "choices": {
+          "A": "configparser",
+          "B": "os",
+          "C": "json"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which file usually includes licensing information in open source projects?",
+        "choices": {
+          "A": "requirements.txt",
+          "B": "README.md",
+          "C": "LICENSE"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Python tool automates code formatting according to PEP 8?",
+        "choices": {
+          "A": "pytest",
+          "B": "black",
+          "C": "pylint"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command updates pip to the latest version?",
+        "choices": {
+          "A": "python -m pip install --upgrade pip",
+          "B": "pip upgrade",
+          "C": "pip update"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python workflow is recommended for contributing to open source?",
+        "choices": {
+          "A": "Fork â†’ Branch â†’ Commit â†’ Pull Request",
+          "B": "Clone and delete",
+          "C": "Commit directly to master"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Python tool is used for continuous integration in open source projects?",
+        "choices": {
+          "A": "npm",
+          "B": "Jenkins only",
+          "C": "GitHub Actions"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Python is widely used for open source projects due to its readability.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Git is commonly used for version control in Python projects.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "requirements.txt lists project dependencies.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "venv creates isolated Python environments.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "setuptools is used for packaging and distributing Python projects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "setup.py contains metadata like project name and version.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "pytest is a Python testing framework.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "pylint is used for static code analysis.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "README.md documents project purpose and usage.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "LICENSE file contains licensing information.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Python modules and packages support modular programming.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Virtual environments prevent dependency conflicts.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "black automatically formats Python code according to PEP 8.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Contributing directly to the main branch is a recommended workflow.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GitHub Actions can automate testing and deployment for Python projects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "configparser helps parse configuration files in Python.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "pip install -r requirements.txt installs dependencies.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "python -m pip install --upgrade pip updates pip.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Python open source projects cannot use continuous integration tools.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Fork â†’ Branch â†’ Commit â†’ Pull Request is a standard contribution workflow.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

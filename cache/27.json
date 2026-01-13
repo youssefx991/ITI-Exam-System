@@ -1,0 +1,378 @@
+{
+  "Git & GitHub Advanced": {
+    "mcq": [
+      {
+        "question": "Which Git command is used to clone a remote repository?",
+        "choices": {
+          "A": "git clone",
+          "B": "git init",
+          "C": "git pull"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command stages changes for commit?",
+        "choices": {
+          "A": "git commit",
+          "B": "git add",
+          "C": "git push"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command commits staged changes with a message?",
+        "choices": {
+          "A": "git commit -m",
+          "B": "git add",
+          "C": "git push"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Git command uploads local commits to a remote repository?",
+        "choices": {
+          "A": "git push",
+          "B": "git pull",
+          "C": "git fetch"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command updates local repository with changes from remote?",
+        "choices": {
+          "A": "git push",
+          "B": "git merge",
+          "C": "git pull"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command shows the commit history?",
+        "choices": {
+          "A": "git log",
+          "B": "git diff",
+          "C": "git status"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command creates a new branch?",
+        "choices": {
+          "A": "git merge",
+          "B": "git branch <name>",
+          "C": "git checkout"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command switches to another branch?",
+        "choices": {
+          "A": "git checkout <branch>",
+          "B": "git branch",
+          "C": "git merge"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command merges another branch into the current branch?",
+        "choices": {
+          "A": "git checkout <branch>",
+          "B": "git branch <branch>",
+          "C": "git merge <branch>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command fetches changes from a remote repository without merging?",
+        "choices": {
+          "A": "git pull",
+          "B": "git push",
+          "C": "git fetch"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Git command removes untracked files?",
+        "choices": {
+          "A": "git clean",
+          "B": "git rm",
+          "C": "git reset"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command reverts changes in the working directory?",
+        "choices": {
+          "A": "git reset",
+          "B": "git checkout -- <file>",
+          "C": "git revert"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command undoes commits while keeping changes staged?",
+        "choices": {
+          "A": "git reset --hard",
+          "B": "git revert",
+          "C": "git reset --soft"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Git command permanently discards commits and changes?",
+        "choices": {
+          "A": "git reset --hard",
+          "B": "git revert",
+          "C": "git reset --soft"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which command shows the difference between commits or working directory?",
+        "choices": {
+          "A": "git diff",
+          "B": "git status",
+          "C": "git log"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command renames or moves a file in Git?",
+        "choices": {
+          "A": "git mv",
+          "B": "git rename",
+          "C": "git move"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GitHub feature allows collaboration through code review?",
+        "choices": {
+          "A": "Pull Request",
+          "B": "Issue Tracker",
+          "C": "Wiki"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command creates an annotated tag?",
+        "choices": {
+          "A": "git tag",
+          "B": "git tag -a <name>",
+          "C": "git commit"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command lists remote repositories?",
+        "choices": {
+          "A": "git fetch",
+          "B": "git branch -r",
+          "C": "git remote -v"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command deletes a local branch?",
+        "choices": {
+          "A": "git branch -D <branch>",
+          "B": "git delete <branch>",
+          "C": "git branch -d <branch>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Git command shows staged, unstaged, and untracked files?",
+        "choices": {
+          "A": "git status",
+          "B": "git log",
+          "C": "git diff"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command sets the remote repository URL?",
+        "choices": {
+          "A": "git clone <url>",
+          "B": "git remote add origin <url>",
+          "C": "git push <url>"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command reverts a commit by creating a new commit?",
+        "choices": {
+          "A": "git checkout <commit>",
+          "B": "git revert <commit>",
+          "C": "git reset <commit>"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Git command temporarily saves changes without committing?",
+        "choices": {
+          "A": "git stash",
+          "B": "git reset",
+          "C": "git commit"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Git command applies stashed changes back to the working directory?",
+        "choices": {
+          "A": "git stash apply",
+          "B": "git stash pop",
+          "C": "git stash save"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which GitHub feature tracks tasks, bugs, or feature requests?",
+        "choices": {
+          "A": "Issues",
+          "B": "Actions",
+          "C": "Pull Requests"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command rebases commits onto another branch?",
+        "choices": {
+          "A": "git pull",
+          "B": "git merge",
+          "C": "git rebase"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      }
+    ],
+    "tf": [
+      {
+        "question": "git clone creates a local copy of a remote repository.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "git add stages changes for commit.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "git commit -m adds a commit message to staged changes.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "git push updates the remote repository with local commits.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "git pull fetches and merges changes from the remote repository.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "git status shows current branch and staged/unstaged files.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "git branch creates a new branch.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git checkout switches between branches.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git merge combines changes from one branch into another.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git fetch merges changes into the current branch.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git reset --soft keeps changes staged while undoing commits.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git reset --hard permanently discards commits and changes.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "git revert undoes a commit by creating a new commit.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git clean removes untracked files.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git stash temporarily saves changes for later use.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Pull Requests allow code review and collaboration in GitHub.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git remote -v lists local branches.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git tag -a creates an annotated tag.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "git rebase moves commits to a new base.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "git mv renames or moves a file in Git.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

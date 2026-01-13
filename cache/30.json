@@ -1,0 +1,308 @@
+{
+  "Docker & Kubernetes Basics": {
+    "mcq": [
+      {
+        "question": "What is Docker primarily used for?",
+        "choices": {
+          "A": "Virtual machine management",
+          "B": "Containerization of applications",
+          "C": "Monitoring network traffic"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command lists all Docker containers?",
+        "choices": {
+          "A": "docker list",
+          "B": "docker ps -a",
+          "C": "docker containers"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which file defines how a Docker image is built?",
+        "choices": {
+          "A": "docker-compose.yml",
+          "B": "Dockerfile",
+          "C": "config.json"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command builds a Docker image?",
+        "choices": {
+          "A": "docker create",
+          "B": "docker run",
+          "C": "docker build"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command runs a container from an image?",
+        "choices": {
+          "A": "docker run",
+          "B": "docker stop",
+          "C": "docker build"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Docker command stops a running container?",
+        "choices": {
+          "A": "docker kill",
+          "B": "docker pause",
+          "C": "docker stop"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Docker command removes an image?",
+        "choices": {
+          "A": "docker delete",
+          "B": "docker rmi",
+          "C": "docker remove"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which file is used to define multi-container applications in Docker?",
+        "choices": {
+          "A": "docker-compose.yml",
+          "B": "config.yaml",
+          "C": "Dockerfile"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is Kubernetes primarily used for?",
+        "choices": {
+          "A": "Virtual machine provisioning",
+          "B": "Container orchestration",
+          "C": "Database management"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Kubernetes object represents a group of containers?",
+        "choices": {
+          "A": "Service",
+          "B": "Node",
+          "C": "Pod"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which command shows Kubernetes cluster information?",
+        "choices": {
+          "A": "kubectl describe pods",
+          "B": "kubectl cluster-info",
+          "C": "kubectl get nodes"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Kubernetes object exposes a set of pods to the network?",
+        "choices": {
+          "A": "Pod",
+          "B": "Deployment",
+          "C": "Service"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command deploys a manifest file in Kubernetes?",
+        "choices": {
+          "A": "kubectl run <file>",
+          "B": "kubectl apply -f <file>",
+          "C": "kubectl create <file>"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Kubernetes object ensures a specified number of pod replicas are running?",
+        "choices": {
+          "A": "Node",
+          "B": "Deployment",
+          "C": "Pod"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command lists all pods in a namespace?",
+        "choices": {
+          "A": "kubectl describe pods",
+          "B": "kubectl get pods",
+          "C": "kubectl list pods"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Kubernetes component runs on each node and ensures containers run as expected?",
+        "choices": {
+          "A": "Scheduler",
+          "B": "Kubelet",
+          "C": "Controller Manager"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Kubernetes object defines access to pods externally?",
+        "choices": {
+          "A": "Volume",
+          "B": "ConfigMap",
+          "C": "Ingress"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command scales a deployment in Kubernetes?",
+        "choices": {
+          "A": "kubectl resize deployment",
+          "B": "kubectl expand deployment",
+          "C": "kubectl scale deployment <name> --replicas=<n>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command shows detailed information about a pod?",
+        "choices": {
+          "A": "kubectl info pod <name>",
+          "B": "kubectl get pod <name>",
+          "C": "kubectl describe pod <name>"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Kubernetes object stores configuration data as key-value pairs?",
+        "choices": {
+          "A": "Service",
+          "B": "Secret",
+          "C": "ConfigMap"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Docker is used for containerizing applications.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "A Dockerfile defines how an image is built.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "docker run executes a container from an image.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "docker ps -a lists all containers including stopped ones.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "docker-compose.yml defines multi-container applications.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Kubernetes is used for container orchestration.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "A pod is the smallest deployable unit in Kubernetes.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "kubectl apply -f <file> deploys resources defined in a manifest.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "A Kubernetes Service exposes pods to the network.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Deployments manage the desired number of pod replicas.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Kubelet runs on each node and manages containers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Ingress manages external access to services in Kubernetes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "kubectl get pods lists all pods in a namespace.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "docker rmi removes a Docker image.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Virtual machines and containers are the same.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Scaling a deployment can increase or decrease pod replicas.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ConfigMaps store configuration data as key-value pairs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "docker build runs a container from an image.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Secrets in Kubernetes are used to store sensitive data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "docker stop terminates a running container.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

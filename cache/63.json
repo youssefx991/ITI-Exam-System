@@ -1,0 +1,158 @@
+{
+  "MQTT & CoAP Protocols": {
+    "mcq": [
+      {
+        "question": "What does MQTT stand for?",
+        "choices": {
+          "A": "Managed Quick Transfer Tool",
+          "B": "Micro Quality Transmission",
+          "C": "Message Queuing Telemetry Transport"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which protocol is designed for constrained IoT devices and low-bandwidth networks?",
+        "choices": {
+          "A": "FTP",
+          "B": "CoAP",
+          "C": "HTTP"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "MQTT uses which communication pattern?",
+        "choices": {
+          "A": "Client/Server only",
+          "B": "Peer-to-Peer",
+          "C": "Publish/Subscribe"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which MQTT component receives messages from publishers and forwards them to subscribers?",
+        "choices": {
+          "A": "Gateway",
+          "B": "Client",
+          "C": "Broker"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CoAP method is equivalent to HTTP GET?",
+        "choices": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MQTT QoS level guarantees message delivery exactly once?",
+        "choices": {
+          "A": "QoS 0",
+          "B": "QoS 1",
+          "C": "QoS 2"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CoAP typically runs over which transport protocol?",
+        "choices": {
+          "A": "HTTP",
+          "B": "UDP",
+          "C": "TCP"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MQTT feature ensures persistent session and message delivery after disconnection?",
+        "choices": {
+          "A": "Retained Messages",
+          "B": "Clean Session",
+          "C": "QoS 0"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which CoAP feature allows lightweight request/response model for constrained devices?",
+        "choices": {
+          "A": "RPC Calls",
+          "B": "RESTful Interface",
+          "C": "SOAP Messaging"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which MQTT client type subscribes to topics and receives messages from the broker?",
+        "choices": {
+          "A": "Subscriber",
+          "B": "Publisher",
+          "C": "Gateway"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "MQTT stands for Message Queuing Telemetry Transport.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CoAP is suitable for low-bandwidth and constrained IoT devices.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "MQTT uses a publish/subscribe communication model.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "The MQTT broker forwards messages from publishers to subscribers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CoAP GET method is equivalent to HTTP GET.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MQTT QoS 2 guarantees that each message is delivered exactly once.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CoAP typically runs over UDP to reduce overhead.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Retained messages in MQTT allow clients to receive the last message after reconnecting.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CoAP uses a RESTful interface for lightweight request/response communication.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "MQTT publisher subscribes to topics to receive messages.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

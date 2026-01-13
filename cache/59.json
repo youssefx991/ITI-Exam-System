@@ -1,0 +1,158 @@
+{
+  "Interfacing Sensors & Actuators": {
+    "mcq": [
+      {
+        "question": "What is the primary purpose of a sensor in embedded systems?",
+        "choices": {
+          "A": "To measure physical parameters and provide input to the system",
+          "B": "To store data",
+          "C": "To execute control algorithms"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of sensor measures temperature?",
+        "choices": {
+          "A": "Potentiometer",
+          "B": "Photodiode",
+          "C": "Thermistor"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which actuator converts electrical signals into motion?",
+        "choices": {
+          "A": "Motor",
+          "B": "Temperature Sensor",
+          "C": "ADC"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which interface is commonly used to connect digital sensors to microcontrollers?",
+        "choices": {
+          "A": "SPI",
+          "B": "GPIO",
+          "C": "I2C"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which protocol allows multiple sensors to communicate over two wires?",
+        "choices": {
+          "A": "PWM",
+          "B": "I2C",
+          "C": "UART"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which actuator is used to control linear motion?",
+        "choices": {
+          "A": "Servo Motor",
+          "B": "LED",
+          "C": "Thermistor"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which component converts analog sensor signals to digital for microcontrollers?",
+        "choices": {
+          "A": "ADC (Analog-to-Digital Converter)",
+          "B": "PWM Generator",
+          "C": "DAC"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which type of sensor detects light intensity?",
+        "choices": {
+          "A": "Photodiode",
+          "B": "Thermistor",
+          "C": "Ultrasonic Sensor"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which actuator provides rotational control based on electrical input?",
+        "choices": {
+          "A": "Ultrasonic Sensor",
+          "B": "Stepper Motor",
+          "C": "Thermistor"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique prevents noise from affecting sensor readings?",
+        "choices": {
+          "A": "Multiplexing",
+          "B": "Filtering",
+          "C": "PWM"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Sensors measure physical parameters and provide input to systems.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Actuators convert electrical signals into motion.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Thermistors are used to measure temperature.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Photodiodes detect light intensity.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "GPIO can be used to interface digital sensors with microcontrollers.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "I2C allows multiple devices to communicate over two wires.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ADC converts analog signals from sensors to digital values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Servo motors are used to control linear or angular motion.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Filtering sensor signals helps reduce noise.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PWM is used to measure temperature directly from sensors.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

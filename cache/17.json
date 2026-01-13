@@ -1,0 +1,508 @@
+{
+  "SQL for Business Analysts": {
+    "mcq": [
+      {
+        "question": "What is SQL primarily used for?",
+        "choices": {
+          "A": "Designing user interfaces",
+          "B": "Querying and analyzing data",
+          "C": "Building mobile apps"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL statement is used to retrieve data?",
+        "choices": {
+          "A": "INSERT",
+          "B": "SELECT",
+          "C": "UPDATE"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which clause is used to filter rows in SQL?",
+        "choices": {
+          "A": "WHERE",
+          "B": "GROUP BY",
+          "C": "ORDER BY"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL keyword sorts the result set?",
+        "choices": {
+          "A": "HAVING",
+          "B": "ORDER BY",
+          "C": "GROUP BY"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which operator is used for pattern matching?",
+        "choices": {
+          "A": "LIKE",
+          "B": "BETWEEN",
+          "C": "IN"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL clause groups rows with the same values?",
+        "choices": {
+          "A": "GROUP BY",
+          "B": "WHERE",
+          "C": "ORDER BY"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which clause filters aggregated results?",
+        "choices": {
+          "A": "WHERE",
+          "B": "ORDER BY",
+          "C": "HAVING"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which aggregate function counts rows?",
+        "choices": {
+          "A": "SUM()",
+          "B": "AVG()",
+          "C": "COUNT()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which aggregate function calculates total values?",
+        "choices": {
+          "A": "SUM()",
+          "B": "MAX()",
+          "C": "COUNT()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which aggregate function returns the average?",
+        "choices": {
+          "A": "AVG()",
+          "B": "SUM()",
+          "C": "MIN()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL keyword removes duplicate rows?",
+        "choices": {
+          "A": "UNIQUE",
+          "B": "PRIMARY",
+          "C": "DISTINCT"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which join returns matching rows from both tables?",
+        "choices": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN",
+          "C": "FULL JOIN"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which join returns all rows from the left table?",
+        "choices": {
+          "A": "RIGHT JOIN",
+          "B": "INNER JOIN",
+          "C": "LEFT JOIN"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which join returns all rows from both tables?",
+        "choices": {
+          "A": "FULL OUTER JOIN",
+          "B": "LEFT JOIN",
+          "C": "INNER JOIN"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which clause limits the number of returned rows?",
+        "choices": {
+          "A": "WHERE",
+          "B": "LIMIT",
+          "C": "HAVING"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL function returns the highest value?",
+        "choices": {
+          "A": "AVG()",
+          "B": "MIN()",
+          "C": "MAX()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL function returns the lowest value?",
+        "choices": {
+          "A": "MIN()",
+          "B": "COUNT()",
+          "C": "MAX()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which keyword checks for NULL values?",
+        "choices": {
+          "A": "IS NULL",
+          "B": "= NULL",
+          "C": "NULLIF"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which keyword is used to rename a column?",
+        "choices": {
+          "A": "ALIAS",
+          "B": "AS",
+          "C": "RENAME"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which operator checks multiple values?",
+        "choices": {
+          "A": "IN",
+          "B": "LIKE",
+          "C": "BETWEEN"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which operator checks a value range?",
+        "choices": {
+          "A": "LIKE",
+          "B": "IN",
+          "C": "BETWEEN"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL clause is executed first logically?",
+        "choices": {
+          "A": "SELECT",
+          "B": "FROM",
+          "C": "ORDER BY"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which statement combines results of multiple queries?",
+        "choices": {
+          "A": "JOIN",
+          "B": "MERGE",
+          "C": "UNION"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which UNION type removes duplicates?",
+        "choices": {
+          "A": "INNER UNION",
+          "B": "UNION",
+          "C": "UNION ALL"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which UNION type keeps duplicates?",
+        "choices": {
+          "A": "UNION",
+          "B": "FULL UNION",
+          "C": "UNION ALL"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL function handles NULL values?",
+        "choices": {
+          "A": "ISNULLONLY()",
+          "B": "COALESCE()",
+          "C": "NULL()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which clause is used for conditional logic?",
+        "choices": {
+          "A": "SWITCH",
+          "B": "CASE",
+          "C": "IF"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL statement creates a new table?",
+        "choices": {
+          "A": "CREATE TABLE",
+          "B": "NEW TABLE",
+          "C": "INSERT TABLE"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL statement modifies existing data?",
+        "choices": {
+          "A": "CREATE",
+          "B": "SELECT",
+          "C": "UPDATE"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL statement removes data from a table?",
+        "choices": {
+          "A": "DROP",
+          "B": "DELETE",
+          "C": "TRUNCATE"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which statement removes all rows but keeps table structure?",
+        "choices": {
+          "A": "DELETE",
+          "B": "DROP",
+          "C": "TRUNCATE"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL object improves query performance?",
+        "choices": {
+          "A": "View",
+          "B": "Index",
+          "C": "Trigger"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which object stores a saved query?",
+        "choices": {
+          "A": "View",
+          "B": "Trigger",
+          "C": "Index"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL feature enforces data uniqueness?",
+        "choices": {
+          "A": "Index",
+          "B": "Primary Key",
+          "C": "Foreign Key"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which key creates a relationship between tables?",
+        "choices": {
+          "A": "Primary Key",
+          "B": "Unique Key",
+          "C": "Foreign Key"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL function returns current date?",
+        "choices": {
+          "A": "GETTIME()",
+          "B": "NOWDATE()",
+          "C": "CURRENT_DATE"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which clause is used to remove duplicate records after aggregation?",
+        "choices": {
+          "A": "GROUP BY",
+          "B": "HAVING",
+          "C": "DISTINCT"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL concept helps analysts summarize data?",
+        "choices": {
+          "A": "Normalization",
+          "B": "Indexing",
+          "C": "Aggregation"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which SQL feature supports business reporting?",
+        "choices": {
+          "A": "Views",
+          "B": "Stored procedures",
+          "C": "Triggers"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which SQL clause controls result set ordering?",
+        "choices": {
+          "A": "GROUP BY",
+          "B": "WHERE",
+          "C": "ORDER BY"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "SQL is used to query relational databases.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "SELECT is used to insert data.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "WHERE filters rows before aggregation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "HAVING filters aggregated results.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GROUP BY is required when using aggregate functions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "COUNT() counts NULL values.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "INNER JOIN returns matching rows only.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "LEFT JOIN may return NULL values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "UNION ALL removes duplicate rows.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "DISTINCT removes duplicate records.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "ORDER BY sorts the result set.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "NULL represents unknown or missing data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "COALESCE() handles NULL values.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Indexes can improve query performance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "TRUNCATE removes table structure.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Views store physical data.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Primary keys enforce uniqueness.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Foreign keys link tables.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "CASE is used for conditional logic.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SQL is useful for business reporting.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

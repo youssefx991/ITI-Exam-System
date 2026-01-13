@@ -1,0 +1,498 @@
+{
+  "Data Modeling & DAX": {
+    "mcq": [
+      {
+        "question": "What is the primary purpose of data modeling in BI tools?",
+        "choices": {
+          "A": "Organize data for analysis",
+          "B": "Write backend code",
+          "C": "Design user interfaces"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which relationship type is most common in data models?",
+        "choices": {
+          "A": "One-to-one",
+          "B": "One-to-many",
+          "C": "Many-to-many"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What does DAX stand for?",
+        "choices": {
+          "A": "Data Access Extension",
+          "B": "Data Analysis Expressions",
+          "C": "Dynamic Analysis XML"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which schema is commonly used in BI data modeling?",
+        "choices": {
+          "A": "Binary schema",
+          "B": "Network schema",
+          "C": "Star schema"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "In a star schema, what does a fact table contain?",
+        "choices": {
+          "A": "Measures and foreign keys",
+          "B": "Descriptive attributes",
+          "C": "User permissions"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What do dimension tables mainly store?",
+        "choices": {
+          "A": "Calculated measures",
+          "B": "Transaction totals",
+          "C": "Descriptive attributes"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DAX element performs calculations?",
+        "choices": {
+          "A": "Column",
+          "B": "Measure",
+          "C": "Relationship"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX function is used to sum values?",
+        "choices": {
+          "A": "AVERAGE()",
+          "B": "COUNT()",
+          "C": "SUM()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DAX function counts rows in a table?",
+        "choices": {
+          "A": "ROWS()",
+          "B": "COUNT()",
+          "C": "COUNTROWS()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DAX function calculates an average?",
+        "choices": {
+          "A": "AVERAGE()",
+          "B": "AVGX()",
+          "C": "MEAN()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is a calculated column evaluated against?",
+        "choices": {
+          "A": "Row context",
+          "B": "Filter context",
+          "C": "Query context"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Measures are evaluated in which context?",
+        "choices": {
+          "A": "Row context",
+          "B": "Filter context",
+          "C": "Table context"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX function changes filter context?",
+        "choices": {
+          "A": "FILTER()",
+          "B": "SUMX()",
+          "C": "CALCULATE()"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which function iterates over a table and evaluates an expression?",
+        "choices": {
+          "A": "TOTAL()",
+          "B": "SUM()",
+          "C": "SUMX()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does FILTER() return?",
+        "choices": {
+          "A": "A column",
+          "B": "A single value",
+          "C": "A filtered table"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which relationship direction is recommended by default?",
+        "choices": {
+          "A": "Single direction",
+          "B": "No direction",
+          "C": "Both directions"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which key uniquely identifies rows in a dimension table?",
+        "choices": {
+          "A": "Foreign key",
+          "B": "Primary key",
+          "C": "Composite key"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DAX function handles conditional logic?",
+        "choices": {
+          "A": "IF()",
+          "B": "CASE()",
+          "C": "SWITCH()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function is better for multiple conditions?",
+        "choices": {
+          "A": "IF()",
+          "B": "SWITCH()",
+          "C": "OR()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX function returns the maximum value?",
+        "choices": {
+          "A": "HIGHEST()",
+          "B": "TOP()",
+          "C": "MAX()"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function returns the minimum value?",
+        "choices": {
+          "A": "BOTTOM()",
+          "B": "MIN()",
+          "C": "LOW()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DAX function removes filters?",
+        "choices": {
+          "A": "REMOVE()",
+          "B": "CLEAR()",
+          "C": "ALL()"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "What does RELATED() do?",
+        "choices": {
+          "A": "Removes a relationship",
+          "B": "Retrieves a value from a related table",
+          "C": "Creates a relationship"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function returns distinct values?",
+        "choices": {
+          "A": "DISTINCT()",
+          "B": "UNIQUE()",
+          "C": "ONLY()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which DAX function returns the current date?",
+        "choices": {
+          "A": "TODAY()",
+          "B": "NOWDATE()",
+          "C": "CURRENT()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function calculates year-to-date totals?",
+        "choices": {
+          "A": "TOTALYTD()",
+          "B": "YTD()",
+          "C": "SUMYTD()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is time intelligence used for?",
+        "choices": {
+          "A": "Date-based calculations",
+          "B": "Security rules",
+          "C": "Text analysis"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which table type is required for time intelligence?",
+        "choices": {
+          "A": "Fact table",
+          "B": "Lookup table",
+          "C": "Date table"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX function evaluates expressions row by row?",
+        "choices": {
+          "A": "ALL()",
+          "B": "X functions",
+          "C": "CALCULATE()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX concept limits data visibility per user?",
+        "choices": {
+          "A": "Row-level security",
+          "B": "Measures",
+          "C": "Indexes"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX function checks for blank values?",
+        "choices": {
+          "A": "ISNULL()",
+          "B": "ISBLANK()",
+          "C": "EMPTY()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function replaces blank values?",
+        "choices": {
+          "A": "FILL()",
+          "B": "COALESCE()",
+          "C": "REPLACE()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which schema reduces complexity for reporting?",
+        "choices": {
+          "A": "Flat schema",
+          "B": "Snowflake schema",
+          "C": "Star schema"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which relationship type should generally be avoided?",
+        "choices": {
+          "A": "One-to-one",
+          "B": "One-to-many",
+          "C": "Many-to-many"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which DAX function ranks values?",
+        "choices": {
+          "A": "RANKX()",
+          "B": "TOPN()",
+          "C": "ORDER()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function returns top N rows?",
+        "choices": {
+          "A": "FIRSTN()",
+          "B": "TOPN()",
+          "C": "MAXN()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which DAX feature improves performance by reducing model size?",
+        "choices": {
+          "A": "Using many-to-many relationships",
+          "B": "Removing unused columns",
+          "C": "Adding measures"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which DAX function returns total rows ignoring filters?",
+        "choices": {
+          "A": "CALCULATE(COUNTROWS(), ALL())",
+          "B": "SUM()",
+          "C": "COUNT()"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which modeling practice improves DAX performance?",
+        "choices": {
+          "A": "Using measures instead of calculated columns",
+          "B": "Using many relationships",
+          "C": "Duplicating tables"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Data modeling organizes data for analysis.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "DAX is used only in Excel.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Fact tables store numerical data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dimension tables store descriptive data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Star schema simplifies reporting.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Measures are calculated at query time.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Calculated columns increase model size.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CALCULATE() modifies filter context.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "FILTER() returns a scalar value.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Row context applies to calculated columns.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Time intelligence requires a date table.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ALL() removes filters.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "RELATED() works without relationships.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Many-to-many relationships are always recommended.",
+        "answer": "F",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Row-level security controls data access.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "X functions iterate over tables.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SWITCH() can replace nested IF statements.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Removing unused columns improves performance.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Measures are preferred over calculated columns when possible.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "DAX is used for data visualization only.",
+        "answer": "F",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

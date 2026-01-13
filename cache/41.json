@@ -1,0 +1,308 @@
+{
+  "AI Fundamentals & Ethics": {
+    "mcq": [
+      {
+        "question": "What is the primary goal of Artificial Intelligence?",
+        "choices": {
+          "A": "Store large amounts of data",
+          "B": "Create machines that can perform tasks requiring human intelligence",
+          "C": "Develop hardware only"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of AI can perform specific tasks but cannot generalize?",
+        "choices": {
+          "A": "General AI",
+          "B": "Super AI",
+          "C": "Narrow AI"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of AI can theoretically perform any intellectual task a human can do?",
+        "choices": {
+          "A": "General AI",
+          "B": "Narrow AI",
+          "C": "Reactive AI"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ethical principle ensures AI decisions are transparent and explainable?",
+        "choices": {
+          "A": "Bias",
+          "B": "Explainability",
+          "C": "Privacy"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI principle involves avoiding harm to humans?",
+        "choices": {
+          "A": "Transparency",
+          "B": "Beneficence",
+          "C": "Autonomy"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which bias can occur when training data is not representative?",
+        "choices": {
+          "A": "Algorithm Optimization",
+          "B": "Overfitting",
+          "C": "Data Bias"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which law regulates the use of personal data in AI systems in the EU?",
+        "choices": {
+          "A": "SOX",
+          "B": "HIPAA",
+          "C": "GDPR"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI type learns from data patterns without explicit programming?",
+        "choices": {
+          "A": "Symbolic AI",
+          "B": "Machine Learning",
+          "C": "Reactive AI"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI application involves understanding human language?",
+        "choices": {
+          "A": "Natural Language Processing",
+          "B": "Robotics",
+          "C": "Computer Vision"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI application involves recognizing objects and images?",
+        "choices": {
+          "A": "Speech Recognition",
+          "B": "Computer Vision",
+          "C": "Expert Systems"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which principle ensures AI systems respect human privacy?",
+        "choices": {
+          "A": "Fairness",
+          "B": "Transparency",
+          "C": "Privacy"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI risk involves models making unfair or discriminatory decisions?",
+        "choices": {
+          "A": "Bias",
+          "B": "Overfitting",
+          "C": "Explainability"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI field studies algorithms that improve performance over time?",
+        "choices": {
+          "A": "Machine Learning",
+          "B": "Expert Systems",
+          "C": "Symbolic AI"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which AI principle promotes accountability for automated decisions?",
+        "choices": {
+          "A": "Autonomy",
+          "B": "Responsibility",
+          "C": "Privacy"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI ethics concern deals with protecting jobs and society from automation impact?",
+        "choices": {
+          "A": "Bias",
+          "B": "Societal Impact",
+          "C": "Explainability"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique is used to detect and mitigate AI bias?",
+        "choices": {
+          "A": "Overfitting",
+          "B": "Data Augmentation",
+          "C": "Fairness Auditing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI type reacts to inputs without memory of past events?",
+        "choices": {
+          "A": "Reactive Machines",
+          "B": "Self-aware AI",
+          "C": "Limited Memory AI"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI technology allows self-driving cars to perceive the environment?",
+        "choices": {
+          "A": "Reinforcement Learning",
+          "B": "Computer Vision",
+          "C": "NLP"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which AI learning method uses rewards and penalties?",
+        "choices": {
+          "A": "Unsupervised Learning",
+          "B": "Reinforcement Learning",
+          "C": "Supervised Learning"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which principle ensures AI decisions are understandable to humans?",
+        "choices": {
+          "A": "Autonomy",
+          "B": "Beneficence",
+          "C": "Explainability"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Narrow AI is specialized for specific tasks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "General AI can perform any intellectual task a human can.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Beneficence in AI ethics means avoiding harm to humans.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Bias in AI occurs when training data is unrepresentative.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GDPR regulates personal data usage in the EU.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Machine Learning requires explicit programming for every task.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "NLP involves understanding and generating human language.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Computer Vision focuses on image and video analysis.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "AI privacy principles ensure respect for user data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "AI bias cannot be mitigated.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Machine Learning algorithms improve from experience.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Responsibility ensures accountability in AI decisions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Societal Impact ethics consider automation effects on jobs.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Fairness Auditing helps detect and mitigate AI bias.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reactive Machines have memory of past events.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Computer Vision allows self-driving cars to perceive the environment.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reinforcement Learning uses rewards and penalties to learn.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Explainability ensures AI decisions are understandable to humans.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Super AI currently exists and surpasses human intelligence.",
+        "answer": "F",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Transparency in AI requires disclosing how algorithms make decisions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

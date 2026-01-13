@@ -1,0 +1,498 @@
+{
+  "Microsoft Dynamics 365": {
+    "mcq": [
+      {
+        "question": "What is Microsoft Dynamics 365 primarily used for?",
+        "choices": {
+          "A": "Enterprise business applications",
+          "B": "Network routing",
+          "C": "Graphic design"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Microsoft Dynamics 365 is a combination of which systems?",
+        "choices": {
+          "A": "ERP and CRM",
+          "B": "Email and Chat",
+          "C": "HR and Payroll only"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which deployment model does Dynamics 365 mainly use?",
+        "choices": {
+          "A": "Cloud-based SaaS",
+          "B": "Offline local server",
+          "C": "Desktop-only"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 app is used for sales management?",
+        "choices": {
+          "A": "Dynamics 365 Supply Chain",
+          "B": "Dynamics 365 Sales",
+          "C": "Dynamics 365 Finance"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which app focuses on customer service?",
+        "choices": {
+          "A": "Dynamics 365 Finance",
+          "B": "Dynamics 365 Customer Service",
+          "C": "Dynamics 365 Marketing"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 module manages financial operations?",
+        "choices": {
+          "A": "Sales",
+          "B": "Finance",
+          "C": "Field Service"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module is used for supply chain processes?",
+        "choices": {
+          "A": "Supply Chain Management",
+          "B": "Marketing",
+          "C": "Human Resources"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What platform underpins Dynamics 365 customization?",
+        "choices": {
+          "A": "Azure DevOps only",
+          "B": "SharePoint Server",
+          "C": "Microsoft Power Platform"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is used to create custom apps without heavy coding?",
+        "choices": {
+          "A": "Power Apps",
+          "B": "SQL Server",
+          "C": "Visual Studio"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 tool is used for workflow automation?",
+        "choices": {
+          "A": "Outlook",
+          "B": "Power BI",
+          "C": "Power Automate"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which analytics tool integrates with Dynamics 365?",
+        "choices": {
+          "A": "Tableau only",
+          "B": "Power BI",
+          "C": "Excel only"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which module handles human resources?",
+        "choices": {
+          "A": "Dynamics 365 Commerce",
+          "B": "Dynamics 365 Sales",
+          "C": "Dynamics 365 Human Resources"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 app supports retail operations?",
+        "choices": {
+          "A": "Project Operations",
+          "B": "Commerce",
+          "C": "Marketing"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which app supports project-based businesses?",
+        "choices": {
+          "A": "Project Operations",
+          "B": "Customer Service",
+          "C": "Sales"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which security model does Dynamics 365 use?",
+        "choices": {
+          "A": "Role-based security",
+          "B": "Open access",
+          "C": "No authentication"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which cloud service hosts Dynamics 365?",
+        "choices": {
+          "A": "Google Cloud",
+          "B": "Microsoft Azure",
+          "C": "AWS"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 feature enables AI-driven insights?",
+        "choices": {
+          "A": "Notepad",
+          "B": "Copilot",
+          "C": "Paint"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 component manages customer data?",
+        "choices": {
+          "A": "Access DB",
+          "B": "Dataverse",
+          "C": "Excel Sheets"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is Microsoft Dataverse?",
+        "choices": {
+          "A": "A secure data platform",
+          "B": "An email service",
+          "C": "A reporting tool"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 app supports marketing campaigns?",
+        "choices": {
+          "A": "Marketing",
+          "B": "Field Service",
+          "C": "Finance"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which feature supports business process flows?",
+        "choices": {
+          "A": "Dashboards only",
+          "B": "Themes",
+          "C": "Process automation"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 module supports inventory management?",
+        "choices": {
+          "A": "Human Resources",
+          "B": "Marketing",
+          "C": "Supply Chain Management"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is used for reporting and dashboards?",
+        "choices": {
+          "A": "OneNote",
+          "B": "Word",
+          "C": "Power BI"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 app manages field technicians?",
+        "choices": {
+          "A": "Field Service",
+          "B": "Sales",
+          "C": "Finance"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which update model does Dynamics 365 follow?",
+        "choices": {
+          "A": "Manual yearly updates",
+          "B": "No updates",
+          "C": "Continuous cloud updates"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 feature ensures compliance and auditing?",
+        "choices": {
+          "A": "Themes",
+          "B": "Audit logs",
+          "C": "Favorites"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which integration allows email tracking?",
+        "choices": {
+          "A": "Slack integration",
+          "B": "Zoom integration",
+          "C": "Outlook integration"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 app supports omnichannel customer engagement?",
+        "choices": {
+          "A": "Finance",
+          "B": "Human Resources",
+          "C": "Customer Service"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which feature supports multi-currency transactions?",
+        "choices": {
+          "A": "Single currency setting",
+          "B": "Local mode only",
+          "C": "Global finance support"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 benefit reduces IT overhead?",
+        "choices": {
+          "A": "On-prem servers",
+          "B": "Cloud infrastructure",
+          "C": "Manual upgrades"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which app supports customer insights and segmentation?",
+        "choices": {
+          "A": "Finance",
+          "B": "Customer Insights",
+          "C": "Sales Hub"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 tool supports low-code customization?",
+        "choices": {
+          "A": "Notepad",
+          "B": "Visual Studio only",
+          "C": "Power Platform"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 feature supports scalability?",
+        "choices": {
+          "A": "Azure cloud infrastructure",
+          "B": "Manual scaling",
+          "C": "Local servers"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 app handles billing and invoicing?",
+        "choices": {
+          "A": "Field Service",
+          "B": "Marketing",
+          "C": "Finance"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 component stores structured business data?",
+        "choices": {
+          "A": "SharePoint lists",
+          "B": "Dataverse",
+          "C": "Flat files"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 app supports AI recommendations?",
+        "choices": {
+          "A": "Copilot",
+          "B": "Paint",
+          "C": "Calculator"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which Dynamics 365 benefit improves collaboration?",
+        "choices": {
+          "A": "Offline only",
+          "B": "Standalone usage",
+          "C": "Microsoft 365 integration"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Dynamics 365 feature enables real-time insights?",
+        "choices": {
+          "A": "Paper reports",
+          "B": "Manual reports",
+          "C": "Embedded analytics"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which Dynamics 365 app supports customer loyalty programs?",
+        "choices": {
+          "A": "Finance",
+          "B": "Commerce",
+          "C": "Human Resources"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Microsoft Dynamics 365 combines ERP and CRM capabilities.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 is hosted on Microsoft Azure.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 supports cloud-based deployment.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Power BI integrates with Dynamics 365.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 requires on-premise servers only.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Role-based security controls user access.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Power Apps can be used for low-code development.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Power Automate is used for workflow automation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dataverse is used to store business data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dynamics 365 Finance handles financial operations.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 supports multi-currency transactions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Copilot provides AI-driven insights.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dynamics 365 Field Service manages on-site technicians.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 updates are manual.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Audit logs support compliance requirements.",
+        "answer": "T",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Dynamics 365 integrates with Microsoft 365 tools.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 supports business process flows.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dynamics 365 Commerce supports retail operations.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dynamics 365 reduces IT maintenance overhead.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dynamics 365 is suitable for small and large organizations.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

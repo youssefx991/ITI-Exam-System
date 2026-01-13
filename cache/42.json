@@ -1,0 +1,308 @@
+{
+  "Neural Networks & Deep Learning": {
+    "mcq": [
+      {
+        "question": "What is the basic computational unit of a neural network?",
+        "choices": {
+          "A": "Weight",
+          "B": "Layer",
+          "C": "Neuron"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which layer type is typically used to combine inputs linearly and apply activation?",
+        "choices": {
+          "A": "Convolutional",
+          "B": "Dense (Fully Connected)",
+          "C": "Pooling"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which activation function outputs values between 0 and 1?",
+        "choices": {
+          "A": "ReLU",
+          "B": "Tanh",
+          "C": "Sigmoid"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which activation function is commonly used in hidden layers for non-linearity?",
+        "choices": {
+          "A": "ReLU",
+          "B": "Softmax",
+          "C": "Sigmoid"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which loss function is commonly used for multi-class classification?",
+        "choices": {
+          "A": "Binary Crossentropy",
+          "B": "Categorical Crossentropy",
+          "C": "Mean Squared Error"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which optimizer adapts learning rates for each parameter individually?",
+        "choices": {
+          "A": "SGD",
+          "B": "RMSProp",
+          "C": "Adam"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer type is used to reduce overfitting by randomly dropping neurons?",
+        "choices": {
+          "A": "Flatten",
+          "B": "Dense",
+          "C": "Dropout"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer type in CNNs extracts features from images?",
+        "choices": {
+          "A": "Convolutional Layer",
+          "B": "Dense Layer",
+          "C": "Pooling Layer"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer type reduces spatial dimensions in CNNs?",
+        "choices": {
+          "A": "Pooling Layer",
+          "B": "Dropout Layer",
+          "C": "Dense Layer"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method is used to initialize a neural network model in Keras?",
+        "choices": {
+          "A": "Sequential()",
+          "B": "Model.fit()",
+          "C": "compile()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function trains a neural network on data?",
+        "choices": {
+          "A": "model.predict()",
+          "B": "model.fit()",
+          "C": "model.evaluate()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function evaluates model performance on test data?",
+        "choices": {
+          "A": "model.predict()",
+          "B": "model.evaluate()",
+          "C": "model.fit()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function makes predictions using a trained neural network?",
+        "choices": {
+          "A": "model.predict()",
+          "B": "model.fit()",
+          "C": "model.compile()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique normalizes activations in hidden layers to accelerate training?",
+        "choices": {
+          "A": "Batch Normalization",
+          "B": "Dropout",
+          "C": "Pooling"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which optimizer is based on stochastic gradient descent with momentum?",
+        "choices": {
+          "A": "RMSProp",
+          "B": "Adam",
+          "C": "SGD with Momentum"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which layer flattens multi-dimensional input into a single vector?",
+        "choices": {
+          "A": "Dense",
+          "B": "Conv2D",
+          "C": "Flatten"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which neural network type is used for image processing?",
+        "choices": {
+          "A": "MLP",
+          "B": "Recurrent Neural Networks (RNNs)",
+          "C": "Convolutional Neural Networks (CNNs)"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which neural network type is used for sequence or time-series data?",
+        "choices": {
+          "A": "Dense Networks",
+          "B": "Recurrent Neural Networks (RNNs)",
+          "C": "CNNs"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function converts labels to one-hot encoded format in Keras?",
+        "choices": {
+          "A": "StandardScaler()",
+          "B": "to_categorical()",
+          "C": "LabelEncoder()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which technique prevents vanishing gradients in deep networks?",
+        "choices": {
+          "A": "Sigmoid Activation",
+          "B": "ReLU Activation",
+          "C": "Softmax Activation"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "A neuron is the basic unit of a neural network.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Dense layers apply linear transformation followed by activation.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Sigmoid activation outputs values between 0 and 1.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "ReLU outputs negative values for negative inputs.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Categorical Crossentropy is used for multi-class classification.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Adam optimizer adapts learning rates individually for each parameter.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dropout randomly drops neurons to prevent overfitting.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Convolutional layers are used to extract features in images.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Pooling layers increase spatial dimensions of feature maps.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sequential() initializes a neural network model in Keras.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "model.fit() trains the model on given data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "model.evaluate() computes performance on test data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "model.predict() is used for inference on new data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Batch Normalization normalizes inputs to layers to speed up training.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "SGD with momentum helps accelerate training in relevant directions.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Flatten layers convert multi-dimensional input into vectors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "CNNs are suitable for sequence data like time series.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "RNNs are designed to handle sequential data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "to_categorical() converts labels to one-hot encoded vectors.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "ReLU activation helps prevent vanishing gradients.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

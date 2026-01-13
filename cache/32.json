@@ -1,0 +1,308 @@
+{
+  "Statistics & Probability": {
+    "mcq": [
+      {
+        "question": "What does the mean represent in statistics?",
+        "choices": {
+          "A": "Middle value",
+          "B": "Average of the data",
+          "C": "Most frequent value"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the median of a dataset?",
+        "choices": {
+          "A": "Middle value when data is sorted",
+          "B": "Value that occurs most often",
+          "C": "Average of all values"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which measure indicates how spread out the data is?",
+        "choices": {
+          "A": "Mean",
+          "B": "Standard deviation",
+          "C": "Mode"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the probability of an impossible event?",
+        "choices": {
+          "A": "0.5",
+          "B": "0",
+          "C": "1"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the probability of a certain event?",
+        "choices": {
+          "A": "0",
+          "B": "1",
+          "C": "0.5"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which of the following is a discrete random variable?",
+        "choices": {
+          "A": "Temperature in Celsius",
+          "B": "Height of a person",
+          "C": "Number of students in a class"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which distribution is used for counting the number of successes in a fixed number of trials?",
+        "choices": {
+          "A": "Binomial distribution",
+          "B": "Poisson distribution",
+          "C": "Normal distribution"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does a standard deviation measure?",
+        "choices": {
+          "A": "Average distance from the mean",
+          "B": "Sum of all values",
+          "C": "Middle value"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which distribution is continuous and bell-shaped?",
+        "choices": {
+          "A": "Poisson distribution",
+          "B": "Normal distribution",
+          "C": "Binomial distribution"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the mode of a dataset?",
+        "choices": {
+          "A": "Average of data",
+          "B": "Most frequently occurring value",
+          "C": "Middle value"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which probability rule states that total probability of all outcomes equals 1?",
+        "choices": {
+          "A": "Central limit theorem",
+          "B": "Bayesâ€™ theorem",
+          "C": "Probability axioms"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which theorem relates conditional probabilities?",
+        "choices": {
+          "A": "Chebyshev's theorem",
+          "B": "Bayesâ€™ theorem",
+          "C": "Law of large numbers"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the sum of probabilities for all mutually exclusive events?",
+        "choices": {
+          "A": "Depends on the events",
+          "B": "1",
+          "C": "0"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which measure of central tendency is least affected by outliers?",
+        "choices": {
+          "A": "Mode",
+          "B": "Mean",
+          "C": "Median"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which distribution describes rare events over a fixed interval?",
+        "choices": {
+          "A": "Uniform distribution",
+          "B": "Poisson distribution",
+          "C": "Normal distribution"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which probability distribution is symmetric and continuous?",
+        "choices": {
+          "A": "Poisson distribution",
+          "B": "Binomial distribution",
+          "C": "Normal distribution"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which statistical measure indicates skewness in data?",
+        "choices": {
+          "A": "Variance",
+          "B": "Skewness",
+          "C": "Kurtosis"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the variance of a dataset?",
+        "choices": {
+          "A": "Difference between max and min",
+          "B": "Average squared deviation from the mean",
+          "C": "Square root of mean"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which law states that sample mean approaches population mean as sample size increases?",
+        "choices": {
+          "A": "Bayesâ€™ Theorem",
+          "B": "Central Limit Theorem",
+          "C": "Law of Large Numbers"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which theorem states that the distribution of sample means approximates normal distribution?",
+        "choices": {
+          "A": "Law of Large Numbers",
+          "B": "Central Limit Theorem",
+          "C": "Probability axioms"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Mean is the average of all data points.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Median is the middle value of a sorted dataset.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Mode is the most frequently occurring value.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Variance measures the spread of data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Standard deviation is the square root of variance.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Binomial distribution counts the number of successes in fixed trials.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Poisson distribution is used for rare events over a fixed interval.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Normal distribution is continuous and bell-shaped.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Probability of an impossible event is 1.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Probability of a certain event is 1.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Sum of probabilities of all mutually exclusive events equals 1.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Median is less affected by outliers than mean.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Variance is the average deviation from the mean.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Law of Large Numbers states sample mean approaches population mean with large samples.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Central Limit Theorem applies only to population sizes less than 30.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Skewness measures asymmetry of data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Kurtosis measures peakedness of the distribution.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Probability axioms state total probability cannot exceed 1.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "All events with probability 0 are impossible.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Normal distribution is always symmetric.",
+        "answer": "T",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

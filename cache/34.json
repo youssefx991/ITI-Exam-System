@@ -1,0 +1,308 @@
+{
+  "Machine Learning Fundamentals": {
+    "mcq": [
+      {
+        "question": "Which type of learning involves labeled data?",
+        "choices": {
+          "A": "Unsupervised Learning",
+          "B": "Supervised Learning",
+          "C": "Reinforcement Learning"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is used for classification tasks?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "PCA",
+          "C": "K-Means"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which technique is used to reduce dimensionality?",
+        "choices": {
+          "A": "PCA",
+          "B": "KNN",
+          "C": "Linear Regression"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is overfitting in machine learning?",
+        "choices": {
+          "A": "Model is trained too quickly",
+          "B": "Model underperforms on all data",
+          "C": "Model performs well on training data but poorly on new data"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm is suitable for clustering?",
+        "choices": {
+          "A": "K-Means",
+          "B": "Logistic Regression",
+          "C": "Linear Regression"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which evaluation metric is used for regression tasks?",
+        "choices": {
+          "A": "Mean Squared Error",
+          "B": "F1-Score",
+          "C": "Accuracy"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm predicts probabilities of categorical outcomes?",
+        "choices": {
+          "A": "KNN",
+          "B": "Logistic Regression",
+          "C": "Linear Regression"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method prevents overfitting by adding a penalty term?",
+        "choices": {
+          "A": "Regularization",
+          "B": "Gradient Descent",
+          "C": "PCA"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm predicts a continuous numeric output?",
+        "choices": {
+          "A": "Decision Tree Classification",
+          "B": "Linear Regression",
+          "C": "K-Means"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which type of learning does not require labeled data?",
+        "choices": {
+          "A": "Unsupervised Learning",
+          "B": "Semi-Supervised Learning",
+          "C": "Supervised Learning"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is non-parametric and can handle non-linear data?",
+        "choices": {
+          "A": "PCA",
+          "B": "K-Nearest Neighbors",
+          "C": "Linear Regression"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric evaluates classification performance considering false positives and false negatives?",
+        "choices": {
+          "A": "MSE",
+          "B": "F1-Score",
+          "C": "RMSE"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which ensemble method combines multiple weak learners?",
+        "choices": {
+          "A": "K-Means",
+          "B": "PCA",
+          "C": "Random Forest"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which learning type uses rewards and penalties to learn behavior?",
+        "choices": {
+          "A": "Supervised Learning",
+          "B": "Unsupervised Learning",
+          "C": "Reinforcement Learning"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method scales features to a standard range?",
+        "choices": {
+          "A": "PCA",
+          "B": "KNN",
+          "C": "Normalization/Standardization"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method is used to split data into training and testing sets?",
+        "choices": {
+          "A": "cross_val_score()",
+          "B": "train_test_split()",
+          "C": "fit_transform()"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which algorithm is used for detecting anomalies in data?",
+        "choices": {
+          "A": "Linear Regression",
+          "B": "Isolation Forest",
+          "C": "K-Means"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which algorithm can be used for both classification and regression tasks?",
+        "choices": {
+          "A": "Decision Tree",
+          "B": "K-Means",
+          "C": "PCA"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method evaluates how well a model generalizes to new data?",
+        "choices": {
+          "A": "Gradient Descent",
+          "B": "Cross-validation",
+          "C": "Overfitting"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which metric measures proportion of correctly predicted instances?",
+        "choices": {
+          "A": "IQR",
+          "B": "Accuracy",
+          "C": "MSE"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Supervised learning uses labeled data.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Unsupervised learning requires labeled data.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Overfitting occurs when a model performs poorly on new data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "K-Means is a clustering algorithm.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Linear regression predicts categorical outputs.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Random Forest is an ensemble learning method.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PCA is used for dimensionality reduction.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "F1-Score considers both precision and recall.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reinforcement learning learns from rewards and penalties.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Decision Trees can be used for regression.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Accuracy alone is always sufficient for evaluating a model.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "train_test_split() divides data into training and testing sets.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "K-Nearest Neighbors is a parametric algorithm.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Isolation Forest is used for anomaly detection.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Cross-validation helps estimate model generalization.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Normalization scales features to a common range.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Logistic Regression is used for regression tasks.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Decision Trees can handle both numerical and categorical data.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Dimensionality reduction increases the number of features.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Supervised learning can be used for classification tasks.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

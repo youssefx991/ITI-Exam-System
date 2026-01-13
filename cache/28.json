@@ -1,0 +1,308 @@
+{
+  "Contributing to Open Source": {
+    "mcq": [
+      {
+        "question": "What is the first step before contributing to an open source project?",
+        "choices": {
+          "A": "Commit directly to main",
+          "B": "Delete the repo",
+          "C": "Fork the repository"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which platform is commonly used for hosting open source projects?",
+        "choices": {
+          "A": "Dropbox",
+          "B": "LinkedIn",
+          "C": "GitHub"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is a 'pull request' in open source contribution?",
+        "choices": {
+          "A": "Request to merge your changes into the main project",
+          "B": "Request to delete a repository",
+          "C": "Request to clone a repo"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which license allows anyone to modify and distribute open source code?",
+        "choices": {
+          "A": "Proprietary",
+          "B": "GPL",
+          "C": "Closed source"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command uploads committed changes to your forked repository?",
+        "choices": {
+          "A": "git push",
+          "B": "git clone",
+          "C": "git pull"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which of the following is a good practice before submitting a pull request?",
+        "choices": {
+          "A": "Skip testing",
+          "B": "Write clear commit messages",
+          "C": "Merge without review"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does 'issue tracker' in open source projects help with?",
+        "choices": {
+          "A": "Delete commits",
+          "B": "Track bugs, enhancements, and tasks",
+          "C": "Create private branches"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Git command creates a new branch to work on a feature?",
+        "choices": {
+          "A": "git clone",
+          "B": "git checkout -b <branch>",
+          "C": "git merge <branch>"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Why is it important to read a project's CONTRIBUTING.md file?",
+        "choices": {
+          "A": "It shows network stats",
+          "B": "It lists all commits",
+          "C": "It contains guidelines for contributing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which workflow is commonly used for contributing to open source?",
+        "choices": {
+          "A": "Clone â†’ Merge â†’ Delete",
+          "B": "Fork â†’ Branch â†’ Commit â†’ Pull Request",
+          "C": "Commit â†’ Push â†’ Revert"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which action ensures your fork is up to date with the original repository?",
+        "choices": {
+          "A": "git commit -m update",
+          "B": "git push origin main",
+          "C": "git fetch upstream && git merge upstream/main"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "What is 'code review' in open source contribution?",
+        "choices": {
+          "A": "Process of reviewing code changes before merging",
+          "B": "Deleting unnecessary files",
+          "C": "Writing tests only"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which is considered a good practice when contributing?",
+        "choices": {
+          "A": "Change unrelated files",
+          "B": "Ignore testing",
+          "C": "Follow project coding standards"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is a 'fork' in GitHub?",
+        "choices": {
+          "A": "A branch in the original repo",
+          "B": "Deleting a repository",
+          "C": "A personal copy of someone else's repository"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which GitHub feature helps communicate changes and suggestions?",
+        "choices": {
+          "A": "Wiki only",
+          "B": "Issues and Pull Requests",
+          "C": "Projects"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Why is testing your changes before submitting important?",
+        "choices": {
+          "A": "To ensure your code works correctly",
+          "B": "It is not necessary",
+          "C": "To delay pull request"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which command fetches changes from the original repository into your local fork?",
+        "choices": {
+          "A": "git clone origin",
+          "B": "git fetch upstream",
+          "C": "git pull origin"
+        },
+        "answer": "B",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Why should contributors write clear commit messages?",
+        "choices": {
+          "A": "It is optional",
+          "B": "Helps maintainers understand changes",
+          "C": "To increase file size"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which is an example of a minor contribution to open source?",
+        "choices": {
+          "A": "Deploying servers",
+          "B": "Fixing a typo in documentation",
+          "C": "Developing a new framework"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What is the purpose of labeling issues in open source projects?",
+        "choices": {
+          "A": "Track only code changes",
+          "B": "Categorize and prioritize tasks",
+          "C": "Delete old issues"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      }
+    ],
+    "tf": [
+      {
+        "question": "A fork creates a personal copy of a repository to work on.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Pull requests are used to merge changes into the original repository.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "All open source contributions must be large code changes.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Reading CONTRIBUTING.md helps understand contribution guidelines.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "GitHub Issues are used to track bugs and feature requests.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "It is not necessary to test your changes before submitting a pull request.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Code review helps maintain quality and consistency in projects.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Clear commit messages help maintainers understand changes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Fork â†’ Branch â†’ Commit â†’ Pull Request is a common contribution workflow.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Updating your fork ensures it is in sync with the original repository.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Minor contributions can include fixing documentation typos.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Labels in issues help categorize and prioritize tasks.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "You should always commit directly to the main branch in open source projects.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Pull requests can include both code and documentation changes.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Contributing to open source requires a paid account on GitHub.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Staying updated with the original repository helps prevent conflicts.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Open source contribution can help improve skills and portfolio.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "You can submit pull requests without creating a branch.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Good contributions follow the projectâ€™s coding style and guidelines.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GitHub Actions is primarily used for code review.",
+        "answer": "F",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

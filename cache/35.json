@@ -1,0 +1,308 @@
+{
+  "Big Data with PySpark": {
+    "mcq": [
+      {
+        "question": "What is PySpark primarily used for?",
+        "choices": {
+          "A": "Web development",
+          "B": "Image processing",
+          "C": "Big data processing with Python"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which PySpark component is used for structured data processing?",
+        "choices": {
+          "A": "MLlib",
+          "B": "DataFrame API",
+          "C": "RDD API"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which PySpark feature represents a distributed collection of objects?",
+        "choices": {
+          "A": "DataFrame",
+          "B": "RDD",
+          "C": "Dataset"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which PySpark module is used for machine learning?",
+        "choices": {
+          "A": "GraphX",
+          "B": "MLlib",
+          "C": "Spark Streaming"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which transformation creates a new RDD from an existing RDD?",
+        "choices": {
+          "A": "collect()",
+          "B": "show()",
+          "C": "map()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which action returns all elements of an RDD to the driver?",
+        "choices": {
+          "A": "map()",
+          "B": "filter()",
+          "C": "collect()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function creates a DataFrame from a CSV file?",
+        "choices": {
+          "A": "spark.read.csv()",
+          "B": "pd.read_csv()",
+          "C": "spark.createDataFrame()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which PySpark component handles streaming data?",
+        "choices": {
+          "A": "MLlib",
+          "B": "GraphX",
+          "C": "Spark Streaming"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which PySpark function filters rows based on a condition?",
+        "choices": {
+          "A": "filter()",
+          "B": "map()",
+          "C": "reduce()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function shows the first few rows of a DataFrame?",
+        "choices": {
+          "A": "show()",
+          "B": "head()",
+          "C": "collect()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which PySpark component is used for graph processing?",
+        "choices": {
+          "A": "Spark SQL",
+          "B": "MLlib",
+          "C": "GraphX"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method aggregates data by key in an RDD?",
+        "choices": {
+          "A": "reduceByKey()",
+          "B": "groupBy()",
+          "C": "map()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which PySpark API supports SQL queries?",
+        "choices": {
+          "A": "Spark SQL",
+          "B": "RDD API",
+          "C": "GraphX"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which method removes duplicates in a DataFrame?",
+        "choices": {
+          "A": "unique()",
+          "B": "distinctRows()",
+          "C": "dropDuplicates()"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which method joins two DataFrames?",
+        "choices": {
+          "A": "concat()",
+          "B": "join()",
+          "C": "merge()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which PySpark method counts rows in a DataFrame?",
+        "choices": {
+          "A": "count()",
+          "B": "size()",
+          "C": "length()"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which function converts RDD to DataFrame?",
+        "choices": {
+          "A": "toDF()",
+          "B": "df()",
+          "C": "createDataFrame()"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which function computes statistics like mean and max on DataFrame columns?",
+        "choices": {
+          "A": "summary()",
+          "B": "describe()",
+          "C": "stats()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which PySpark function renames columns in a DataFrame?",
+        "choices": {
+          "A": "rename()",
+          "B": "withColumnRenamed()",
+          "C": "alias()"
+        },
+        "answer": "B",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which PySpark API supports working with structured data?",
+        "choices": {
+          "A": "GraphX",
+          "B": "RDD API",
+          "C": "DataFrame API"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "RDD stands for Resilient Distributed Dataset.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "PySpark is used for big data processing with Python.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "MLlib is PySparkâ€™s machine learning library.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "GraphX is used for streaming data.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "DataFrames support SQL queries in PySpark.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "reduceByKey() aggregates data by key in an RDD.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Spark Streaming is used to process batch data only.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "dropDuplicates() removes duplicate rows in a DataFrame.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "count() returns the number of rows in a DataFrame.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "toDF() converts an RDD to a DataFrame.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "describe() computes summary statistics for numerical columns.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "withColumnRenamed() renames columns in a DataFrame.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Spark SQL cannot run standard SQL queries.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "map() is a PySpark transformation that creates a new RDD.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "filter() is used to select rows based on a condition.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "collect() returns all elements of an RDD to the driver node.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "K-Means clustering is implemented in PySpark MLlib.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "PySpark DataFrame API cannot handle structured data.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Spark is designed for distributed computing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "PySpark is limited to Python 2.x only.",
+        "answer": "F",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}

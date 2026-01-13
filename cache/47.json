@@ -1,0 +1,158 @@
+{
+  "Ethical Hacking & Penetration Testing": {
+    "mcq": [
+      {
+        "question": "What is the primary goal of ethical hacking?",
+        "choices": {
+          "A": "To replace security administrators",
+          "B": "To identify and fix security vulnerabilities",
+          "C": "To exploit systems for personal gain"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which phase of penetration testing involves gathering information about a target?",
+        "choices": {
+          "A": "Exploitation",
+          "B": "Reconnaissance",
+          "C": "Reporting"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which tool is commonly used for network scanning?",
+        "choices": {
+          "A": "Nmap",
+          "B": "Burp Suite",
+          "C": "Wireshark"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What type of testing is performed without prior knowledge of the system?",
+        "choices": {
+          "A": "Gray-box testing",
+          "B": "White-box testing",
+          "C": "Black-box testing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which attack involves injecting malicious SQL queries?",
+        "choices": {
+          "A": "SQL Injection",
+          "B": "Cross-Site Scripting",
+          "C": "Man-in-the-Middle"
+        },
+        "answer": "A",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which tool is mainly used for intercepting and modifying HTTP requests?",
+        "choices": {
+          "A": "Nessus",
+          "B": "Metasploit",
+          "C": "Burp Suite"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What does privilege escalation aim to achieve?",
+        "choices": {
+          "A": "Encrypting system data",
+          "B": "Reducing system permissions",
+          "C": "Gaining higher-level access"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which framework is widely used for exploiting known vulnerabilities?",
+        "choices": {
+          "A": "Metasploit",
+          "B": "Snort",
+          "C": "Aircrack-ng"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "Which attack captures network traffic to steal credentials?",
+        "choices": {
+          "A": "Phishing",
+          "B": "Spoofing",
+          "C": "Sniffing"
+        },
+        "answer": "C",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which document summarizes findings and recommendations after a penetration test?",
+        "choices": {
+          "A": "Exploit log",
+          "B": "Penetration testing report",
+          "C": "Incident report"
+        },
+        "answer": "B",
+        "difficulty": "Easy"
+      }
+    ],
+    "tf": [
+      {
+        "question": "Ethical hackers must have legal permission before testing systems.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Black-box testing provides full access to system source code.",
+        "answer": "F",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Reconnaissance is the first phase of penetration testing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "SQL Injection targets database-driven applications.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Metasploit is commonly used for vulnerability exploitation.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Privilege escalation allows attackers to gain higher access rights.",
+        "answer": "T",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Sniffing attacks require physical access to the target system.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Penetration testing helps improve overall system security.",
+        "answer": "T",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "White-box testing simulates an external attacker with no knowledge.",
+        "answer": "F",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Reporting is a critical phase of penetration testing.",
+        "answer": "T",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+}
