@@ -1,7 +1,12 @@
-USE ITI_ExamSystem;
+USE [ITI_ExamSystem]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_Exam_Correction]    Script Date: 1/22/2026 5:45:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER PROCEDURE sp_Exam_Correction
+ALTER   PROCEDURE [dbo].[sp_Exam_Correction]
 (
     @ExId INT,
     @StudentName VARCHAR(100)
@@ -17,7 +22,7 @@ BEGIN
 
     BEGIN TRY
         ---------------------------------------------
-        -- 1️⃣ Get Student ID
+        -- Get Student ID
         ---------------------------------------------
         SELECT @StId = StId
         FROM Student
@@ -27,7 +32,7 @@ BEGIN
             THROW 60001, 'Student not found.', 1;
 
         ---------------------------------------------
-        -- 2️⃣ Validate exam + submission
+        -- Validate exam + submission
         ---------------------------------------------
         IF NOT EXISTS (
             SELECT 1 FROM StudentAnswer
@@ -36,7 +41,7 @@ BEGIN
             THROW 60002, 'Student did not submit this exam.', 1;
 
         ---------------------------------------------
-        -- 3️⃣ Calculate total exam degree
+        -- Calculate total exam degree
         ---------------------------------------------
         SELECT @TotalDegree = SUM(Q.QDegree)
         FROM Exam_Question EQ
@@ -44,7 +49,7 @@ BEGIN
         WHERE EQ.ExId = @ExId;
 
         ---------------------------------------------
-        -- 4️⃣ Calculate student earned degree
+        -- Calculate student earned degree
         ---------------------------------------------
         SELECT @StudentDegree = SUM(Q.QDegree)
         FROM StudentAnswer SA
@@ -57,20 +62,20 @@ BEGIN
             SET @StudentDegree = 0;
 
         ---------------------------------------------
-        -- 5️⃣ Calculate percentage
+        -- Calculate percentage
         ---------------------------------------------
         SET @FinalGrade =
             CAST(@StudentDegree AS FLOAT) * 100 / @TotalDegree;
 
         ---------------------------------------------
-        -- 6️⃣ Save grade
+        -- Save grade
         ---------------------------------------------
         UPDATE Student_Exam
         SET FinalGrade = @FinalGrade
         WHERE StId = @StId AND ExId = @ExId;
 
         ---------------------------------------------
-        -- 7️⃣ Return grade (optional)
+        -- Return grade
         ---------------------------------------------
         SELECT @FinalGrade AS FinalGrade;
 
@@ -79,4 +84,3 @@ BEGIN
         THROW;
     END CATCH
 END;
-GO

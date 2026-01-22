@@ -22,7 +22,7 @@ exec SP_Report_StudentWithDepartment 3
 
 go
 
---�	Report that takes the student ID and returns the grades of the student in all courses. %
+--Report that takes the student ID and returns the grades of the student in all courses. %
 create or alter proc SP_Report_StudentGrades @student_ID int
 as
     if not exists (

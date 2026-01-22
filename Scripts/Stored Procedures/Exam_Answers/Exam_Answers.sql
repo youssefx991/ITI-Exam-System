@@ -1,7 +1,12 @@
-USE ITI_ExamSystem;
+USE [ITI_ExamSystem]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_Exam_Answers]    Script Date: 1/22/2026 5:42:56 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER PROCEDURE sp_Exam_Answers
+ALTER   PROCEDURE [dbo].[sp_Exam_Answers]
 (
     @ExId INT,
     @StudentName VARCHAR(100),
@@ -25,7 +30,7 @@ BEGIN
 
     BEGIN TRY
         --------------------------------------------------
-        -- 1️⃣ Get Student ID
+        -- Get Student ID
         --------------------------------------------------
         SELECT @StId = StId
         FROM Student
@@ -35,13 +40,13 @@ BEGIN
             THROW 50001, 'Student not found.', 1;
 
         --------------------------------------------------
-        -- 2️⃣ Validate Exam Exists
+        -- Validate Exam Exists
         --------------------------------------------------
         IF NOT EXISTS (SELECT 1 FROM Exam WHERE ExId = @ExId)
             THROW 50002, 'Exam does not exist.', 1;
 
         --------------------------------------------------
-        -- 3️⃣ Validate Student Registered in Exam
+        -- Validate Student Registered in Exam
         --------------------------------------------------
         IF NOT EXISTS (
             SELECT 1
@@ -51,7 +56,7 @@ BEGIN
             THROW 50003, 'Student is not registered in this exam.', 1;
 
         --------------------------------------------------
-        -- 4️⃣ Prevent Double Submission
+        -- Prevent Double Submission
         --------------------------------------------------
         IF EXISTS (
             SELECT 1
@@ -61,7 +66,7 @@ BEGIN
             THROW 50004, 'Student already submitted this exam.', 1;
 
         --------------------------------------------------
-        -- 5️⃣ Validate Exam Has 10 Questions
+        -- Validate Exam Has 10 Questions
         --------------------------------------------------
         IF (
             SELECT COUNT(*)
@@ -71,7 +76,7 @@ BEGIN
             THROW 50005, 'Exam must contain exactly 10 questions.', 1;
 
         --------------------------------------------------
-        -- 6️⃣ Insert Answers (Mapped by Question Order)
+        -- Insert Answers (Mapped by Question Order)
         --------------------------------------------------
         INSERT INTO StudentAnswer (StId, ExId, QId, Answer)
         SELECT
@@ -101,4 +106,3 @@ BEGIN
         THROW;
     END CATCH
 END;
-GO
