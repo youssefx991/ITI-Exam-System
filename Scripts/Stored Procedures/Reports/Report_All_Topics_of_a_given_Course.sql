@@ -1,5 +1,5 @@
 use ITI_ExamSystem
-
+go
 -- 1. Report: All Topics of a given Course
 CREATE PROCEDURE sp_Course_GetTopics
     @CrsId INT

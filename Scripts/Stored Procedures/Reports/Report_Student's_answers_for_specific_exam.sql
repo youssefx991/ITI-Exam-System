@@ -1,4 +1,5 @@
 use ITI_ExamSystem
+go
 -- 3. Report: Student's answers for a specific exam
 CREATE PROCEDURE sp_StudentExam_GetAnswers
     @StId INT,

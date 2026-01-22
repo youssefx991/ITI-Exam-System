@@ -1,3 +1,5 @@
+use ITI_ExamSystem
+go
 
 create or alter proc SP_Report_StudentWithDepartment @Department_ID int
 as
@@ -15,11 +17,12 @@ as
 	where t.DeptID = @Department_ID
 
 
+go
 exec SP_Report_StudentWithDepartment 3
 
+go
 
-
---•	Report that takes the student ID and returns the grades of the student in all courses. %
+--ï¿½	Report that takes the student ID and returns the grades of the student in all courses. %
 create or alter proc SP_Report_StudentGrades @student_ID int
 as
     if not exists (
@@ -40,8 +43,10 @@ as
 
 
 
+go
+exec SP_Report_StudentGrades 1
 
-exec SP_Report_StudentGrades 3
+go
 
 --Report that takes the instructor ID and returns the name of the courses that he teaches and the number of student per course.
 
@@ -65,6 +70,6 @@ as
 
 
 
-
+go
 exec SP_Report_InstructorCourses 8
 

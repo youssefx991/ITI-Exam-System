@@ -1,4 +1,5 @@
 use ITI_ExamSystem
+go
 -- 2. Report: All Questions + Choices for a given Exam
 -- (freeform style - shows question text, type, degree, correct answer + all choices)
 CREATE PROCEDURE sp_Exam_GetQuestionsAndChoices
