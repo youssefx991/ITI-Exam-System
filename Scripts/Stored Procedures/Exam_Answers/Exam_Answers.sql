@@ -1,6 +1,6 @@
 USE [ITI_ExamSystem]
 GO
-/****** Object:  StoredProcedure [dbo].[sp_Exam_Answers]    Script Date: 1/22/2026 5:42:56 PM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -29,25 +29,21 @@ BEGIN
     DECLARE @StId INT;
 
     BEGIN TRY
-        --------------------------------------------------
+        
         -- Get Student ID
-        --------------------------------------------------
         SELECT @StId = StId
         FROM Student
         WHERE StName = @StudentName;
 
         IF @StId IS NULL
             THROW 50001, 'Student not found.', 1;
-
-        --------------------------------------------------
-        -- Validate Exam Exists
-        --------------------------------------------------
+        
+        -- Validate Exam Exists  
         IF NOT EXISTS (SELECT 1 FROM Exam WHERE ExId = @ExId)
             THROW 50002, 'Exam does not exist.', 1;
 
-        --------------------------------------------------
-        -- Validate Student Registered in Exam
-        --------------------------------------------------
+        
+        -- Validate Student Registered in Exam    
         IF NOT EXISTS (
             SELECT 1
             FROM Student_Exam
@@ -55,9 +51,8 @@ BEGIN
         )
             THROW 50003, 'Student is not registered in this exam.', 1;
 
-        --------------------------------------------------
-        -- Prevent Double Submission
-        --------------------------------------------------
+        
+        -- Prevent Double Submission     
         IF EXISTS (
             SELECT 1
             FROM StudentAnswer
@@ -65,9 +60,8 @@ BEGIN
         )
             THROW 50004, 'Student already submitted this exam.', 1;
 
-        --------------------------------------------------
-        -- Validate Exam Has 10 Questions
-        --------------------------------------------------
+        
+        -- Validate Exam Has 10 Questions   
         IF (
             SELECT COUNT(*)
             FROM Exam_Question
@@ -75,9 +69,8 @@ BEGIN
         ) <> 10
             THROW 50005, 'Exam must contain exactly 10 questions.', 1;
 
-        --------------------------------------------------
-        -- Insert Answers (Mapped by Question Order)
-        --------------------------------------------------
+        
+        -- Insert Answers (Mapped by Question Order)      
         INSERT INTO StudentAnswer (StId, ExId, QId, Answer)
         SELECT
             @StId,

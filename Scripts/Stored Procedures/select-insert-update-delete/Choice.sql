@@ -1,6 +1,6 @@
 USE ITI_ExamSystem
 GO
---------------------------------------------------------------------------------------------
+
 CREATE OR ALTER PROCEDURE sp_Choice_Insert
     @QId INT,
     @ChoiceLabel CHAR(1),
@@ -10,22 +10,20 @@ BEGIN
     SET NOCOUNT ON;
 
     BEGIN TRY
-        -- Question exists
+   
         IF NOT EXISTS (SELECT 1 FROM Question WHERE QId = @QId)
             THROW 50001, 'Question does not exist.', 1;
 
-        -- Only MCQ questions have choices
         IF NOT EXISTS (
             SELECT 1 FROM Question
             WHERE QId = @QId AND QType = 'MCQ'
         )
             THROW 50002, 'Choices allowed only for MCQ questions.', 1;
 
-        -- Valid label
+
         IF @ChoiceLabel NOT IN ('A','B','C')
             THROW 50003, 'Invalid choice label.', 1;
 
-        -- Prevent duplicates
         IF EXISTS (
             SELECT 1 FROM Choice
             WHERE QId = @QId AND ChoiceLabel = @ChoiceLabel
@@ -41,7 +39,7 @@ BEGIN
 END;
 GO
 
----------------------------------------------------------------------------------------------------
+
 CREATE OR ALTER PROCEDURE sp_Choice_Update
     @QId INT,
     @ChoiceLabel CHAR(1),
@@ -72,7 +70,7 @@ BEGIN
     END CATCH
 END;
 GO
----------------------------------------------------------------------------------------------
+
 CREATE OR ALTER PROCEDURE sp_Choice_Delete
     @QId INT,
     @ChoiceLabel CHAR(1)
@@ -99,7 +97,7 @@ BEGIN
     END CATCH
 END;
 GO
------------------------------------------------------------------------------------------------------------------
+
 CREATE OR ALTER PROCEDURE sp_Choices_DeleteByQId
     @QId INT
 AS
@@ -108,7 +106,6 @@ BEGIN
 
     BEGIN TRY
 
-        -- Check existence
         IF NOT EXISTS (
             SELECT 1
             FROM Choice
@@ -125,7 +122,6 @@ BEGIN
 END;
 GO
 
-----------------------------------------------------------------------------------------------------------------
 CREATE OR ALTER PROCEDURE sp_Choices_SelectByQId
     @QId INT
 AS
@@ -142,7 +138,7 @@ BEGIN
     ORDER BY ChoiceLabel;
 END;
 GO
-------------------------------------------------------------------------------------------------------------------
+
 CREATE OR ALTER PROCEDURE sp_Choice_SelectByQesCho
     @QId INT,
     @ChoiceLabel CHAR(1)

@@ -1,6 +1,6 @@
-/* =========================
-   Track INSERT
-   ========================= */
+USE ITI_ExamSystem
+GO 
+
 CREATE OR ALTER PROC SP_Track_Insert
     @TrackID INT,
     @Track_Name VARCHAR(50),
@@ -33,9 +33,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Track SELECT ALL
-   ========================= */
 CREATE OR ALTER PROC SP_Track_SelectAll
 AS
 BEGIN
@@ -46,9 +43,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Track SELECT BY ID
-   ========================= */
 CREATE OR ALTER PROC SP_Track_SelectByID
     @TrackID INT
 AS
@@ -61,9 +55,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Track UPDATE NAME
-   ========================= */
 CREATE OR ALTER PROC SP_Track_Update
     @TrackID INT,
     @Track_New_Name VARCHAR(50)
@@ -86,9 +77,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Track UPDATE DEPARTMENT
-   ========================= */
 CREATE OR ALTER PROC SP_Track_UpdateDept
     @TrackID INT,
     @New_Department_ID INT
@@ -110,9 +98,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Track DELETE
-   ========================= */
 CREATE OR ALTER PROC SP_Track_Delete
     @TrackID INT
 AS

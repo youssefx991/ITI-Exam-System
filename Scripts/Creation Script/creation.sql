@@ -1,24 +1,17 @@
-/* =========================================
-   ITI Examination System – Final Schema
-   ========================================= */
-
+-- database creation script for ITI_ExamSystem
 CREATE DATABASE ITI_ExamSystem;
 GO
 
 USE ITI_ExamSystem;
 GO
 
-/* =======================
-   Department
-   ======================= */
+-- department table creation
 CREATE TABLE Department (
     DeptID INT   PRIMARY KEY,
     DeptName VARCHAR(100) NOT NULL UNIQUE
 );
 
-/* =======================
-   Track
-   ======================= */
+-- track table creation
 CREATE TABLE Track (
     TrackID INT   PRIMARY KEY,
     TrackName VARCHAR(50) NOT NULL UNIQUE,
@@ -30,9 +23,7 @@ CREATE TABLE Track (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Student
-   ======================= */
+-- student table creation
 CREATE TABLE Student (
     StId INT   PRIMARY KEY,
     StName VARCHAR(100) NOT NULL,
@@ -45,9 +36,7 @@ CREATE TABLE Student (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Instructor
-   ======================= */
+-- instructor table creation
 CREATE TABLE Instructor (
     InsId INT   PRIMARY KEY,
     InsName VARCHAR(100) NOT NULL,
@@ -60,9 +49,7 @@ CREATE TABLE Instructor (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Course
-   ======================= */
+-- course table creation
 CREATE TABLE Course (
     CrsId INT   PRIMARY KEY,
     CrsName VARCHAR(100) NOT NULL,
@@ -75,9 +62,7 @@ CREATE TABLE Course (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Instructor_Course (M:N)
-   ======================= */
+-- junction table for Instructor and Course (many-to-many relationship)
 CREATE TABLE Instructor_Course (
     InsId INT,
     CrsId INT,
@@ -94,9 +79,7 @@ CREATE TABLE Instructor_Course (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Topic
-   ======================= */
+-- topic table creation
 CREATE TABLE Topic (
     TopicID INT   PRIMARY KEY,
     TopicName VARCHAR(100) NOT NULL,
@@ -108,10 +91,7 @@ CREATE TABLE Topic (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Question
-   (ModelAnswer merged – 1:1 total)
-   ======================= */
+-- question table creation
 CREATE TABLE Question (
     QId INT   PRIMARY KEY,
     QText VARCHAR(MAX) NOT NULL,
@@ -125,6 +105,8 @@ CREATE TABLE Question (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
+
+--  some additional constraints for Question table
 ALTER TABLE Question
 ADD CONSTRAINT CK_QText_NoEmpty
 CHECK (LEN(LTRIM(RTRIM(QText))) > 0);
@@ -139,36 +121,8 @@ CHECK (
     (QType = 'MCQ' AND QAnswer IN ('A','B','C'))
  OR (QType = 'TF'  AND QAnswer IN ('T','F'))
 );
--- CREATE OR ALTER TRIGGER trg_Validate_QAnswer
--- ON Question
--- AFTER INSERT, UPDATE
--- AS
--- BEGIN
---     SET NOCOUNT ON;
 
---     -- Validate MCQ answers
---     IF EXISTS (
---         SELECT 1
---         FROM inserted
---         WHERE QType = 'MCQ'
---           AND QAnswer NOT IN ('A','B','C')
---     )
---     THROW 50001, 'For MCQ questions, QAnswer must be A, B, or C.', 1;
- 
-
---     -- Validate True/False answers
---     IF EXISTS (
---         SELECT 1
---         FROM inserted
---         WHERE QType = 'TF'
---           AND QAnswer NOT IN ('T','F')
---     )
---     THROW 50002, 'For True/False questions, QAnswer must be T or F.', 1;
-
--- END;
-/* =======================
-   Choice
-   ======================= */
+-- choice table creation for MCQ questions
 CREATE TABLE Choice (
     ChoiceLabel CHAR(1),
     ChoiceText VARCHAR(200) NOT NULL,
@@ -180,10 +134,12 @@ CREATE TABLE Choice (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
+
+-- some additional constraints for Choice table
 ALTER TABLE Choice
 ADD CONSTRAINT CK_Choice_Label
 CHECK (ChoiceLabel IN ('A','B','C'));
----------------------------------------------------
+
 ALTER TABLE Choice
 ADD CONSTRAINT CK_Choice_Text_NotEmpty
 CHECK (LEN(LTRIM(RTRIM(ChoiceText))) > 0);
@@ -191,9 +147,8 @@ CHECK (LEN(LTRIM(RTRIM(ChoiceText))) > 0);
 ALTER TABLE Choice
 ADD CONSTRAINT UQ_Choice_QId_ChoiceText
 UNIQUE (QId, ChoiceText);
-/* =======================
-   Exam
-   ======================= */
+
+-- exam table creation
 CREATE TABLE Exam (
     ExId INT   PRIMARY KEY,
     ExDate DATETIME NOT NULL DEFAULT GETDATE(),
@@ -205,9 +160,7 @@ CREATE TABLE Exam (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Exam_Question
-   ======================= */
+-- junction table for Exam and Question (many-to-many relationship)
 CREATE TABLE Exam_Question (
     ExId INT,
     QId INT,
@@ -225,9 +178,7 @@ CREATE TABLE Exam_Question (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   Student_Exam
-   ======================= */
+
 CREATE TABLE Student_Exam (
     StId INT,
     ExId INT,
@@ -245,9 +196,7 @@ CREATE TABLE Student_Exam (
         ON UPDATE NO ACTION
 );
 
-/* =======================
-   StudentAnswer (Weak Entity)
-   ======================= */
+
 CREATE TABLE StudentAnswer (
     StId INT,
     ExId INT,

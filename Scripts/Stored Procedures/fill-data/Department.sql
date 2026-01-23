@@ -1,8 +1,5 @@
 USE ITI_ExamSystem;
 
--- ============================
--- Departments Seed Data
--- ============================
 
 EXEC SP_Department_Insert 1, 'Software Engineering';
 EXEC SP_Department_Insert 2, 'Information Systems';
