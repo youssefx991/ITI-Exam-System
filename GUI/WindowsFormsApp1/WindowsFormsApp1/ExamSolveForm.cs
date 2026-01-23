@@ -47,38 +47,51 @@ namespace WindowsFormsApp1
         }
         private void LoadExamQuestions()
         {
-            using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd = new SqlCommand(@"
-        SELECT q.QId, q.QText, q.QType
-        FROM Exam_Question eq
-        JOIN Question q ON eq.QId = q.QId
-        WHERE eq.ExId = @ExamID
-        ORDER BY eq.QOrder", con))
-            {
-                cmd.Parameters.AddWithValue("@ExamID", examId);
-                con.Open();
+            questions.Clear();
 
+            using (SqlConnection con = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_Exam_GetQuestionsAndChoices", con))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ExId", examId);
+
+                con.Open();
                 SqlDataReader rdr = cmd.ExecuteReader();
+
+                ExamQuestion currentQuestion = null;
+                int lastQId = -1;
+
                 while (rdr.Read())
                 {
-                    var q = new ExamQuestion
-                    {
-                        QuestionId = (int)rdr["QId"],
-                        QuestionText = rdr["QText"].ToString(),
-                        QuestionType = rdr["QType"].ToString()
-                    };
+                    int qId = (int)rdr["QId"];
 
-                    questions.Add(q);
+                    if (qId != lastQId)
+                    {
+                        currentQuestion = new ExamQuestion
+                        {
+                            QuestionId = qId,
+                            QuestionText = rdr["QText"].ToString(),
+                            QuestionType = rdr["QType"].ToString(),
+                            Choices = new Dictionary<string, string>()
+                        };
+
+                        questions.Add(currentQuestion);
+                        lastQId = qId;
+                    }
+
+                    // MCQ choices only
+                    if (currentQuestion.QuestionType == "MCQ" &&
+                        rdr["ChoiceLabel"] != DBNull.Value)
+                    {
+                        currentQuestion.Choices.Add(
+                            rdr["ChoiceLabel"].ToString(),
+                            rdr["ChoiceText"].ToString()
+                        );
+                    }
                 }
             }
-
-            // Load choices for MCQ questions only
-            foreach (var q in questions)
-            {
-                if (q.QuestionType == "MCQ")
-                    LoadChoicesForQuestion(q);
-            }
         }
+
 
         void LoadChoicesForQuestion(ExamQuestion q)
         {
@@ -265,14 +278,23 @@ namespace WindowsFormsApp1
         private string GetStudentName()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd =
-                new SqlCommand("SELECT StName FROM Student WHERE StId=@Id", con))
+            using (SqlCommand cmd = new SqlCommand("sp_Student_SelectById", con))
             {
-                cmd.Parameters.AddWithValue("@Id", studentId);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@StId", studentId);
+
                 con.Open();
-                return cmd.ExecuteScalar().ToString();
+
+                using (SqlDataReader rdr = cmd.ExecuteReader())
+                {
+                    if (rdr.Read())
+                        return rdr["StName"].ToString();
+                }
             }
+
+            throw new Exception("Student not found.");
         }
+
 
         private char[] BuildAnswerArray()
         {
@@ -303,7 +325,9 @@ namespace WindowsFormsApp1
 
                 con.Open();
 
+
                 object result = cmd.ExecuteScalar();
+
                 return Convert.ToSingle(result);
             }
         }

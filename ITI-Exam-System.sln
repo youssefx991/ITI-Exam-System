@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{9824AA2D-9169-1FBC-8A83-7227C72EA239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsFormsApp1", "WindowsFormsApp1", "{E38F31A4-54B6-73EB-844B-B5E51E95DA39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsFormsApp1", "WindowsFormsApp1", "{D76CEB7F-5FE1-5340-E1F6-2DEE0C1022F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI_ExamSystem_GUI", "GUI\WindowsFormsApp1\WindowsFormsApp1\ITI_ExamSystem_GUI.csproj", "{C826999D-E363-7B63-B2F4-9B9FAC36C290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C826999D-E363-7B63-B2F4-9B9FAC36C290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C826999D-E363-7B63-B2F4-9B9FAC36C290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C826999D-E363-7B63-B2F4-9B9FAC36C290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C826999D-E363-7B63-B2F4-9B9FAC36C290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E38F31A4-54B6-73EB-844B-B5E51E95DA39} = {9824AA2D-9169-1FBC-8A83-7227C72EA239}
+		{D76CEB7F-5FE1-5340-E1F6-2DEE0C1022F3} = {E38F31A4-54B6-73EB-844B-B5E51E95DA39}
+		{C826999D-E363-7B63-B2F4-9B9FAC36C290} = {D76CEB7F-5FE1-5340-E1F6-2DEE0C1022F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6A94A8-FDF6-40E7-8DCA-69BFBACB0964}
+	EndGlobalSection
+EndGlobal

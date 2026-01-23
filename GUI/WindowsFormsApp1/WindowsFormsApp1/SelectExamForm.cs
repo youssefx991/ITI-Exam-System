@@ -42,32 +42,39 @@ namespace WindowsFormsApp1
         private void LoadCourses()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd = new SqlCommand("select c.CrsName from Course c;", con))
+            using (SqlCommand cmd = new SqlCommand("sp_Courses_SelectAll", con))
             {
+                cmd.CommandType = CommandType.StoredProcedure;
+
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
 
                 crs_cb.DataSource = dt;
                 crs_cb.DisplayMember = "CrsName";
+                crs_cb.ValueMember = "CrsId";
             }
         }
+
 
         private void LoadStudents()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd = new SqlCommand(
-                "SELECT s.StId, s.StName FROM Student s;", con))
+            using (SqlCommand cmd = new SqlCommand("sp_Student_Select", con))
             {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@StId", DBNull.Value);
+
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
 
                 st_cb.DataSource = dt;
-                st_cb.DisplayMember = "StName"; // shown to user
-                st_cb.ValueMember = "StId";     // used in code
+                st_cb.DisplayMember = "StName";
+                st_cb.ValueMember = "StId";
             }
         }
+
 
 
 
@@ -79,9 +86,10 @@ namespace WindowsFormsApp1
         private void RegisterStudentInExam(int studentId, int examId)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd = new SqlCommand(
-                "INSERT INTO Student_Exam (StId, ExId) VALUES (@StId, @ExId)", con))
+            using (SqlCommand cmd = new SqlCommand("sp_Student_Exam_Insert", con))
             {
+                cmd.CommandType = CommandType.StoredProcedure;
+
                 cmd.Parameters.AddWithValue("@StId", studentId);
                 cmd.Parameters.AddWithValue("@ExId", examId);
 
@@ -89,6 +97,7 @@ namespace WindowsFormsApp1
                 cmd.ExecuteNonQuery();
             }
         }
+
         private void gen_exam_btn_Click(object sender, EventArgs e)
         {
             int generatedExamId;
