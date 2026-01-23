@@ -1,9 +1,6 @@
 USE ITI_ExamSystem;
 GO
 
-/* =========================
-   Exam INSERT
-   ========================= */
 CREATE OR ALTER PROC sp_Exam_Insert
     @ExId INT,
     @CrsId INT,
@@ -33,10 +30,6 @@ BEGIN
 END
 GO
 
-
-/* =========================
-   Exam UPDATE
-   ========================= */
 CREATE OR ALTER PROC sp_Exam_Update
     @ExId INT,
     @ExDate DATETIME
@@ -57,9 +50,6 @@ END
 GO
 
 
-/* =========================
-   Exam DELETE
-   ========================= */
 CREATE OR ALTER PROC sp_Exam_Delete
     @ExId INT
 AS
@@ -69,9 +59,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Exam SELECT BY ID
-   ========================= */
 CREATE OR ALTER PROC sp_Exam_SelectById
     @ExId INT
 AS
@@ -82,9 +69,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Exam SELECT BY COURSE
-   ========================= */
 CREATE OR ALTER PROC sp_Exam_SelectByCourseID
     @CrsId INT
 AS
@@ -96,9 +80,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Exam SELECT ALL
-   ========================= */
 CREATE OR ALTER PROC sp_Exam_SelectAll
 AS
 BEGIN

@@ -1,8 +1,5 @@
 USE ITI_ExamSystem;
 
--- ============================
--- Tracks Seed Data
--- ============================
 
 -- Software Engineering (DeptID = 1)
 EXEC SP_Track_Insert 1, 'Professional Web Development', 1;

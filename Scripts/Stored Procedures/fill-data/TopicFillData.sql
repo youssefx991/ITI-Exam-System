@@ -1,9 +1,6 @@
 USE ITI_ExamSystem;
 GO
 
--- =========================
--- 3 topics per course
--- =========================
 
 -- Course 1: HTML5 & CSS3 Fundamentals
 EXEC sp_Topic_Insert 1, 'HTML Document Structure', 1;

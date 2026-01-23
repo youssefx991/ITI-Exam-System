@@ -1,9 +1,6 @@
 USE ITI_ExamSystem;
 GO
 
-/* =========================
-   Exam_Question INSERT
-   ========================= */
 CREATE OR ALTER PROC sp_ExamQuestion_Insert
     @ExId INT,
     @QId INT,
@@ -55,10 +52,6 @@ BEGIN
 END;
 GO
 
-
-/* =========================
-   Exam_Question DELETE
-   ========================= */
 CREATE OR ALTER PROC sp_ExamQuestion_Delete
     @ExId INT,
     @QId INT
@@ -78,10 +71,6 @@ BEGIN
 END;
 GO
 
-
-/* =========================
-   Exam_Question UPDATE
-   ========================= */
 CREATE OR ALTER PROC sp_ExamQuestion_Update
     @ExId INT,
     @QId INT,
@@ -116,9 +105,6 @@ END;
 GO
 
 
-/* =========================
-   Exam_Question SELECT (by Exam)
-   ========================= */
 CREATE OR ALTER PROC sp_ExamQuestion_SelectByExamID
     @ExId INT
 AS
@@ -130,9 +116,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Exam_Question SELECT (by Question)
-   ========================= */
 CREATE OR ALTER PROC sp_ExamQuestion_SelectByQuestionID
     @QId INT
 AS
@@ -144,9 +127,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Exam_Question SELECT (All)
-   ========================= */
 CREATE OR ALTER PROC sp_ExamQuestion_SelectAll
 AS
 BEGIN

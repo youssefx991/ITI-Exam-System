@@ -1,9 +1,6 @@
 USE ITI_ExamSystem;
 GO
 
-/* =========================
-   StudentAnswer INSERT
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_Insert
     @StId INT,
     @ExId INT,
@@ -51,10 +48,6 @@ BEGIN
 END;
 GO
 
-
-/* =========================
-   StudentAnswer UPDATE
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_Update
     @StId INT,
     @ExId INT,
@@ -79,10 +72,6 @@ BEGIN
 END;
 GO
 
-
-/* =========================
-   StudentAnswer DELETE
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_Delete
     @StId INT,
     @ExId INT,
@@ -105,10 +94,6 @@ BEGIN
 END;
 GO
 
-
-/* =========================
-   StudentAnswer SELECT (by Student & Exam)
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_SelectByStudentExamID
     @StId INT,
     @ExId INT
@@ -121,9 +106,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   StudentAnswer SELECT (by Student)
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_SelectByStudentID
     @StId INT
 AS
@@ -134,10 +116,6 @@ BEGIN
 END
 GO
 
-
-/* =========================
-   StudentAnswer SELECT (by Exam)
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_SelectByExamID
     @ExId INT
 AS
@@ -148,9 +126,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   StudentAnswer SELECT (All)
-   ========================= */
 CREATE OR ALTER PROC sp_StudentAnswer_SelectAll
 AS
 BEGIN

@@ -1,9 +1,6 @@
 USE ITI_ExamSystem;
 GO
 
-/* =========================
-   Department INSERT
-   ========================= */
 CREATE OR ALTER PROC SP_Department_Insert
     @DeptID INT,
     @Department_Name VARCHAR(100)
@@ -31,9 +28,7 @@ BEGIN
 END
 GO
 
-/* =========================
-   Department SELECT ALL
-   ========================= */
+
 CREATE OR ALTER PROC SP_Department_SelectAll
 AS
 BEGIN
@@ -43,9 +38,6 @@ BEGIN
 END
 GO
 
-/* =========================
-   Department SELECT BY ID
-   ========================= */
 CREATE OR ALTER PROC SP_Department_SelectByID
     @DeptID INT
 AS
@@ -57,9 +49,7 @@ BEGIN
 END
 GO
 
-/* =========================
-   Department UPDATE
-   ========================= */
+
 CREATE OR ALTER PROC SP_Department_Update
     @DeptID INT,
     @New_Name VARCHAR(100)
@@ -82,9 +72,7 @@ BEGIN
 END
 GO
 
-/* =========================
-   Department DELETE
-   ========================= */
+
 CREATE OR ALTER PROC SP_Department_Delete
     @DeptID INT
 AS

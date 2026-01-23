@@ -1,8 +1,5 @@
 ﻿USE ITI_ExamSystem;
 
--- ============================
--- Students Seed Data (50 rows)
--- ============================
 
 -- Software Engineering (Tracks 1,2,3)
 EXEC sp_Student_Insert 1,  'Ahmed Mohamed',    'ahmed.mohamed@iti.gov.eg',   1;

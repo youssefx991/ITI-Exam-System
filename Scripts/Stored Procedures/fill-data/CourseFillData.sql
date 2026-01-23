@@ -1,9 +1,5 @@
 USE ITI_ExamSystem;
 
--- ============================
--- Courses Seed Data
--- PKs start from 1
--- ============================
 
 -- Track 1: Professional Web Development
 EXEC sp_Course_Insert 1, 'HTML5 & CSS3 Fundamentals', 100, 1;
