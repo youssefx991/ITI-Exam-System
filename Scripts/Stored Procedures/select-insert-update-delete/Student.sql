@@ -103,5 +103,17 @@ begin
 end
 go
 
+-- select by student name and email
+CREATE OR ALTER PROCEDURE sp_Student_GetByNameEmail
+    @StName  VARCHAR(100),
+    @StEmail VARCHAR(100)
+AS
+BEGIN
+    SELECT StId
+    FROM Student
+    WHERE StName = @StName
+      AND StEmail = @StEmail;
+END
+GO
 
 -- exec sp_Student_SelectById 2;
