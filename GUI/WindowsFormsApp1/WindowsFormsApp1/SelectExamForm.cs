@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
         public SelectExamForm()
         {
             InitializeComponent();
-            LoadStudents();
+            //LoadStudents();
             LoadCourses();
 
        
@@ -57,25 +57,34 @@ namespace WindowsFormsApp1
         }
 
 
-        private void LoadStudents()
+        
+
+
+        private int GetStudentId()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd = new SqlCommand("sp_Student_Select", con))
+            using (SqlCommand cmd = new SqlCommand("sp_Student_SelectByNameEmail", con)) 
             {
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@StId", DBNull.Value);
 
-                DataTable dt = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(dt);
+                cmd.Parameters.AddWithValue("@StName", stname_tb.Text.Trim());
+                cmd.Parameters.AddWithValue("@StEmail", stemail_tb.Text.Trim());
 
-                st_cb.DataSource = dt;
-                st_cb.DisplayMember = "StName";
-                st_cb.ValueMember = "StId";
+                con.Open();
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return reader.GetInt32(reader.GetOrdinal("StId"));
+                    }
+                    else
+                    {
+                        throw new Exception("Student not found.");
+                    }
+                }
             }
         }
-
-
 
 
         private void SelectExamForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -101,8 +110,17 @@ namespace WindowsFormsApp1
         private void gen_exam_btn_Click(object sender, EventArgs e)
         {
             int generatedExamId;
-            int selectedStudentId = (int)st_cb.SelectedValue;
+            int selectedStudentId;
 
+            try
+            {
+                selectedStudentId = GetStudentId();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                return;
+            }
             using (SqlConnection con = new SqlConnection(connectionString))
             using (SqlCommand cmd = new SqlCommand("sp_Exam_Generation", con))
             {
