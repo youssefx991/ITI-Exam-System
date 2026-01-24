@@ -131,6 +131,7 @@ namespace WindowsFormsApp1
                 C_rb.Text = q.Choices["C"];
 
                 A_rb.Visible = B_rb.Visible = C_rb.Visible = true;
+                A_rb.Checked = true;
 
             }
             else // TF
@@ -140,6 +141,7 @@ namespace WindowsFormsApp1
 
                 A_rb.Visible = B_rb.Visible = true;
                 C_rb.Visible = false;
+                A_rb.Checked = true;
             }
 
             RestoreAnswerIfExists(q.QuestionId);
