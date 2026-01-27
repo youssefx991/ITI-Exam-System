@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
 
         }
 
-        // load
+      
         private void SelectExamForm_Load(object sender, EventArgs e)
         {
         }
@@ -144,7 +144,6 @@ namespace WindowsFormsApp1
             }
 
             RegisterStudentInExam(selectedStudentId, generatedExamId);
-            // OPEN EXAM SOLVING FORM
             ExamSolveForm examForm =
                 new ExamSolveForm(generatedExamId, selectedStudentId);
 
