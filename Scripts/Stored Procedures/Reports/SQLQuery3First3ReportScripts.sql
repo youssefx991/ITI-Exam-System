@@ -34,15 +34,12 @@ as
         RAISERROR('invalid student ID',16,1)
         return;
     end
-    select s.StId, s.StName, s.StEmail,c.CrsName, se.FinalGrade, c.MaxDegree, ((se.FinalGrade / c.MaxDegree) *100) as exam_percent 
+    select s.StId, s.StName, s.StEmail,c.CrsName, se.FinalGrade
     from Student s join Student_Exam se on
         s.StId = se.StId join Exam e on
         se.ExId = e.ExId join Course c on
         e.CrsId = c.CrsId
         where s.StId = @student_ID
-
-
-
 go
 exec SP_Report_StudentGrades 1
 
@@ -61,15 +58,12 @@ as
         RAISERROR('invalid instructor ID',16,1)
         return;
     end
-    select i.InsName, c.CrsName, count(s.StId) 
+    select i.InsName, c.CrsName, count(s.StId) as [number of students]
     from Instructor i join Instructor_Course ic on i.InsId = ic.InsId 
     join Course c on c.CrsId = ic.CrsId 
     join Student s on s.TrackID = c.TrackID
     where i.InsId = @instructor_id 
     group by i.InsName,c.CrsName
-
-
-
 go
 exec SP_Report_InstructorCourses 8
 

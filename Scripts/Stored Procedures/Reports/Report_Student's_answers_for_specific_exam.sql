@@ -1,6 +1,6 @@
 use ITI_ExamSystem
 go
--- 3. Report: Student's answers for a specific exam
+
 CREATE PROCEDURE sp_StudentExam_GetAnswers
     @StId INT,
     @ExId INT
@@ -24,8 +24,24 @@ BEGIN
             ELSE 0
         END AS EarnedDegree,
 
-        ch.ChoiceLabel,
-        ch.ChoiceText   -- optional: show choices too
+        CASE
+            WHEN q.QType = 'TF' THEN
+                CASE sa.Answer
+                    WHEN 'T' THEN 'A'
+                    WHEN 'F' THEN 'B'
+                END
+            ELSE ch.ChoiceLabel
+        END AS ChoiceLabel,
+
+        CASE
+            WHEN q.QType = 'TF' THEN
+                CASE sa.Answer
+                    WHEN 'T' THEN 'True'
+                    WHEN 'F' THEN 'False'
+                END
+            ELSE ch.ChoiceText
+        END AS ChoiceText
+
     FROM Exam_Question eq
     INNER JOIN Question q ON eq.QId = q.QId
     LEFT JOIN StudentAnswer sa ON sa.ExId = eq.ExId 
@@ -38,5 +54,5 @@ END
 GO
 
 
--- 3. Get student 7 answers in exam 3 (with calculated score per question)
+
 EXEC sp_StudentExam_GetAnswers @StId = 7, @ExId = 3;
