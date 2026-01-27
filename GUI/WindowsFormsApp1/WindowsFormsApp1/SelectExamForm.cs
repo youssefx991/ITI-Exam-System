@@ -21,7 +21,6 @@ namespace WindowsFormsApp1
         public SelectExamForm()
         {
             InitializeComponent();
-            //LoadStudents();
             LoadCourses();
 
        

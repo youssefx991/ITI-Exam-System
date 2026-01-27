@@ -28,5 +28,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void SelectReportForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -50,9 +50,6 @@ namespace WindowsFormsApp1
             Application.Exit();
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

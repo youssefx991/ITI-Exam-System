@@ -105,7 +105,7 @@
             // 
             // prev_btn
             // 
-            this.prev_btn.Location = new System.Drawing.Point(28, 389);
+            this.prev_btn.Location = new System.Drawing.Point(28, 446);
             this.prev_btn.Name = "prev_btn";
             this.prev_btn.Size = new System.Drawing.Size(149, 49);
             this.prev_btn.TabIndex = 3;
@@ -115,7 +115,7 @@
             // 
             // submit_btn
             // 
-            this.submit_btn.Location = new System.Drawing.Point(315, 389);
+            this.submit_btn.Location = new System.Drawing.Point(315, 446);
             this.submit_btn.Name = "submit_btn";
             this.submit_btn.Size = new System.Drawing.Size(149, 49);
             this.submit_btn.TabIndex = 4;
@@ -125,7 +125,7 @@
             // 
             // next_btn
             // 
-            this.next_btn.Location = new System.Drawing.Point(617, 389);
+            this.next_btn.Location = new System.Drawing.Point(617, 446);
             this.next_btn.Name = "next_btn";
             this.next_btn.Size = new System.Drawing.Size(149, 49);
             this.next_btn.TabIndex = 5;
@@ -137,7 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(778, 544);
             this.Controls.Add(this.next_btn);
             this.Controls.Add(this.submit_btn);
             this.Controls.Add(this.prev_btn);
@@ -145,6 +145,7 @@
             this.Controls.Add(this.QText_lbl);
             this.Controls.Add(this.progress_lbl);
             this.Name = "ExamSolveForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ExamSolveForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ExamSolveForm_FormClosing);
             this.Load += new System.EventHandler(this.ExamSolveForm_Load);
