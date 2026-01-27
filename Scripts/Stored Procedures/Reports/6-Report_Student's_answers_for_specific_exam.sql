@@ -1,7 +1,7 @@
 use ITI_ExamSystem
 go
 
-CREATE PROCEDURE sp_StudentExam_GetAnswers
+CREATE or alter PROCEDURE sp_StudentExam_GetAnswers
     @StId INT,
     @ExId INT
 AS

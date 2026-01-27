@@ -1,7 +1,7 @@
 use ITI_ExamSystem
 go
 
-CREATE PROCEDURE sp_Course_GetTopics
+CREATE or alter PROCEDURE sp_Course_GetTopics
     @CrsId INT
 AS
 BEGIN
