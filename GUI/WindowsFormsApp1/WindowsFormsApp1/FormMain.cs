@@ -16,8 +16,6 @@ namespace WindowsFormsApp1
         SelectExamForm selectExamForm;
         SelectReportForm selectReportForm;
 
-        string connectionString =
-        @"Server=.\SQLEXPRESS;Database=ITI_ExamSystem;Trusted_Connection=True;";
         public FormMain()
         {
             InitializeComponent();

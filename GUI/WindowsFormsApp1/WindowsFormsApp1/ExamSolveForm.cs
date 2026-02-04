@@ -19,8 +19,7 @@ namespace WindowsFormsApp1
 
         int currentIndex = 0;
 
-        string connectionString =
-            @"Server=.\SQLEXPRESS;Database=ITI_ExamSystem;Trusted_Connection=True;";
+        string connectionString = DB.GetConnectionString();
 
         List<ExamQuestion> questions = new List<ExamQuestion>();
         Dictionary<int, string> answers = new Dictionary<int, string>();
@@ -30,8 +29,8 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 
-            this.examId = examId; // For testing purposes
-            this.studentId = studentId; // For testing purposes
+            this.examId = examId;
+            this.studentId = studentId;
 
 
             LoadExamQuestions();
@@ -79,7 +78,7 @@ namespace WindowsFormsApp1
                         lastQId = qId;
                     }
 
-                    // MCQ choices only
+                    
                     if (currentQuestion.QuestionType == "MCQ" &&
                         rdr["ChoiceLabel"] != DBNull.Value)
                     {
@@ -88,27 +87,6 @@ namespace WindowsFormsApp1
                             rdr["ChoiceText"].ToString()
                         );
                     }
-                }
-            }
-        }
-
-
-        void LoadChoicesForQuestion(ExamQuestion q)
-        {
-            using (SqlConnection con = new SqlConnection(connectionString))
-            using (SqlCommand cmd = new SqlCommand(
-                "SELECT ChoiceLabel, ChoiceText FROM Choice WHERE QId = @QId", con))
-            {
-                cmd.Parameters.AddWithValue("@QId", q.QuestionId);
-                con.Open();
-
-                SqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
-                {
-                    q.Choices.Add(
-                        rdr["ChoiceLabel"].ToString(),
-                        rdr["ChoiceText"].ToString()
-                    );
                 }
             }
         }
@@ -159,8 +137,8 @@ namespace WindowsFormsApp1
             }
             else // TF
             {
-                if (A_rb.Checked) answers[q.QuestionId] = "T"; // True
-                else if (B_rb.Checked) answers[q.QuestionId] = "F"; // False
+                if (A_rb.Checked) answers[q.QuestionId] = "T"; 
+                else if (B_rb.Checked) answers[q.QuestionId] = "F"; 
             }
         }
 
@@ -190,7 +168,7 @@ namespace WindowsFormsApp1
         }
 
 
-        // load
+        
         private void ExamSolveForm_Load(object sender, EventArgs e)
         {
 
@@ -309,7 +287,7 @@ namespace WindowsFormsApp1
                 if (!answers.ContainsKey(qId))
                     throw new Exception("All questions must be answered.");
 
-                result[i] = answers[qId][0]; // 'A', 'B', 'C', 'T', 'F'
+                result[i] = answers[qId][0]; 
             }
 
             return result;
