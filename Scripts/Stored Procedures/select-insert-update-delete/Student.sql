@@ -116,4 +116,3 @@ BEGIN
 END
 GO
 
--- exec sp_Student_SelectById 2;

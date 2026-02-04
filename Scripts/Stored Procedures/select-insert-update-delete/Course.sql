@@ -115,35 +115,3 @@ BEGIN
 END
 GO
 
-
---test cases
-
-/*
-
--- Insert a new course
-EXEC sp_Course_Insert 'Database Systems', 100, 2;
-
--- Update only the max degree
-EXEC sp_Course_Update @CrsId = 5, @MaxDegree = 150;
-
--- Update only the course name
-EXEC sp_Course_Update @CrsId = 5, @CrsName = 'Advanced Database';
-
--- Move course to a different track
-EXEC sp_Course_Update @CrsId = 5, @TrackID = 4;
-
--- Update multiple fields
-EXEC sp_Course_Update @CrsId = 5, 
-                      @CrsName = 'SQL & NoSQL', 
-                      @MaxDegree = 200;
-
--- Get all courses with track and department info
-EXEC sp_Course_Select;
-
--- Get a specific course
-EXEC sp_Course_Select @CrsId = 3;
-
--- Delete a course
-EXEC sp_Course_Delete @CrsId = 10;
-
-*/
