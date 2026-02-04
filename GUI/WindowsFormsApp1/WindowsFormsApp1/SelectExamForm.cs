@@ -16,8 +16,7 @@ namespace WindowsFormsApp1
     {
         ExamSolveForm examSolveForm;
         int generatedExamID;
-        string connectionString =
-        @"Server=.\SQLEXPRESS;Database=ITI_ExamSystem;Trusted_Connection=True;";
+        string connectionString = DB.GetConnectionString();
         public SelectExamForm()
         {
             InitializeComponent();

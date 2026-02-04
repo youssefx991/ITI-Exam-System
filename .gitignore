@@ -33,9 +33,7 @@ desktop.ini
 # =========================
 # Office documents (DO NOT TRACK)
 # =========================
-*.pdf
-*.doc
-*.docx
+
 *.ppt
 *.pptx
 *.xls

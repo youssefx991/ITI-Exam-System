@@ -88,31 +88,3 @@ BEGIN
     ORDER BY I.InsId
 END
 GO
-
---test cases
-
-/*
--- Insert a new instructor
-EXEC sp_Instructor_Insert 'Dr. Ahmed Hassan', 'ahmed.hassan@iti.com', 1;
-
--- Update only the email
-EXEC sp_Instructor_Update @InsId = 3, @InsEmail = 'ahmed.new@iti.com';
-
--- Update only the track (e.g., move to another track)
-EXEC sp_Instructor_Update @InsId = 3, @TrackID = 4;
-
--- Update name and email
-EXEC sp_Instructor_Update @InsId = 3, 
-                          @InsName = 'Dr. Ahmed Ali', 
-                          @InsEmail = 'ahmed.ali@iti.com';
-
--- Get all instructors with their track and department
-EXEC sp_Instructor_Select;
-
--- Get specific instructor
-EXEC sp_Instructor_Select @InsId = 5;
-
--- Delete an instructor
-EXEC sp_Instructor_Delete @InsId = 5;
-
-*/
